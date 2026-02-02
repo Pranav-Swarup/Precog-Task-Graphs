@@ -18,9 +18,7 @@ def print_stats(loader, features, analyzer):
     # Claude helped me a lot to format this neatly :D 
     # (it wrote this entire file but, it's just boring code here so i figured why not)
 
-    print("\n" + "="*60)
     print("METAFAM DATASET SUMMARY")
-    print("="*60)
     
     print(f"\nPeople: {len(loader.people)}")
     print(f"Triplets: {len(loader.triplets)}")
@@ -87,7 +85,7 @@ def print_stats(loader, features, analyzer):
     print(f"\nIsolated nodes (degree <= 2): {len(isolated)}")
 
 
-def save_outputs(loader, features, analyzer, output_dir='outputs'):
+def save_outputs(loader, features, analyzer, output_dir='../outputs'):
     """saves everything to files"""
     
     os.makedirs(output_dir, exist_ok=True)
@@ -186,17 +184,11 @@ def main(data_path='data/train.txt'):
     extractor = RawFeatureExtractor(loader.triplets, loader.people)
     features = extractor.extract_all()
     
-    print("\nrunning graph analysis...")
     analyzer = GraphAnalyzer(loader.triplets, features)
     
     print_stats(loader, features, analyzer)
-    
-    print("\n" + "="*60)
-    print("SAVING OUTPUTS")
-    print("="*60 + "\n")
     save_outputs(loader, features, analyzer)
     
-    print("\ndone")
     
     return loader, features, analyzer
 
