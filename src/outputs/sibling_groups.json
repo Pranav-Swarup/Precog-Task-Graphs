@@ -1,0 +1,2100 @@
+[
+  {
+    "parents": [
+      "olivia0",
+      "oliver3"
+    ],
+    "siblings": [
+      "elias6",
+      "lisa5"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "katharina1",
+      "dominik2"
+    ],
+    "siblings": [
+      "oskar24",
+      "selina10",
+      "isabella11",
+      "adam9"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "emma7",
+      "moritz8"
+    ],
+    "siblings": [
+      "paula12",
+      "natalie13",
+      "luis14"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "victoria30",
+      "raphael29"
+    ],
+    "siblings": [
+      "marie43",
+      "moritz31",
+      "sebastian49"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "katharina64",
+      "rene58"
+    ],
+    "siblings": [
+      "jakob78",
+      "felix65",
+      "oliver71"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "sebastian56",
+      "elena55"
+    ],
+    "siblings": [
+      "magdalena59",
+      "tobias57"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "jonas61",
+      "charlotte60"
+    ],
+    "siblings": [
+      "nora66",
+      "philipp70"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lisa90",
+      "jan87"
+    ],
+    "siblings": [
+      "nico91",
+      "david100"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "fabian83",
+      "amelie81"
+    ],
+    "siblings": [
+      "jonas101",
+      "jonathan84",
+      "jan87"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "nora85",
+      "florian82"
+    ],
+    "siblings": [
+      "philipp104",
+      "marlene86"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "theodor105",
+      "victoria120"
+    ],
+    "siblings": [
+      "noah128",
+      "leo121"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "vincent107",
+      "anastasia106"
+    ],
+    "siblings": [
+      "adam125",
+      "theodor105",
+      "julian108"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "claudia109",
+      "emil110"
+    ],
+    "siblings": [
+      "vincent107",
+      "larissa124",
+      "johanna116"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "david132",
+      "johanna131"
+    ],
+    "siblings": [
+      "oskar133",
+      "larissa136",
+      "gabriel146",
+      "fabian140"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "beate134",
+      "emil135"
+    ],
+    "siblings": [
+      "alexander137",
+      "maria152"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "elias159",
+      "lara158"
+    ],
+    "siblings": [
+      "philipp160",
+      "helga183",
+      "konstantin163"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "luca197",
+      "emilia184"
+    ],
+    "siblings": [
+      "oliver207",
+      "adam198"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "selina185",
+      "gabriel186"
+    ],
+    "siblings": [
+      "vanessa193",
+      "lisa194",
+      "beate196"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "helga203",
+      "jonas204"
+    ],
+    "siblings": [
+      "rene205",
+      "florian208"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "anna189",
+      "elias190"
+    ],
+    "siblings": [
+      "patrick188",
+      "johanna206"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "sofia191",
+      "michael192"
+    ],
+    "siblings": [
+      "helga203",
+      "elias190"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "valerie211",
+      "gabriel216"
+    ],
+    "siblings": [
+      "lara217",
+      "anna234"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "isabella212",
+      "adrian213"
+    ],
+    "siblings": [
+      "marcel214",
+      "marie215"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "claudia250",
+      "benjamin247"
+    ],
+    "siblings": [
+      "valerie260",
+      "elena257"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "olivia244",
+      "felix245"
+    ],
+    "siblings": [
+      "sebastian240",
+      "emil252"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "elias263",
+      "emily264"
+    ],
+    "siblings": [
+      "luisa268",
+      "oliver265"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "oliver265",
+      "katharina266"
+    ],
+    "siblings": [
+      "jonas271",
+      "isabella267"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "natalie290",
+      "raphael289"
+    ],
+    "siblings": [
+      "mia293",
+      "valentin292",
+      "angelina300",
+      "hannah291"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "larissa299",
+      "elias302"
+    ],
+    "siblings": [
+      "michael312",
+      "adrian303"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "mia293",
+      "paul294"
+    ],
+    "siblings": [
+      "maria295",
+      "marlene304",
+      "maximilian296"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "julia316",
+      "marko317"
+    ],
+    "siblings": [
+      "elias338",
+      "lara321",
+      "leonie318",
+      "helena324"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "valentin351",
+      "sofia357"
+    ],
+    "siblings": [
+      "selina358",
+      "tobias363"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "luis360",
+      "lea352"
+    ],
+    "siblings": [
+      "raphael362",
+      "marko361"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "laura345",
+      "christian346"
+    ],
+    "siblings": [
+      "valentin351",
+      "konstantin347"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "alina371",
+      "vincent372"
+    ],
+    "siblings": [
+      "fabian386",
+      "simon374",
+      "gertrude378",
+      "tobias384"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "leonie375",
+      "florian376"
+    ],
+    "siblings": [
+      "clara377",
+      "hannah385",
+      "vincent372"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "vanessa394",
+      "adrian397"
+    ],
+    "siblings": [
+      "laura399",
+      "matthias398"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lena395",
+      "david396"
+    ],
+    "siblings": [
+      "beate406",
+      "marko416",
+      "marlene405"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "lisa400",
+      "philipp401"
+    ],
+    "siblings": [
+      "samuel412",
+      "david396"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lara402",
+      "jakob403"
+    ],
+    "siblings": [
+      "johanna404",
+      "patrick411"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "karin440",
+      "felix441"
+    ],
+    "siblings": [
+      "lisa445",
+      "leon427"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "clara423",
+      "lorenz424"
+    ],
+    "siblings": [
+      "tobias444",
+      "konstantin439",
+      "helena435"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "katharina446",
+      "leo449"
+    ],
+    "siblings": [
+      "stefan454",
+      "luca450",
+      "sophie455"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "ella473",
+      "adam474"
+    ],
+    "siblings": [
+      "elias478",
+      "paula481",
+      "elena492",
+      "michael477"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "alina482",
+      "michael477"
+    ],
+    "siblings": [
+      "thomas486",
+      "tobias483"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "ella500",
+      "noah501"
+    ],
+    "siblings": [
+      "sarah514",
+      "julian508"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "hannah509",
+      "christian510"
+    ],
+    "siblings": [
+      "tobias505",
+      "luca523"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "marlene512",
+      "luis513"
+    ],
+    "siblings": [
+      "victoria515",
+      "lena524"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "luisa506",
+      "jonas507"
+    ],
+    "siblings": [
+      "sofia502",
+      "lara522"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "hannah526",
+      "felix525"
+    ],
+    "siblings": [
+      "sofia530",
+      "karin549"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "marcel541",
+      "lea540"
+    ],
+    "siblings": [
+      "raphael548",
+      "adrian535"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "benjamin534",
+      "anastasia533"
+    ],
+    "siblings": [
+      "christian532",
+      "thomas544"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "leon565",
+      "helena558"
+    ],
+    "siblings": [
+      "mia574",
+      "gertrude569"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "victoria567",
+      "emil568"
+    ],
+    "siblings": [
+      "alexander573",
+      "ella577"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "konstantin556",
+      "marie555"
+    ],
+    "siblings": [
+      "noah557",
+      "anna559",
+      "lara560",
+      "helena558"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "theodor578",
+      "hannah586"
+    ],
+    "siblings": [
+      "selina588",
+      "felix587",
+      "luca603"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "marcel580",
+      "claudia579"
+    ],
+    "siblings": [
+      "theodor578",
+      "paul583"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "rene582",
+      "vanessa581"
+    ],
+    "siblings": [
+      "marcel580",
+      "mia595"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lena606",
+      "emil607"
+    ],
+    "siblings": [
+      "nina611",
+      "fabian608"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "fabian608",
+      "elena609"
+    ],
+    "siblings": [
+      "luis629",
+      "amelie610"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "nina611",
+      "matthias612"
+    ],
+    "siblings": [
+      "karin613",
+      "katharina617",
+      "lea618"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "marlene630",
+      "luca631"
+    ],
+    "siblings": [
+      "emilia633",
+      "luisa632"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lea640",
+      "michael645"
+    ],
+    "siblings": [
+      "paula648",
+      "maria653"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "raphael642",
+      "luisa632"
+    ],
+    "siblings": [
+      "jakob647",
+      "lina644"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "emilia633",
+      "dominik634"
+    ],
+    "siblings": [
+      "fabian636",
+      "leon635",
+      "magdalena639"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "karin657",
+      "jakob658"
+    ],
+    "siblings": [
+      "paul676",
+      "sarah656",
+      "helena661"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "michael672",
+      "alina671"
+    ],
+    "siblings": [
+      "patrick675",
+      "valentina667"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "moritz663",
+      "sofia662"
+    ],
+    "siblings": [
+      "oskar664",
+      "stefan677",
+      "marko660"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "michael684",
+      "emma683"
+    ],
+    "siblings": [
+      "valerie690",
+      "lara682",
+      "dominik702"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "sophie694",
+      "daniel695"
+    ],
+    "siblings": [
+      "charlotte706",
+      "patrick686"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "elena696",
+      "noah697"
+    ],
+    "siblings": [
+      "julia699",
+      "tobias698"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "julia699",
+      "philipp703"
+    ],
+    "siblings": [
+      "valentin705",
+      "vincent704"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "magdalena685",
+      "patrick686"
+    ],
+    "siblings": [
+      "elena696",
+      "michael684",
+      "helga707",
+      "marie687"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "christian689",
+      "johanna688"
+    ],
+    "siblings": [
+      "emma683",
+      "helena691",
+      "leo693",
+      "marlene692"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "gabriel708",
+      "johanna709"
+    ],
+    "siblings": [
+      "benjamin710",
+      "julian732"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "adam719",
+      "marie717"
+    ],
+    "siblings": [
+      "sebastian720",
+      "maria725"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "benjamin710",
+      "sarah711"
+    ],
+    "siblings": [
+      "tobias713",
+      "christian712"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "isabella714",
+      "fabian715"
+    ],
+    "siblings": [
+      "paula716",
+      "johanna709",
+      "rene718",
+      "marie717"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "adrian735",
+      "lisa736"
+    ],
+    "siblings": [
+      "helena755",
+      "valentin737",
+      "mia752"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "jonas747",
+      "olivia746"
+    ],
+    "siblings": [
+      "gertrude751",
+      "ella741"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "valentin737",
+      "sofia738"
+    ],
+    "siblings": [
+      "noah745",
+      "raphael740",
+      "paul739"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "lukas757",
+      "johanna756"
+    ],
+    "siblings": [
+      "gabriel742",
+      "moritz758"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "paul739",
+      "isabella743"
+    ],
+    "siblings": [
+      "nico744",
+      "jonathan750"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "luisa764",
+      "oliver761"
+    ],
+    "siblings": [
+      "rene765",
+      "magdalena782",
+      "anastasia769",
+      "noah786",
+      "sarah776"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "luca763",
+      "alina762"
+    ],
+    "siblings": [
+      "nora766",
+      "oliver761"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "luis773",
+      "anastasia769"
+    ],
+    "siblings": [
+      "selina774",
+      "michael775"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "hannah777",
+      "rene765"
+    ],
+    "siblings": [
+      "vanessa783",
+      "natalie778"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "nora766",
+      "florian767"
+    ],
+    "siblings": [
+      "johanna781",
+      "moritz768"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lara770",
+      "moritz768"
+    ],
+    "siblings": [
+      "oskar771",
+      "lukas772"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "sophie787",
+      "oskar788"
+    ],
+    "siblings": [
+      "dominik789",
+      "tobias806"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "clara797",
+      "elias798"
+    ],
+    "siblings": [
+      "olivia804",
+      "lorenz794"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "dominik789",
+      "laura790"
+    ],
+    "siblings": [
+      "luisa791",
+      "michael803",
+      "vincent792"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "vanessa793",
+      "lorenz794"
+    ],
+    "siblings": [
+      "oskar788",
+      "isabella807",
+      "emily808",
+      "lisa805",
+      "emil809"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "moritz821",
+      "claudia814"
+    ],
+    "siblings": [
+      "david832",
+      "jakob835",
+      "elena822"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "isabella815",
+      "theodor816"
+    ],
+    "siblings": [
+      "fabian833",
+      "claudia814",
+      "maximilian828"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "sebastian827",
+      "luisa826"
+    ],
+    "siblings": [
+      "felix834",
+      "alexander820"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "sofia817",
+      "michael818"
+    ],
+    "siblings": [
+      "natalie838",
+      "nora825",
+      "theodor816"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "sophie819",
+      "alexander820"
+    ],
+    "siblings": [
+      "valerie831",
+      "sofia817"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "theodor841",
+      "anna842"
+    ],
+    "siblings": [
+      "valerie843",
+      "matthias844",
+      "noah855"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "valerie843",
+      "marcel845"
+    ],
+    "siblings": [
+      "julia863",
+      "jonathan846",
+      "lena854"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "jonathan846",
+      "anastasia847"
+    ],
+    "siblings": [
+      "david858",
+      "vincent848"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "olivia849",
+      "marko850"
+    ],
+    "siblings": [
+      "benjamin853",
+      "marcel845"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "adrian870",
+      "laura869"
+    ],
+    "siblings": [
+      "luis868",
+      "lorenz876",
+      "selina871",
+      "fabian879"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "elias878",
+      "natalie877"
+    ],
+    "siblings": [
+      "noah886",
+      "sarah893",
+      "jan874"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "valentina880",
+      "lorenz876"
+    ],
+    "siblings": [
+      "dominik882",
+      "paula881"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "patrick883",
+      "paula881"
+    ],
+    "siblings": [
+      "claudia887",
+      "stefan890",
+      "marlene884"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "selina871",
+      "jan874"
+    ],
+    "siblings": [
+      "thomas875",
+      "larissa885"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "paul900",
+      "marie894"
+    ],
+    "siblings": [
+      "jan902",
+      "lena906",
+      "noah905",
+      "sofia901"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "florian896",
+      "lea895"
+    ],
+    "siblings": [
+      "matthias899",
+      "marie894"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lena906",
+      "moritz909"
+    ],
+    "siblings": [
+      "marko912",
+      "larissa910"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "fabian908",
+      "vanessa907"
+    ],
+    "siblings": [
+      "charlotte903",
+      "jonathan918"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "luca898",
+      "anastasia897"
+    ],
+    "siblings": [
+      "helga917",
+      "florian896"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "matthias899",
+      "charlotte903"
+    ],
+    "siblings": [
+      "patrick904",
+      "karin911"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "fabian921",
+      "clara931"
+    ],
+    "siblings": [
+      "luisa933",
+      "lina932"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "sebastian923",
+      "natalie922"
+    ],
+    "siblings": [
+      "valentin934",
+      "oliver935",
+      "tobias941",
+      "fabian921"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "konstantin938",
+      "lea937"
+    ],
+    "siblings": [
+      "michael939",
+      "nora944"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "larissa924",
+      "paul925"
+    ],
+    "siblings": [
+      "nina940",
+      "sebastian923"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "matthias927",
+      "paula926"
+    ],
+    "siblings": [
+      "larissa924",
+      "marko928"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "maximilian949",
+      "sophie948"
+    ],
+    "siblings": [
+      "elias950",
+      "stefan947"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "helena961",
+      "philipp958"
+    ],
+    "siblings": [
+      "thomas966",
+      "beate962"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "christian960",
+      "laura959"
+    ],
+    "siblings": [
+      "simon970",
+      "sophie948"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "valerie963",
+      "sebastian964"
+    ],
+    "siblings": [
+      "hannah965",
+      "magdalena967",
+      "maximilian949"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "hannah965",
+      "konstantin968"
+    ],
+    "siblings": [
+      "jakob969",
+      "lisa971"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "vanessa955",
+      "florian954"
+    ],
+    "siblings": [
+      "leon956",
+      "marie972"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "katharina974",
+      "vincent973"
+    ],
+    "siblings": [
+      "leonie975",
+      "christian987",
+      "oliver988",
+      "helga976"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "helga976",
+      "samuel977"
+    ],
+    "siblings": [
+      "angelina978",
+      "luis989"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "philipp979",
+      "angelina978"
+    ],
+    "siblings": [
+      "jakob984",
+      "charlotte980"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "charlotte980",
+      "alexander981"
+    ],
+    "siblings": [
+      "emilia983",
+      "tobias982"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "oliver1001",
+      "anna1000"
+    ],
+    "siblings": [
+      "angelina1002",
+      "anastasia1003"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "angelina1002",
+      "tobias1011"
+    ],
+    "siblings": [
+      "elena1012",
+      "selina1013",
+      "daniel1022"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "luis1014",
+      "olivia1007"
+    ],
+    "siblings": [
+      "valentina1015",
+      "leonie1016"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "gabriel1004",
+      "anastasia1003"
+    ],
+    "siblings": [
+      "paul1008",
+      "patrick1006",
+      "olivia1007",
+      "michael1025",
+      "thomas1005"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "paul1008",
+      "julia1009"
+    ],
+    "siblings": [
+      "claudia1017",
+      "elias1010"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "stefan1027",
+      "paula1026"
+    ],
+    "siblings": [
+      "lea1050",
+      "florian1037",
+      "angelina1028",
+      "theodor1029"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "angelina1028",
+      "matthias1030"
+    ],
+    "siblings": [
+      "lena1038",
+      "philipp1031",
+      "marlene1033",
+      "julia1032"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "charlotte1034",
+      "theodor1029"
+    ],
+    "siblings": [
+      "magdalena1044",
+      "oliver1045",
+      "dominik1036",
+      "olivia1043",
+      "lisa1035"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "olivia1054",
+      "leon1055"
+    ],
+    "siblings": [
+      "nora1056",
+      "marko1057",
+      "christian1053"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "nina1063",
+      "jan1062"
+    ],
+    "siblings": [
+      "david1072",
+      "elias1064"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "sebastian1069",
+      "hannah1068"
+    ],
+    "siblings": [
+      "tobias1076",
+      "leon1055"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "nora1056",
+      "marcel1058"
+    ],
+    "siblings": [
+      "valerie1067",
+      "laura1075",
+      "jan1062",
+      "angelina1059"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "thomas1091",
+      "emilia1089"
+    ],
+    "siblings": [
+      "felix1100",
+      "lorenz1092"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "marlene1081",
+      "rene1082"
+    ],
+    "siblings": [
+      "paul1083",
+      "leo1088",
+      "elena1084",
+      "jonas1085",
+      "emilia1089"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "luis1087",
+      "katharina1086"
+    ],
+    "siblings": [
+      "sarah1095",
+      "rene1082",
+      "sofia1090"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "lorenz1118",
+      "laura1117"
+    ],
+    "siblings": [
+      "lena1112",
+      "alina1124"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "leo1121",
+      "marie1120"
+    ],
+    "siblings": [
+      "maria1129",
+      "mia1127",
+      "emma1110"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "selina1108",
+      "jan1107"
+    ],
+    "siblings": [
+      "samuel1116",
+      "leon1109",
+      "johanna1119",
+      "charlotte1126",
+      "david1128"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "valentin1113",
+      "lena1112"
+    ],
+    "siblings": [
+      "selina1108",
+      "oskar1125",
+      "luca1130"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "olivia1134",
+      "raphael1131"
+    ],
+    "siblings": [
+      "gabriel1140",
+      "helena1135"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "amelie1141",
+      "alexander1142"
+    ],
+    "siblings": [
+      "olivia1134",
+      "tobias1155"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "rene1147",
+      "leonie1146"
+    ],
+    "siblings": [
+      "clara1154",
+      "alexander1142"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "emil1148",
+      "julia1151"
+    ],
+    "siblings": [
+      "samuel1152",
+      "elena1153"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "florian1137",
+      "lena1136"
+    ],
+    "siblings": [
+      "emil1148",
+      "oliver1133"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "valerie1138",
+      "moritz1139"
+    ],
+    "siblings": [
+      "lara1143",
+      "lena1136"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "victoria1159",
+      "stefan1158"
+    ],
+    "siblings": [
+      "raphael1160",
+      "beate1163"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "helena1169",
+      "paul1170"
+    ],
+    "siblings": [
+      "luca1162",
+      "lara1174"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "charlotte1171",
+      "felix1172"
+    ],
+    "siblings": [
+      "laura1173",
+      "oliver1164",
+      "larissa1176"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "lina1161",
+      "luca1162"
+    ],
+    "siblings": [
+      "julian1177",
+      "stefan1158"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "anna1166",
+      "benjamin1167"
+    ],
+    "siblings": [
+      "leo1168",
+      "victoria1159",
+      "marko1175"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "selina1184",
+      "philipp1198"
+    ],
+    "siblings": [
+      "sofia1199",
+      "maria1208"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "helga1185",
+      "elias1186"
+    ],
+    "siblings": [
+      "leonie1204",
+      "daniel1187",
+      "anastasia1188",
+      "leo1205",
+      "selina1184"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "paula1193",
+      "noah1194"
+    ],
+    "siblings": [
+      "emil1191",
+      "theodor1203"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "anna1195",
+      "vincent1196"
+    ],
+    "siblings": [
+      "vanessa1200",
+      "simon1197"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "daniel1187",
+      "marlene1189"
+    ],
+    "siblings": [
+      "anna1195",
+      "lara1190"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "sebastian1212",
+      "amelie1211"
+    ],
+    "siblings": [
+      "julia1213",
+      "thomas1214"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "emil1222",
+      "nina1221"
+    ],
+    "siblings": [
+      "jonathan1233",
+      "tobias1223"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "matthias1217",
+      "julia1213"
+    ],
+    "siblings": [
+      "maria1224",
+      "katharina1218",
+      "nina1221",
+      "lina1228"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "thomas1214",
+      "victoria1215"
+    ],
+    "siblings": [
+      "angelina1220",
+      "magdalena1236",
+      "dominik1227",
+      "stefan1219",
+      "samuel1216"
+    ],
+    "size": 5
+  },
+  {
+    "parents": [
+      "jakob1237",
+      "helga1238"
+    ],
+    "siblings": [
+      "clara1239",
+      "vincent1261",
+      "matthias1240"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "emma1251",
+      "patrick1252"
+    ],
+    "siblings": [
+      "helena1260",
+      "dominik1245"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "lara1244",
+      "dominik1245"
+    ],
+    "siblings": [
+      "fabian1247",
+      "elias1253",
+      "nico1246",
+      "gabriel1248"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "thomas1268",
+      "lea1264"
+    ],
+    "siblings": [
+      "anna1287",
+      "valerie1284",
+      "sofia1269",
+      "florian1274"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "marcel1266",
+      "lena1265"
+    ],
+    "siblings": [
+      "leonie1280",
+      "michael1267",
+      "lea1264"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "christian1276",
+      "larissa1275"
+    ],
+    "siblings": [
+      "sebastian1277",
+      "valentina1272"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "leonie1280",
+      "valentin1282"
+    ],
+    "siblings": [
+      "jakob1286",
+      "maximilian1283"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "michael1267",
+      "emily1270"
+    ],
+    "siblings": [
+      "laura1271",
+      "sophie1289"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "marko1273",
+      "valentina1272"
+    ],
+    "siblings": [
+      "emilia1288",
+      "marcel1266",
+      "adam1281",
+      "philipp1285"
+    ],
+    "size": 4
+  },
+  {
+    "parents": [
+      "patrick1290",
+      "lea1291"
+    ],
+    "siblings": [
+      "emily1312",
+      "jakob1293",
+      "tobias1292"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "mia1301",
+      "oliver1295"
+    ],
+    "siblings": [
+      "sarah1305",
+      "beate1302"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "daniel1309",
+      "emilia1308"
+    ],
+    "siblings": [
+      "natalie1313",
+      "lea1291"
+    ],
+    "size": 2
+  },
+  {
+    "parents": [
+      "anna1297",
+      "tobias1292"
+    ],
+    "siblings": [
+      "david1306",
+      "julia1307",
+      "moritz1298"
+    ],
+    "size": 3
+  },
+  {
+    "parents": [
+      "sophie1294",
+      "jakob1293"
+    ],
+    "siblings": [
+      "alina1296",
+      "oliver1295"
+    ],
+    "size": 2
+  }
+]

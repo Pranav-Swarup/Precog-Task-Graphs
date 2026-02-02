@@ -1,0 +1,3850 @@
+[
+  {
+    "mother": "olivia0",
+    "father": "oliver3",
+    "children": [
+      "elias6",
+      "lisa5"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "katharina1",
+    "father": "dominik2",
+    "children": [
+      "isabella11",
+      "selina10",
+      "adam9",
+      "oskar24"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "paula12",
+    "father": "vincent21",
+    "children": [
+      "johanna22"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emily15",
+    "father": "luis14",
+    "children": [
+      "leon16"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia17",
+    "father": "leon16",
+    "children": [
+      "lena18"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella19",
+    "father": "david20",
+    "children": [
+      "dominik2"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valentina25",
+    "father": "jonas23",
+    "children": [
+      "fabian26"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma7",
+    "father": "moritz8",
+    "children": [
+      "paula12",
+      "luis14",
+      "natalie13"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "sofia28",
+    "father": "marcel27",
+    "children": [
+      "raphael29"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "beate36",
+    "father": "tobias37",
+    "children": [
+      "marcel27"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "maria38",
+    "father": "moritz31",
+    "children": [
+      "hannah39"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene40",
+    "father": "lukas51",
+    "children": [
+      "magdalena52"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "karin41",
+    "father": "thomas42",
+    "children": [
+      "beate36"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella45",
+    "father": "elias46",
+    "children": [
+      "tobias37"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "victoria30",
+    "father": "raphael29",
+    "children": [
+      "marie43",
+      "sebastian49",
+      "moritz31"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "luisa47",
+    "father": "marko48",
+    "children": [
+      "maria38"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "alina32",
+    "father": "luca33",
+    "children": [
+      "sofia28"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "clara34",
+    "father": "luis35",
+    "children": [
+      "paula50"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "victoria53",
+    "father": "simon54",
+    "children": [
+      "elena55"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie62",
+    "father": "nico63",
+    "children": [
+      "victoria53"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "katharina64",
+    "father": "rene58",
+    "children": [
+      "jakob78",
+      "oliver71",
+      "felix65"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "helena67",
+    "father": "luis68",
+    "children": [
+      "sebastian56"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "claudia69",
+    "father": "stefan72",
+    "children": [
+      "raphael73"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "elena55",
+    "father": "sebastian56",
+    "children": [
+      "magdalena59",
+      "tobias57"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valentina74",
+    "father": "raphael73",
+    "children": [
+      "paula75"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "larissa76",
+    "father": "florian77",
+    "children": [
+      "helena67"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "charlotte60",
+    "father": "jonas61",
+    "children": [
+      "nora66",
+      "philipp70"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lea80",
+    "father": "vincent79",
+    "children": [
+      "amelie81"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "natalie89",
+    "father": "leon98",
+    "children": [
+      "katharina99"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lisa90",
+    "father": "jan87",
+    "children": [
+      "david100",
+      "nico91"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valerie96",
+    "father": "nico91",
+    "children": [
+      "gertrude97"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella92",
+    "father": "jonathan84",
+    "children": [
+      "lukas93"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "claudia94",
+    "father": "simon95",
+    "children": [
+      "nora85"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie81",
+    "father": "fabian83",
+    "children": [
+      "jonas101",
+      "jonathan84",
+      "jan87"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "nora85",
+    "father": "florian82",
+    "children": [
+      "philipp104",
+      "marlene86"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marlene86",
+    "father": "marko88",
+    "children": [
+      "emily102"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "victoria120",
+    "father": "theodor105",
+    "children": [
+      "leo121",
+      "noah128"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "anastasia106",
+    "father": "vincent107",
+    "children": [
+      "adam125",
+      "theodor105",
+      "julian108"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "valentina115",
+    "father": "oliver117",
+    "children": [
+      "hannah118"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa122",
+    "father": "leo121",
+    "children": [
+      "emilia130"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valerie126",
+    "father": "rene112",
+    "children": [
+      "marlene127"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena111",
+    "father": "julian108",
+    "children": [
+      "rene112"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "claudia109",
+    "father": "emil110",
+    "children": [
+      "vincent107",
+      "larissa124",
+      "johanna116"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "marie113",
+    "father": "daniel114",
+    "children": [
+      "claudia109"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "johanna131",
+    "father": "david132",
+    "children": [
+      "larissa136",
+      "gabriel146",
+      "fabian140",
+      "oskar133"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "vanessa141",
+    "father": "fabian140",
+    "children": [
+      "victoria142"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "clara144",
+    "father": "julian145",
+    "children": [
+      "johanna131"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena147",
+    "father": "gabriel146",
+    "children": [
+      "natalie151"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marie139",
+    "father": "elias149",
+    "children": [
+      "lara150"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella153",
+    "father": "marcel154",
+    "children": [
+      "emil135"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "alina156",
+    "father": "florian157",
+    "children": [
+      "clara144"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "beate134",
+    "father": "emil135",
+    "children": [
+      "alexander137",
+      "maria152"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sophie138",
+    "father": "alexander137",
+    "children": [
+      "marie139"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lara158",
+    "father": "elias159",
+    "children": [
+      "konstantin163",
+      "helga183",
+      "philipp160"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "marie169",
+    "father": "jonas170",
+    "children": [
+      "maria164"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "johanna171",
+    "father": "oliver165",
+    "children": [
+      "simon172"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura179",
+    "father": "simon172",
+    "children": [
+      "marko180"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "alina173",
+    "father": "tobias174",
+    "children": [
+      "isabella166"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia175",
+    "father": "gabriel176",
+    "children": [
+      "johanna171"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma177",
+    "father": "philipp160",
+    "children": [
+      "natalie178"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia161",
+    "father": "rene162",
+    "children": [
+      "lara158"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "maria164",
+    "father": "konstantin163",
+    "children": [
+      "oliver165"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "isabella166",
+    "father": "paul167",
+    "children": [
+      "elias159"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia184",
+    "father": "luca197",
+    "children": [
+      "oliver207",
+      "adam198"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "selina185",
+    "father": "gabriel186",
+    "children": [
+      "lisa194",
+      "vanessa193",
+      "beate196"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "emma199",
+    "father": "benjamin200",
+    "children": [
+      "luca197"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "helga203",
+    "father": "jonas204",
+    "children": [
+      "florian208",
+      "rene205"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lina209",
+    "father": "rene205",
+    "children": [
+      "simon210"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sophie187",
+    "father": "patrick188",
+    "children": [
+      "valentina201"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anna189",
+    "father": "elias190",
+    "children": [
+      "patrick188",
+      "johanna206"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sofia191",
+    "father": "michael192",
+    "children": [
+      "helga203",
+      "elias190"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valerie211",
+    "father": "gabriel216",
+    "children": [
+      "lara217",
+      "anna234"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "isabella212",
+    "father": "adrian213",
+    "children": [
+      "marie215",
+      "marcel214"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lea220",
+    "father": "nico221",
+    "children": [
+      "lisa222"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lisa222",
+    "father": "marko232",
+    "children": [
+      "angelina233"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lara217",
+    "father": "lukas223",
+    "children": [
+      "oliver224"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "victoria225",
+    "father": "michael226",
+    "children": [
+      "gabriel216"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia227",
+    "father": "marcel214",
+    "children": [
+      "vanessa228"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "olivia230",
+    "father": "felix231",
+    "children": [
+      "michael226"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma235",
+    "father": "david236",
+    "children": [
+      "adrian213"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marie215",
+    "father": "thomas218",
+    "children": [
+      "jonathan219"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nora237",
+    "father": "julian238",
+    "children": [
+      "emma239"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "claudia250",
+    "father": "benjamin247",
+    "children": [
+      "elena257",
+      "valerie260"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sophie248",
+    "father": "luis249",
+    "children": [
+      "felix245"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "charlotte261",
+    "father": "emil252",
+    "children": [
+      "leo262"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura253",
+    "father": "rene254",
+    "children": [
+      "sophie248"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella255",
+    "father": "jonathan256",
+    "children": [
+      "julian238"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma239",
+    "father": "sebastian240",
+    "children": [
+      "gabriel241"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anna258",
+    "father": "moritz259",
+    "children": [
+      "anastasia246"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia246",
+    "father": "gabriel241",
+    "children": [
+      "benjamin247"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "isabella242",
+    "father": "paul243",
+    "children": [
+      "nora237"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "olivia244",
+    "father": "felix245",
+    "children": [
+      "sebastian240",
+      "emil252"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emily264",
+    "father": "elias263",
+    "children": [
+      "luisa268",
+      "oliver265"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "olivia274",
+    "father": "philipp275",
+    "children": [
+      "katharina266"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "vanessa276",
+    "father": "simon278",
+    "children": [
+      "victoria279"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lina280",
+    "father": "tobias281",
+    "children": [
+      "simon278"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sophie282",
+    "father": "patrick283",
+    "children": [
+      "tobias281"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "katharina266",
+    "father": "oliver265",
+    "children": [
+      "isabella267",
+      "jonas271"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "karin284",
+    "father": "matthias270",
+    "children": [
+      "sofia285"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "larissa286",
+    "father": "vincent287",
+    "children": [
+      "karin284"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "isabella267",
+    "father": "lukas269",
+    "children": [
+      "matthias270"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "claudia272",
+    "father": "jonas271",
+    "children": [
+      "gabriel273"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "natalie290",
+    "father": "raphael289",
+    "children": [
+      "angelina300",
+      "hannah291",
+      "valentin292",
+      "mia293"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "larissa299",
+    "father": "elias302",
+    "children": [
+      "michael312",
+      "adrian303"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "ella313",
+    "father": "adrian303",
+    "children": [
+      "isabella314"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nina305",
+    "father": "adam306",
+    "children": [
+      "sophie309"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "hannah291",
+    "father": "jonathan307",
+    "children": [
+      "laura308"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lisa310",
+    "father": "daniel311",
+    "children": [
+      "natalie290"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia293",
+    "father": "paul294",
+    "children": [
+      "maximilian296",
+      "marlene304",
+      "maria295"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "maria295",
+    "father": "simon297",
+    "children": [
+      "theodor298"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "helga315",
+    "father": "david329",
+    "children": [
+      "laura337"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "julia316",
+    "father": "marko317",
+    "children": [
+      "leonie318",
+      "elias338",
+      "helena324",
+      "lara321"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lara321",
+    "father": "alexander325",
+    "children": [
+      "nico326"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "olivia327",
+    "father": "oliver328",
+    "children": [
+      "lina322"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "johanna331",
+    "father": "jonathan332",
+    "children": [
+      "angelina335"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie318",
+    "father": "gabriel333",
+    "children": [
+      "victoria334"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella339",
+    "father": "michael340",
+    "children": [
+      "david329"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "selina319",
+    "father": "sebastian320",
+    "children": [
+      "marko317"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lina322",
+    "father": "matthias323",
+    "children": [
+      "julia316"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena342",
+    "father": "samuel341",
+    "children": [
+      "leon343"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia357",
+    "father": "valentin351",
+    "children": [
+      "selina358",
+      "tobias363"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lea352",
+    "father": "luis360",
+    "children": [
+      "raphael362",
+      "marko361"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "charlotte353",
+    "father": "dominik354",
+    "children": [
+      "marlene344"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia355",
+    "father": "noah356",
+    "children": [
+      "dominik354"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene344",
+    "father": "leon343",
+    "children": [
+      "magdalena350"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie364",
+    "father": "konstantin347",
+    "children": [
+      "emilia365"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "hannah366",
+    "father": "rene367",
+    "children": [
+      "christian346"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura345",
+    "father": "christian346",
+    "children": [
+      "valentin351",
+      "konstantin347"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "julia348",
+    "father": "jonathan349",
+    "children": [
+      "lea352"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valerie369",
+    "father": "rene370",
+    "children": [
+      "sophie373"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "claudia379",
+    "father": "emil380",
+    "children": [
+      "rene370"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lisa382",
+    "father": "simon374",
+    "children": [
+      "julian383"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "johanna389",
+    "father": "julian383",
+    "children": [
+      "julia391"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "clara377",
+    "father": "david387",
+    "children": [
+      "elena388"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "julia391",
+    "father": "nico392",
+    "children": [
+      "mia393"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "alina371",
+    "father": "vincent372",
+    "children": [
+      "fabian386",
+      "simon374",
+      "gertrude378",
+      "tobias384"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "leonie375",
+    "father": "florian376",
+    "children": [
+      "clara377",
+      "vincent372",
+      "hannah385"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "vanessa394",
+    "father": "adrian397",
+    "children": [
+      "matthias398",
+      "laura399"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lena395",
+    "father": "david396",
+    "children": [
+      "beate406",
+      "marlene405",
+      "marko416"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "marlene405",
+    "father": "oskar407",
+    "children": [
+      "larissa408"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura399",
+    "father": "thomas409",
+    "children": [
+      "julian410"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia413",
+    "father": "valentin414",
+    "children": [
+      "oskar407"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "julia417",
+    "father": "matthias398",
+    "children": [
+      "paul418"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lisa400",
+    "father": "philipp401",
+    "children": [
+      "samuel412",
+      "david396"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lara402",
+    "father": "jakob403",
+    "children": [
+      "johanna404",
+      "patrick411"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "luisa420",
+    "father": "jonas421",
+    "children": [
+      "leonie422"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "magdalena430",
+    "father": "oskar431",
+    "children": [
+      "isabella442"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia428",
+    "father": "philipp432",
+    "children": [
+      "fabian433"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sarah437",
+    "father": "fabian433",
+    "children": [
+      "anna438"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie422",
+    "father": "leon427",
+    "children": [
+      "emilia428"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "karin440",
+    "father": "felix441",
+    "children": [
+      "lisa445",
+      "leon427"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "clara423",
+    "father": "lorenz424",
+    "children": [
+      "konstantin439",
+      "helena435",
+      "tobias444"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "lea425",
+    "father": "adam426",
+    "children": [
+      "beate436"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "katharina446",
+    "father": "leo449",
+    "children": [
+      "luca450",
+      "sophie455",
+      "stefan454"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "marlene447",
+    "father": "rene448",
+    "children": [
+      "katharina446"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nina456",
+    "father": "stefan454",
+    "children": [
+      "anna457"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa460",
+    "father": "moritz459",
+    "children": [
+      "elias461"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marie466",
+    "father": "elias461",
+    "children": [
+      "hannah467"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie453",
+    "father": "leon462",
+    "children": [
+      "samuel463"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sophie455",
+    "father": "thomas464",
+    "children": [
+      "emil465"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "karin468",
+    "father": "julian469",
+    "children": [
+      "leo449"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia470",
+    "father": "florian471",
+    "children": [
+      "julian469"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie451",
+    "father": "luca450",
+    "children": [
+      "amelie453"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene472",
+    "father": "valentin479",
+    "children": [
+      "magdalena491"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella473",
+    "father": "adam474",
+    "children": [
+      "michael477",
+      "elena492",
+      "elias478",
+      "paula481"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "alina482",
+    "father": "michael477",
+    "children": [
+      "thomas486",
+      "tobias483"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sofia487",
+    "father": "tobias483",
+    "children": [
+      "anna488"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena484",
+    "father": "leo485",
+    "children": [
+      "valentin479"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "natalie489",
+    "father": "marcel490",
+    "children": [
+      "selina475"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "maria494",
+    "father": "jonathan480",
+    "children": [
+      "nico495"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia497",
+    "father": "maximilian498",
+    "children": [
+      "sofia487"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "selina475",
+    "father": "florian476",
+    "children": [
+      "ella473"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella500",
+    "father": "noah501",
+    "children": [
+      "sarah514",
+      "julian508"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "hannah509",
+    "father": "christian510",
+    "children": [
+      "tobias505",
+      "luca523"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emilia511",
+    "father": "florian516",
+    "children": [
+      "olivia517"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene512",
+    "father": "luis513",
+    "children": [
+      "victoria515",
+      "lena524"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "victoria515",
+    "father": "fabian520",
+    "children": [
+      "marcel521"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "larissa518",
+    "father": "leon519",
+    "children": [
+      "jonas507"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia502",
+    "father": "philipp503",
+    "children": [
+      "ella500"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie504",
+    "father": "tobias505",
+    "children": [
+      "philipp503"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa506",
+    "father": "jonas507",
+    "children": [
+      "lara522",
+      "sofia502"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "hannah526",
+    "father": "felix525",
+    "children": [
+      "sofia530",
+      "karin549"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sofia530",
+    "father": "adrian535",
+    "children": [
+      "nora536"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene537",
+    "father": "samuel538",
+    "children": [
+      "olivia528"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lea540",
+    "father": "marcel541",
+    "children": [
+      "raphael548",
+      "adrian535"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sarah542",
+    "father": "lorenz543",
+    "children": [
+      "hannah526"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "olivia528",
+    "father": "stefan527",
+    "children": [
+      "mia529"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia529",
+    "father": "moritz545",
+    "children": [
+      "sophie546"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma550",
+    "father": "gabriel551",
+    "children": [
+      "luisa531"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa531",
+    "father": "christian532",
+    "children": [
+      "helena539"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia533",
+    "father": "benjamin534",
+    "children": [
+      "christian532",
+      "thomas544"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lisa575",
+    "father": "theodor552",
+    "children": [
+      "charlotte576"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "helga553",
+    "father": "julian554",
+    "children": [
+      "vanessa570"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "julia561",
+    "father": "marcel562",
+    "children": [
+      "konstantin556"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lara560",
+    "father": "oskar563",
+    "children": [
+      "nora564"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "helena558",
+    "father": "leon565",
+    "children": [
+      "mia574",
+      "gertrude569"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "victoria567",
+    "father": "emil568",
+    "children": [
+      "alexander573",
+      "ella577"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "hannah571",
+    "father": "christian572",
+    "children": [
+      "leon565"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marie555",
+    "father": "konstantin556",
+    "children": [
+      "noah557",
+      "lara560",
+      "helena558",
+      "anna559"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "hannah586",
+    "father": "theodor578",
+    "children": [
+      "selina588",
+      "felix587",
+      "luca603"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "claudia579",
+    "father": "marcel580",
+    "children": [
+      "theodor578",
+      "paul583"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "karin593",
+    "father": "florian589",
+    "children": [
+      "nora594"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa590",
+    "father": "paul583",
+    "children": [
+      "paula591"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "gertrude596",
+    "father": "vincent597",
+    "children": [
+      "victoria598"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lisa599",
+    "father": "tobias600",
+    "children": [
+      "vincent597"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sophie601",
+    "father": "felix587",
+    "children": [
+      "valentin602"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "vanessa581",
+    "father": "rene582",
+    "children": [
+      "mia595",
+      "marcel580"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "katharina584",
+    "father": "jonathan585",
+    "children": [
+      "gertrude596"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sarah605",
+    "father": "patrick604",
+    "children": [
+      "charlotte624"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "clara615",
+    "father": "david616",
+    "children": [
+      "matthias612"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lea618",
+    "father": "elias626",
+    "children": [
+      "adam627"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "karin613",
+    "father": "luca619",
+    "children": [
+      "marlene620"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "isabella621",
+    "father": "michael622",
+    "children": [
+      "elena609"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena606",
+    "father": "emil607",
+    "children": [
+      "fabian608",
+      "nina611"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "elena609",
+    "father": "fabian608",
+    "children": [
+      "amelie610",
+      "luis629"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "nina611",
+    "father": "matthias612",
+    "children": [
+      "karin613",
+      "lea618",
+      "katharina617"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "marlene630",
+    "father": "luca631",
+    "children": [
+      "emilia633",
+      "luisa632"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lea640",
+    "father": "michael645",
+    "children": [
+      "paula648",
+      "maria653"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "luisa632",
+    "father": "raphael642",
+    "children": [
+      "jakob647",
+      "lina644"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lina644",
+    "father": "philipp649",
+    "children": [
+      "anna650"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "karin651",
+    "father": "patrick652",
+    "children": [
+      "gertrude637"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia654",
+    "father": "maximilian655",
+    "children": [
+      "patrick652"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia633",
+    "father": "dominik634",
+    "children": [
+      "magdalena639",
+      "fabian636",
+      "leon635"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "gertrude637",
+    "father": "fabian636",
+    "children": [
+      "valentin638"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sarah656",
+    "father": "theodor669",
+    "children": [
+      "charlotte670"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "karin657",
+    "father": "jakob658",
+    "children": [
+      "paul676",
+      "sarah656",
+      "helena661"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "elena665",
+    "father": "christian666",
+    "children": [
+      "sofia662"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valentina667",
+    "father": "oliver668",
+    "children": [
+      "jakob658"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "alina671",
+    "father": "michael672",
+    "children": [
+      "valentina667",
+      "patrick675"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "natalie673",
+    "father": "jonathan674",
+    "children": [
+      "moritz663"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valerie678",
+    "father": "paul676",
+    "children": [
+      "marlene679"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "angelina680",
+    "father": "stefan677",
+    "children": [
+      "anna681"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "selina659",
+    "father": "marko660",
+    "children": [
+      "karin657"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia662",
+    "father": "moritz663",
+    "children": [
+      "oskar664",
+      "stefan677",
+      "marko660"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "emma683",
+    "father": "michael684",
+    "children": [
+      "lara682",
+      "dominik702",
+      "valerie690"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "sophie694",
+    "father": "daniel695",
+    "children": [
+      "charlotte706",
+      "patrick686"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "elena696",
+    "father": "noah697",
+    "children": [
+      "tobias698",
+      "julia699"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "julia699",
+    "father": "philipp703",
+    "children": [
+      "valentin705",
+      "vincent704"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "helena691",
+    "father": "marcel700",
+    "children": [
+      "luis701"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "magdalena685",
+    "father": "patrick686",
+    "children": [
+      "michael684",
+      "elena696",
+      "marie687",
+      "helga707"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "johanna688",
+    "father": "christian689",
+    "children": [
+      "emma683",
+      "leo693",
+      "helena691",
+      "marlene692"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "johanna709",
+    "father": "gabriel708",
+    "children": [
+      "benjamin710",
+      "julian732"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marie717",
+    "father": "adam719",
+    "children": [
+      "sebastian720",
+      "maria725"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "nora721",
+    "father": "sebastian720",
+    "children": [
+      "elena722"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella723",
+    "father": "matthias724",
+    "children": [
+      "sarah711"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lina726",
+    "father": "luis727",
+    "children": [
+      "gabriel708"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sarah711",
+    "father": "benjamin710",
+    "children": [
+      "christian712",
+      "tobias713"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "leonie728",
+    "father": "jakob729",
+    "children": [
+      "fabian715"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nina730",
+    "father": "tobias713",
+    "children": [
+      "felix731"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie733",
+    "father": "oliver734",
+    "children": [
+      "ella723"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "isabella714",
+    "father": "fabian715",
+    "children": [
+      "johanna709",
+      "rene718",
+      "marie717",
+      "paula716"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lisa736",
+    "father": "adrian735",
+    "children": [
+      "mia752",
+      "valentin737",
+      "helena755"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "sophie753",
+    "father": "noah745",
+    "children": [
+      "florian754"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "olivia746",
+    "father": "jonas747",
+    "children": [
+      "ella741",
+      "gertrude751"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valerie748",
+    "father": "theodor749",
+    "children": [
+      "lisa736"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia752",
+    "father": "matthias759",
+    "children": [
+      "jakob760"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia738",
+    "father": "valentin737",
+    "children": [
+      "raphael740",
+      "paul739",
+      "noah745"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "johanna756",
+    "father": "lukas757",
+    "children": [
+      "moritz758",
+      "gabriel742"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "isabella743",
+    "father": "paul739",
+    "children": [
+      "nico744",
+      "jonathan750"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "ella741",
+    "father": "gabriel742",
+    "children": [
+      "adrian735"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa764",
+    "father": "oliver761",
+    "children": [
+      "rene765",
+      "anastasia769",
+      "magdalena782",
+      "sarah776",
+      "noah786"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "alina762",
+    "father": "luca763",
+    "children": [
+      "nora766",
+      "oliver761"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emily784",
+    "father": "lukas772",
+    "children": [
+      "marcel785"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia769",
+    "father": "luis773",
+    "children": [
+      "michael775",
+      "selina774"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "hannah777",
+    "father": "rene765",
+    "children": [
+      "vanessa783",
+      "natalie778"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emma779",
+    "father": "samuel780",
+    "children": [
+      "luis773"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nora766",
+    "father": "florian767",
+    "children": [
+      "moritz768",
+      "johanna781"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lara770",
+    "father": "moritz768",
+    "children": [
+      "lukas772",
+      "oskar771"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sophie787",
+    "father": "oskar788",
+    "children": [
+      "tobias806",
+      "dominik789"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "clara797",
+    "father": "elias798",
+    "children": [
+      "olivia804",
+      "lorenz794"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lara796",
+    "father": "luis799",
+    "children": [
+      "marie800"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "magdalena801",
+    "father": "sebastian802",
+    "children": [
+      "vanessa793"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "helena810",
+    "father": "tobias806",
+    "children": [
+      "natalie811"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura790",
+    "father": "dominik789",
+    "children": [
+      "vincent792",
+      "luisa791",
+      "michael803"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "emily808",
+    "father": "valentin812",
+    "children": [
+      "elena813"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa791",
+    "father": "alexander795",
+    "children": [
+      "lara796"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "vanessa793",
+    "father": "lorenz794",
+    "children": [
+      "lisa805",
+      "oskar788",
+      "isabella807",
+      "emil809",
+      "emily808"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "claudia814",
+    "father": "moritz821",
+    "children": [
+      "elena822",
+      "jakob835",
+      "david832"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "isabella815",
+    "father": "theodor816",
+    "children": [
+      "fabian833",
+      "claudia814",
+      "maximilian828"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "mia823",
+    "father": "konstantin824",
+    "children": [
+      "michael818"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "luisa826",
+    "father": "sebastian827",
+    "children": [
+      "alexander820",
+      "felix834"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "selina829",
+    "father": "elias830",
+    "children": [
+      "moritz821"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lara836",
+    "father": "emil837",
+    "children": [
+      "konstantin824"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "maria839",
+    "father": "raphael840",
+    "children": [
+      "sophie819"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sofia817",
+    "father": "michael818",
+    "children": [
+      "nora825",
+      "natalie838",
+      "theodor816"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "sophie819",
+    "father": "alexander820",
+    "children": [
+      "valerie831",
+      "sofia817"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "anna842",
+    "father": "theodor841",
+    "children": [
+      "valerie843",
+      "matthias844",
+      "noah855"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "laura851",
+    "father": "vincent848",
+    "children": [
+      "luisa852"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena854",
+    "father": "adrian856",
+    "children": [
+      "florian857"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie859",
+    "father": "thomas860",
+    "children": [
+      "laura851"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valerie843",
+    "father": "marcel845",
+    "children": [
+      "lena854",
+      "jonathan846",
+      "julia863"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "katharina861",
+    "father": "matthias844",
+    "children": [
+      "lea862"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lina864",
+    "father": "elias865",
+    "children": [
+      "katharina861"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "magdalena866",
+    "father": "lorenz867",
+    "children": [
+      "olivia849"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia847",
+    "father": "jonathan846",
+    "children": [
+      "vincent848",
+      "david858"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "olivia849",
+    "father": "marko850",
+    "children": [
+      "marcel845",
+      "benjamin853"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "helena872",
+    "father": "luis868",
+    "children": [
+      "magdalena873"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura869",
+    "father": "adrian870",
+    "children": [
+      "lorenz876",
+      "fabian879",
+      "selina871",
+      "luis868"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "natalie877",
+    "father": "elias878",
+    "children": [
+      "jan874",
+      "sarah893",
+      "noah886"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "valentina880",
+    "father": "lorenz876",
+    "children": [
+      "dominik882",
+      "paula881"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "paula881",
+    "father": "patrick883",
+    "children": [
+      "stefan890",
+      "claudia887",
+      "marlene884"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "magdalena873",
+    "father": "nico888",
+    "children": [
+      "katharina889"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "charlotte891",
+    "father": "adam892",
+    "children": [
+      "nico888"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "selina871",
+    "father": "jan874",
+    "children": [
+      "larissa885",
+      "thomas875"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marie894",
+    "father": "paul900",
+    "children": [
+      "lena906",
+      "sofia901",
+      "noah905",
+      "jan902"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lea895",
+    "father": "florian896",
+    "children": [
+      "matthias899",
+      "marie894"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "luisa915",
+    "father": "noah905",
+    "children": [
+      "maximilian916"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena906",
+    "father": "moritz909",
+    "children": [
+      "larissa910",
+      "marko912"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "vanessa907",
+    "father": "fabian908",
+    "children": [
+      "jonathan918",
+      "charlotte903"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "karin911",
+    "father": "simon913",
+    "children": [
+      "sarah914"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "johanna919",
+    "father": "david920",
+    "children": [
+      "moritz909"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia897",
+    "father": "luca898",
+    "children": [
+      "helga917",
+      "florian896"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "charlotte903",
+    "father": "matthias899",
+    "children": [
+      "patrick904",
+      "karin911"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "clara931",
+    "father": "fabian921",
+    "children": [
+      "luisa933",
+      "lina932"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "natalie922",
+    "father": "sebastian923",
+    "children": [
+      "tobias941",
+      "fabian921",
+      "valentin934",
+      "oliver935"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lina932",
+    "father": "jonas942",
+    "children": [
+      "marcel943"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma936",
+    "father": "marko928",
+    "children": [
+      "lea937"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lea937",
+    "father": "konstantin938",
+    "children": [
+      "michael939",
+      "nora944"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "charlotte945",
+    "father": "tobias941",
+    "children": [
+      "daniel946"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "larissa924",
+    "father": "paul925",
+    "children": [
+      "sebastian923",
+      "nina940"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "paula926",
+    "father": "matthias927",
+    "children": [
+      "marko928",
+      "larissa924"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lara929",
+    "father": "jonathan930",
+    "children": [
+      "natalie922"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "alina957",
+    "father": "stefan947",
+    "children": [
+      "philipp958"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sophie948",
+    "father": "maximilian949",
+    "children": [
+      "elias950",
+      "stefan947"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "helena961",
+    "father": "philipp958",
+    "children": [
+      "beate962",
+      "thomas966"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "laura959",
+    "father": "christian960",
+    "children": [
+      "simon970",
+      "sophie948"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valerie963",
+    "father": "sebastian964",
+    "children": [
+      "hannah965",
+      "maximilian949",
+      "magdalena967"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "hannah965",
+    "father": "konstantin968",
+    "children": [
+      "lisa971",
+      "jakob969"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emma951",
+    "father": "elias950",
+    "children": [
+      "benjamin952"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella953",
+    "father": "benjamin952",
+    "children": [
+      "florian954"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "vanessa955",
+    "father": "florian954",
+    "children": [
+      "marie972",
+      "leon956"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "katharina974",
+    "father": "vincent973",
+    "children": [
+      "oliver988",
+      "christian987",
+      "helga976",
+      "leonie975"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "ella990",
+    "father": "jakob984",
+    "children": [
+      "stefan991"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie975",
+    "father": "dominik985",
+    "children": [
+      "felix986"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "beate996",
+    "father": "felix986",
+    "children": [
+      "nico997"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anna992",
+    "father": "christian987",
+    "children": [
+      "moritz993"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "elena998",
+    "father": "oliver988",
+    "children": [
+      "jonas999"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "magdalena994",
+    "father": "michael995",
+    "children": [
+      "philipp979"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "helga976",
+    "father": "samuel977",
+    "children": [
+      "luis989",
+      "angelina978"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "angelina978",
+    "father": "philipp979",
+    "children": [
+      "jakob984",
+      "charlotte980"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "charlotte980",
+    "father": "alexander981",
+    "children": [
+      "emilia983",
+      "tobias982"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "anna1000",
+    "father": "oliver1001",
+    "children": [
+      "anastasia1003",
+      "angelina1002"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "angelina1002",
+    "father": "tobias1011",
+    "children": [
+      "selina1013",
+      "daniel1022",
+      "elena1012"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "olivia1007",
+    "father": "luis1014",
+    "children": [
+      "valentina1015",
+      "leonie1016"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emily1018",
+    "father": "florian1019",
+    "children": [
+      "anna1000"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "larissa1020",
+    "father": "patrick1006",
+    "children": [
+      "isabella1021"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma1023",
+    "father": "valentin1024",
+    "children": [
+      "larissa1020"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia1003",
+    "father": "gabriel1004",
+    "children": [
+      "michael1025",
+      "patrick1006",
+      "olivia1007",
+      "paul1008",
+      "thomas1005"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "julia1009",
+    "father": "paul1008",
+    "children": [
+      "elias1010",
+      "claudia1017"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "paula1026",
+    "father": "stefan1027",
+    "children": [
+      "angelina1028",
+      "theodor1029",
+      "lea1050",
+      "florian1037"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "sophie1039",
+    "father": "philipp1031",
+    "children": [
+      "maximilian1040"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "elena1041",
+    "father": "marcel1042",
+    "children": [
+      "paula1026"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "olivia1043",
+    "father": "patrick1051",
+    "children": [
+      "alexander1052"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "angelina1028",
+    "father": "matthias1030",
+    "children": [
+      "julia1032",
+      "philipp1031",
+      "lena1038",
+      "marlene1033"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "marie1046",
+    "father": "paul1047",
+    "children": [
+      "charlotte1034"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "beate1048",
+    "father": "konstantin1049",
+    "children": [
+      "stefan1027"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "charlotte1034",
+    "father": "theodor1029",
+    "children": [
+      "olivia1043",
+      "dominik1036",
+      "magdalena1044",
+      "oliver1045",
+      "lisa1035"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "olivia1054",
+    "father": "leon1055",
+    "children": [
+      "marko1057",
+      "nora1056",
+      "christian1053"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "nina1063",
+    "father": "jan1062",
+    "children": [
+      "elias1064",
+      "david1072"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "helena1070",
+    "father": "elias1064",
+    "children": [
+      "gabriel1071"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "isabella1065",
+    "father": "alexander1066",
+    "children": [
+      "vanessa1060"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valerie1067",
+    "father": "adam1073",
+    "children": [
+      "elena1074"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "hannah1068",
+    "father": "sebastian1069",
+    "children": [
+      "tobias1076",
+      "leon1055"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "maria1077",
+    "father": "matthias1078",
+    "children": [
+      "adam1073"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nora1056",
+    "father": "marcel1058",
+    "children": [
+      "valerie1067",
+      "jan1062",
+      "laura1075",
+      "angelina1059"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "vanessa1060",
+    "father": "moritz1061",
+    "children": [
+      "marcel1058"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "gertrude1080",
+    "father": "benjamin1079",
+    "children": [
+      "marlene1081"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia1089",
+    "father": "thomas1091",
+    "children": [
+      "felix1100",
+      "lorenz1092"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "sofia1090",
+    "father": "oskar1093",
+    "children": [
+      "julian1094"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sarah1095",
+    "father": "sebastian1098",
+    "children": [
+      "helena1099"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "natalie1096",
+    "father": "leo1088",
+    "children": [
+      "charlotte1097"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene1081",
+    "father": "rene1082",
+    "children": [
+      "paul1083",
+      "emilia1089",
+      "jonas1085",
+      "leo1088",
+      "elena1084"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "anastasia1101",
+    "father": "theodor1102",
+    "children": [
+      "thomas1091"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marie1103",
+    "father": "konstantin1104",
+    "children": [
+      "anastasia1101"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "katharina1086",
+    "father": "luis1087",
+    "children": [
+      "rene1082",
+      "sofia1090",
+      "sarah1095"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "natalie1105",
+    "father": "matthias1106",
+    "children": [
+      "jan1107"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lara1114",
+    "father": "benjamin1115",
+    "children": [
+      "valentin1113"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "laura1117",
+    "father": "lorenz1118",
+    "children": [
+      "lena1112",
+      "alina1124"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marie1120",
+    "father": "leo1121",
+    "children": [
+      "mia1127",
+      "emma1110",
+      "maria1129"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "helena1122",
+    "father": "paul1123",
+    "children": [
+      "benjamin1115"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "selina1108",
+    "father": "jan1107",
+    "children": [
+      "leon1109",
+      "david1128",
+      "charlotte1126",
+      "samuel1116",
+      "johanna1119"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "emma1110",
+    "father": "florian1111",
+    "children": [
+      "natalie1105"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena1112",
+    "father": "valentin1113",
+    "children": [
+      "luca1130",
+      "selina1108",
+      "oskar1125"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "olivia1134",
+    "father": "raphael1131",
+    "children": [
+      "helena1135",
+      "gabriel1140"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marlene1132",
+    "father": "oliver1133",
+    "children": [
+      "raphael1131"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie1141",
+    "father": "alexander1142",
+    "children": [
+      "tobias1155",
+      "olivia1134"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marie1144",
+    "father": "leo1145",
+    "children": [
+      "amelie1141"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie1146",
+    "father": "rene1147",
+    "children": [
+      "alexander1142",
+      "clara1154"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "julia1151",
+    "father": "emil1148",
+    "children": [
+      "elena1153",
+      "samuel1152"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emily1149",
+    "father": "luis1150",
+    "children": [
+      "rene1147"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "sarah1156",
+    "father": "maximilian1157",
+    "children": [
+      "leonie1146"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lena1136",
+    "father": "florian1137",
+    "children": [
+      "emil1148",
+      "oliver1133"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valerie1138",
+    "father": "moritz1139",
+    "children": [
+      "lara1143",
+      "lena1136"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "victoria1159",
+    "father": "stefan1158",
+    "children": [
+      "raphael1160",
+      "beate1163"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "helena1169",
+    "father": "paul1170",
+    "children": [
+      "luca1162",
+      "lara1174"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "charlotte1171",
+    "father": "felix1172",
+    "children": [
+      "laura1173",
+      "oliver1164",
+      "larissa1176"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "paula1178",
+    "father": "julian1177",
+    "children": [
+      "vanessa1179"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma1180",
+    "father": "raphael1160",
+    "children": [
+      "nora1181"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "clara1182",
+    "father": "marcel1183",
+    "children": [
+      "paula1178"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lina1161",
+    "father": "luca1162",
+    "children": [
+      "stefan1158",
+      "julian1177"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "beate1163",
+    "father": "oliver1164",
+    "children": [
+      "lea1165"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anna1166",
+    "father": "benjamin1167",
+    "children": [
+      "victoria1159",
+      "marko1175",
+      "leo1168"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "selina1184",
+    "father": "philipp1198",
+    "children": [
+      "maria1208",
+      "sofia1199"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "helga1185",
+    "father": "elias1186",
+    "children": [
+      "leonie1204",
+      "selina1184",
+      "anastasia1188",
+      "daniel1187",
+      "leo1205"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "paula1193",
+    "father": "noah1194",
+    "children": [
+      "theodor1203",
+      "emil1191"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "anna1195",
+    "father": "vincent1196",
+    "children": [
+      "vanessa1200",
+      "simon1197"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "laura1201",
+    "father": "konstantin1202",
+    "children": [
+      "elias1186"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "mia1206",
+    "father": "rene1207",
+    "children": [
+      "helga1185"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "anastasia1188",
+    "father": "sebastian1209",
+    "children": [
+      "lorenz1210"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "marlene1189",
+    "father": "daniel1187",
+    "children": [
+      "lara1190",
+      "anna1195"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "lara1190",
+    "father": "emil1191",
+    "children": [
+      "stefan1192"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "amelie1211",
+    "father": "sebastian1212",
+    "children": [
+      "thomas1214",
+      "julia1213"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "nina1221",
+    "father": "emil1222",
+    "children": [
+      "tobias1223",
+      "jonathan1233"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "luisa1229",
+    "father": "tobias1223",
+    "children": [
+      "rene1230"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "natalie1225",
+    "father": "christian1226",
+    "children": [
+      "sebastian1212"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "julia1213",
+    "father": "matthias1217",
+    "children": [
+      "nina1221",
+      "katharina1218",
+      "maria1224",
+      "lina1228"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "angelina1220",
+    "father": "nico1231",
+    "children": [
+      "noah1232"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "katharina1218",
+    "father": "valentin1234",
+    "children": [
+      "nora1235"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "victoria1215",
+    "father": "thomas1214",
+    "children": [
+      "dominik1227",
+      "stefan1219",
+      "angelina1220",
+      "magdalena1236",
+      "samuel1216"
+    ],
+    "size": 7
+  },
+  {
+    "mother": "helga1238",
+    "father": "jakob1237",
+    "children": [
+      "vincent1261",
+      "clara1239",
+      "matthias1240"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "paula1262",
+    "father": "gabriel1248",
+    "children": [
+      "alina1263"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "natalie1249",
+    "father": "sebastian1250",
+    "children": [
+      "helga1238"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emma1251",
+    "father": "patrick1252",
+    "children": [
+      "dominik1245",
+      "helena1260"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "charlotte1256",
+    "father": "elias1253",
+    "children": [
+      "ella1257"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lea1254",
+    "father": "nico1246",
+    "children": [
+      "felix1255"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "clara1239",
+    "father": "jan1243",
+    "children": [
+      "lara1244"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "ella1257",
+    "father": "rene1258",
+    "children": [
+      "valentin1259"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "nina1241",
+    "father": "matthias1240",
+    "children": [
+      "julian1242"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "lara1244",
+    "father": "dominik1245",
+    "children": [
+      "fabian1247",
+      "elias1253",
+      "gabriel1248",
+      "nico1246"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lea1264",
+    "father": "thomas1268",
+    "children": [
+      "sofia1269",
+      "florian1274",
+      "anna1287",
+      "valerie1284"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lena1265",
+    "father": "marcel1266",
+    "children": [
+      "leonie1280",
+      "michael1267",
+      "lea1264"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "larissa1275",
+    "father": "christian1276",
+    "children": [
+      "sebastian1277",
+      "valentina1272"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "marlene1278",
+    "father": "paul1279",
+    "children": [
+      "lena1265"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "leonie1280",
+    "father": "valentin1282",
+    "children": [
+      "jakob1286",
+      "maximilian1283"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "emily1270",
+    "father": "michael1267",
+    "children": [
+      "laura1271",
+      "sophie1289"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "valentina1272",
+    "father": "marko1273",
+    "children": [
+      "philipp1285",
+      "marcel1266",
+      "emilia1288",
+      "adam1281"
+    ],
+    "size": 6
+  },
+  {
+    "mother": "lea1291",
+    "father": "patrick1290",
+    "children": [
+      "jakob1293",
+      "tobias1292",
+      "emily1312"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "mia1301",
+    "father": "oliver1295",
+    "children": [
+      "beate1302",
+      "sarah1305"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "beate1302",
+    "father": "adrian1314",
+    "children": [
+      "marko1315"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "valentina1303",
+    "father": "moritz1298",
+    "children": [
+      "leo1304"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "julia1307",
+    "father": "samuel1310",
+    "children": [
+      "marie1311"
+    ],
+    "size": 3
+  },
+  {
+    "mother": "emilia1308",
+    "father": "daniel1309",
+    "children": [
+      "lea1291",
+      "natalie1313"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "anna1297",
+    "father": "tobias1292",
+    "children": [
+      "david1306",
+      "moritz1298",
+      "julia1307"
+    ],
+    "size": 5
+  },
+  {
+    "mother": "sophie1294",
+    "father": "jakob1293",
+    "children": [
+      "oliver1295",
+      "alina1296"
+    ],
+    "size": 4
+  },
+  {
+    "mother": "alina1296",
+    "father": "jan1299",
+    "children": [
+      "claudia1300"
+    ],
+    "size": 3
+  }
+]
