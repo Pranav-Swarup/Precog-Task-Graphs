@@ -49,5 +49,5 @@ Thank DASS course for making me think ahead :)
 
 ## OUTPUT ON TERMINAL 
 
-![Image 1 task 1](readme_images/1.png)
-![Image 2 task 1](readme_images/2.png)
+![Image 1 task 1](misc/1.png)
+![Image 2 task 1](misc/2.png)
