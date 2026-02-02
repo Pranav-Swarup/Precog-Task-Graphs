@@ -1,5 +1,4 @@
-# graph-wide analysis and pattern detection, 
-# secondary analysis on the raw data. ts looks at multiple people at once and make claimns
+# graph-wide analysis and pattern detection, ts looks at multiple people at once and make claimns
 
 from collections import defaultdict, Counter
 from src.constants import SYMMETRIC_GROUPS, DERIVABLE_PATTERNS, PARENT_RELATIONS

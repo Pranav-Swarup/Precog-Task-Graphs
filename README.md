@@ -51,3 +51,15 @@ Thank DASS course for making me think ahead :)
 
 ![Image 1 task 1](misc/1.png)
 ![Image 2 task 1](misc/2.png)
+
+## Results of Tertiary analysis
+
+Derivability - aunt/uncle are ~88% derivable from parent+sibling chains, but niece/nephew only ~69%. Same asymmetry as grandparent vs grandchild. The graph encodes "looking down" (older to younger) more completely than "looking up".
+
+Generation-normalized outliers - lorenz794 in gen 5 has z=2.88, meaning he's almost 3 standard deviations above average for his generation. Raw degree 29 vs gen 5 avg of 13.7. These are your "family connectors" - not just high degree, but unusually connected for their position in the tree.
+
+Path multiplicity - only 4/200 random pairs connected within 3 hops, but those 4 have ~20 paths each. Graph is clustered into distinct family components with high internal redundancy. Good for community detection later.
+
+Relation structure - 84% vertical, 16% horizontal. This is a tall tree, not a wide network. Dominated by parent-child-grandparent chains, with sibling/cousin as secondary glue.
+
+Co-occurrence lift - firstCousinOnceRemoved + secondCousin appearing together (lift=20) means extended family structures are internally consistent. If you have one distant relation, you tend to have others. The high lift scores are basically validation that the family structure is coherent.
