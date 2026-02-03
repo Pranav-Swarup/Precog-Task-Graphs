@@ -1,30 +1,30 @@
 # NOTE: MODIFY TS ONLY WHEN U WANNA CHANGE THE OVERALL PARAMETERS OF THE DATA.
 
 GENERATION_DELTAS = {
-    'motherOf': 1, 'fatherOf': 1,
-    'daughterOf': -1, 'sonOf': -1,
+    'motherOf': -1, 'fatherOf': -1,
+    'daughterOf': 1, 'sonOf': 1,
     
-    'grandmotherOf': 2, 'grandfatherOf': 2,
-    'granddaughterOf': -2, 'grandsonOf': -2,
+    'grandmotherOf': -2, 'grandfatherOf': -2,
+    'granddaughterOf': 2, 'grandsonOf': 2,
     
-    'greatGrandmotherOf': 3, 'greatGrandfatherOf': 3,
-    'greatGranddaughterOf': -3, 'greatGrandsonOf': -3,
+    'greatGrandmotherOf': -3, 'greatGrandfatherOf': -3,
+    'greatGranddaughterOf': 3, 'greatGrandsonOf': 3,
     
     # same gen
     'sisterOf': 0, 'brotherOf': 0,
     'girlCousinOf': 0, 'boyCousinOf': 0,
     'girlSecondCousinOf': 0, 'boySecondCousinOf': 0,
     
-    'auntOf': 1, 'uncleOf': 1,
-    'nieceOf': -1, 'nephewOf': -1,
-    'greatAuntOf': 2, 'greatUncleOf': 2,
-    'secondAuntOf': 1, 'secondUncleOf': 1,
+    'auntOf': -1, 'uncleOf': -1,
+    'nieceOf': 1, 'nephewOf': 1,
+    'greatAuntOf': -2, 'greatUncleOf': -2,
+    'secondAuntOf': -1, 'secondUncleOf': -1,
     
     # IMP NOTE: a cousinOnceRemovedOf b means a is the YOUNGER one
     # figured this out by tracing fabian26 manually. thank god for fabian26
 
-    'girlFirstCousinOnceRemovedOf': -1, 
-    'boyFirstCousinOnceRemovedOf': -1,
+    'girlFirstCousinOnceRemovedOf': 1, 
+    'boyFirstCousinOnceRemovedOf': 1,
 }
 
 # gender of HEAD when they use this relation

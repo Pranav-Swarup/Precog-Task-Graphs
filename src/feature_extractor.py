@@ -106,59 +106,61 @@ class RawFeatureExtractor:
     # family structure functions
     
     def get_parents(self, person_id: str) -> Dict:
-        
-        
+        parents = []  # cant always tell mother vs father from daughterOf/sonOf
         mothers = []
         fathers = []
+        
+        # method 1 incoming motherOf/fatherOf
+        # "Y motherOf X" means Y is X's mother
         for rel, source in self.incoming[person_id]:
             if rel == 'motherOf':
                 mothers.append(source)
             elif rel == 'fatherOf':
                 fathers.append(source)
+        
+        # method 2outgoing daughterOf/sonOf
+        # "X daughterOf Y" means Y is X's parent gender unknown from this alone
+
+        for rel, target in self.outgoing[person_id]:
+            if rel in ('daughterOf', 'sonOf'):
+                # check if we already have this person from method 1
+                if target not in mothers and target not in fathers:
+                    parents.append(target)
+        
         return {
             'mothers': mothers,
             'fathers': fathers,
-            'total': len(mothers) + len(fathers),
+            'unknown_gender_parents': parents,  # from daughterOf/sonOf
+            'total': len(mothers) + len(fathers) + len(parents),
         }
+    
+
     
     def get_children(self, person_id: str) -> Dict:
         
+        children = []
         
-        daughters = []
-        sons = []
-
-        """
-        for rel, target in self.outgoing[person_id]:
-            if rel == 'motherOf' or rel == 'fatherOf':
-                # need to check child's gender from their relations
-                daughters.append(target)  
-                
-                # separate later based on child gender !!!! dONT FORGET TODO
-        """
-        # did  it properly here
-        daughters = []
-        sons = []
-
-        # third_gender_kids = [] (do this later)
-
+        # method 1: outgoing motherOf/fatherOf
+        # "X motherOf Y" means Y is X's child
         for rel, target in self.outgoing[person_id]:
             if rel in PARENT_RELATIONS:
-                # check what the child calls themselves
-                child_gender = self._quick_gender_check(target)
-                if child_gender == 'F':
-                    daughters.append(target)
-                elif child_gender == 'M':
-                    sons.append(target)
-                else:
-                    # ambiguous, putting it in sons for now. TODO: LOGIC FOR HANDLING THIRD GENDER
-                    sons.append(target)
+                children.append(target)
+        
+        # method 2: incoming daughterOf/sonOf
+        # "Y daughterOf X" means Y is X's child
+        for rel, source in self.incoming[person_id]:
+            if rel in ('daughterOf', 'sonOf'):
+                if source not in children:
+                    children.append(source)
         
         return {
-            'daughters': daughters,
-            'sons': sons,
-            'total': len(daughters) + len(sons),
+            'children': children,
+            'total': len(children),
         }
+
     
+    # deprecated dont use this below function !!!!
+
     def _quick_gender_check(self, person_id: str) -> str:
         
         for rel, _ in self.outgoing[person_id]:

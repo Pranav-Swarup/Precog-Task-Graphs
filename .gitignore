@@ -1,3 +1,8 @@
 /venv
-
+/venv2
+dashboard/__pycache__
+/dashboard/lib/
+/dashboard/temp_path_graph.html
+/dashboard/dashboard_cache.pkl
+/dashboard/temp_graph.html
 /src/__pycache__/
