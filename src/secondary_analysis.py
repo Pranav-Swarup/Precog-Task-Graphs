@@ -85,7 +85,7 @@ def print_stats(loader, features, analyzer):
     print(f"\nIsolated nodes (degree <= 2): {len(isolated)}")
 
 
-def save_outputs(loader, features, analyzer, output_dir='../outputs'):
+def save_outputs(loader, features, analyzer, output_dir='outputs'):
     """saves everything to files"""
     
     os.makedirs(output_dir, exist_ok=True)
@@ -194,5 +194,5 @@ def main(data_path='data/train.txt'):
 
 
 if __name__ == "__main__":
-    data_path = sys.argv[1] if len(sys.argv) > 1 else '../data/train.txt'
+    data_path = sys.argv[1] if len(sys.argv) > 1 else 'data/train.txt'
     main(data_path)

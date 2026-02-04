@@ -29,13 +29,13 @@ Relation semantics are defined in `data_backend.py`.
 Run the dashboard from the project root:
 
 ```bash
-streamlit run app.py
+streamlit run dashboard/app.py
 ```
 
 The default expected data path is:
 
 ```text
-../data/train.txt
+data/train.txt
 ```
 
 This can be modified from the sidebar.
