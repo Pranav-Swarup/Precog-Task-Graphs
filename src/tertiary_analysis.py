@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.data_loader import MetaFAMLoader
 from src.feature_extractor import RawFeatureExtractor
-from src.constants import GENERATION_DELTAS, PARENT_RELATIONS, SIBLING_RELATIONS
+from src.constants import  *
 
 
 class Explorer:
@@ -41,10 +41,13 @@ class Explorer:
         for gp_rel, parent_gender in [('grandmotherOf', 'motherOf'), ('grandfatherOf', 'fatherOf')]:
             total = 0
             derivable = 0
+
             for h, r, t in self.triplets:
+            
                 if r != gp_rel:
                     continue
                 total += 1
+            
                 # check if h -[motherOf/fatherOf]-> mid -[parentOf]-> t
                 for r1, mid in self.outgoing[h]:
                     if r1 == parent_gender:

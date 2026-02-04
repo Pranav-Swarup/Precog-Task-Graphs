@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.data_loader import MetaFAMLoader
 from src.feature_extractor import RawFeatureExtractor
-from src.graph_analysis import GraphAnalyzer
+from src.primary_analysis import GraphAnalyzer
 from src.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
 
 
