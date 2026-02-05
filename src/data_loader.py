@@ -1,3 +1,5 @@
+# the first file written :) so its left simple and neat
+
 from collections import defaultdict
 
 class MetaFAMLoader:

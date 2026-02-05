@@ -16,6 +16,7 @@ from src.constants import GENERATION_DELTAS, PARENT_RELATIONS, SIBLING_RELATIONS
 class DashboardData:
     
     def __init__(self):
+
         self.triplets = []
         self.people = set()
         self.relation_types = set()
@@ -57,7 +58,8 @@ class DashboardData:
         return self
     
     def _build_graph(self):
-        """build networkx multigraph (allows multiple edges between same nodes)"""
+
+
         self.G = nx.MultiDiGraph()
         
         for h, r, t in self.triplets:
@@ -72,7 +74,7 @@ class DashboardData:
         self._centralities = None
     
     def get_centralities(self, force_recompute=False):
-        """compute and cache centrality measures"""
+
         if self._centralities is not None and not force_recompute:
             return self._centralities
         
@@ -105,15 +107,15 @@ class DashboardData:
         return self._centralities
     
     def get_node_centrality(self, person_id):
-        """get centrality for single node"""
+
+
         cents = self.get_centralities()
         return cents.get(person_id, {})
     
+
     def find_paths(self, person_a: str, person_b: str, max_hops: int = 3) -> list:
-        """
-        find all simple paths between two people up to max_hops
-        returns list of paths, each path is list of (person, relation, person) tuples
-        """
+
+
         if person_a not in self.G or person_b not in self.G:
             return []
         
@@ -144,7 +146,7 @@ class DashboardData:
         return paths
     
     def _get_relation_between(self, person_a: str, person_b: str) -> str:
-        """get relation between two people (either direction)"""
+        
         # check outgoing from a
         for r, t in self.outgoing[person_a]:
             if t == person_b:
@@ -156,36 +158,44 @@ class DashboardData:
         return "connected"
     
     def get_path_subgraph(self, paths: list) -> dict:
-        """convert paths to nodes and edges for visualization"""
+        
         nodes = set()
         edges = []
         seen_edges = set()
         
         for path in paths:
+            
             for step in path:
+            
                 nodes.add(step['from'])
                 nodes.add(step['to'])
                 edge_key = (step['from'], step['relation'], step['to'])
+            
                 if edge_key not in seen_edges:
                     edges.append(step)
                     seen_edges.add(edge_key)
         
         return {'nodes': list(nodes), 'edges': edges}
     
+
+# CLAUDE ASSISTED CODE STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
     def get_interesting_people(self, metric: str, n: int = 10) -> list:
-        """
-        find interesting people by various metrics
-        metric: 'degree', 'betweenness', 'founders', 'gen_zscore', 'bridges'
-        """
+        
         if metric == 'degree':
             return self.get_high_degree_nodes(n)
         
         elif metric == 'betweenness':
+            
             cents = self.get_centralities()
             sorted_by_between = sorted(
+            
                 cents.items(),
                 key=lambda x: x[1]['betweenness'],
                 reverse=True
+            
             )[:n]
             return [
                 {**self.node_data[p], 'betweenness': c['betweenness']}
@@ -193,16 +203,25 @@ class DashboardData:
             ]
         
         elif metric == 'founders':
+            
             founders = self.get_founders()
             # sort by number of descendants (children + grandchildren)
+            
             founder_data = []
+
             for f in founders:
+            
+            
                 node = self.node_data[f]
                 descendants = node['num_children']
+            
                 for child in node.get('children', []):
+            
                     if child in self.node_data:
                         descendants += self.node_data[child]['num_children']
+            
                 founder_data.append({**node, 'descendants': descendants})
+            
             return sorted(founder_data, key=lambda x: x['descendants'], reverse=True)[:n]
         
         elif metric == 'gen_zscore':
@@ -226,7 +245,7 @@ class DashboardData:
                 
                 for p, deg in degrees:
                     zscore = (deg - mean_deg) / std_deg if std_deg > 0 else 0
-                    if zscore > 1.5:  # significantly above average
+                    if zscore > 1.5:  #  above average
                         results.append({
                             **self.node_data[p],
                             'zscore': round(zscore, 2),
@@ -241,7 +260,7 @@ class DashboardData:
             # high betweenness + low clustering = bridge
             results = []
             for p, c in cents.items():
-                if c['betweenness'] > 0.01:  # threshold
+                if c['betweenness'] > 0.01: # threshold EDIT HERE FOR BRIDGES
                     node = self.node_data[p]
                     results.append({
                         **node,
@@ -251,8 +270,14 @@ class DashboardData:
         
         return []
     
+
+# CLAUDE ASSISTED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+    
     def get_families(self) -> list:
-        """get all connected components (families)"""
+        
+
         G_undirected = self.G.to_undirected()
         components = list(nx.connected_components(G_undirected))
         
@@ -261,13 +286,14 @@ class DashboardData:
             families.append({
                 'family_id': i,
                 'size': len(comp),
-                'members': list(comp)[:10],  # just first 10 for display
+                'members': list(comp)[:10],  # just fIRst 10
             })
         
         return families
     
     def get_subgraph_stats(self, nodes: list) -> dict:
-        """compute stats for a subgraph"""
+        
+
         node_set = set(nodes)
         
         # filter node data
@@ -289,17 +315,24 @@ class DashboardData:
             'num_nodes': len(sub_nodes),
             'num_edges': len(sub_edges),
             'avg_degree': sum(degrees) / len(degrees) if degrees else 0,
+        
+        
             'max_degree': max(degrees) if degrees else 0,
             'min_degree': min(degrees) if degrees else 0,
+
             'num_founders': sum(1 for n in sub_nodes if n['is_founder']),
+            
             'num_leaves': sum(1 for n in sub_nodes if n['is_leaf']),
             'num_anomalies': sum(1 for n in sub_nodes if n['has_anomaly']),
+            
             'generation_range': (min(gens), max(gens)) if gens else (0, 0),
             'gender_counts': Counter(n['gender'] for n in sub_nodes),
+        
         }
     
     def get_full_graph_stats(self) -> dict:
-        """compute stats for full graph"""
+        
+
         families = self.get_families()
         degrees = [n['degree'] for n in self.node_data.values()]
         
@@ -313,8 +346,8 @@ class DashboardData:
         }
     
     def _process_for_dashboard(self):
-        """convert raw features to dashboard-friendly flat format"""
         
+
         for person_id, f in self.features['people'].items():
             gender_inf = infer_gender(f['gender_evidence'])
             anomaly_class = classify_anomaly_severity(f['anomalies'])
@@ -402,11 +435,12 @@ class DashboardData:
             'edges': edges,
         }
     
+    # CHECK HERE UPDATE TREE HIERARCHY VIEW. DONT FORGERT
+
+
     def get_family_tree(self, person_id: str) -> dict:
-        """
-        get vertical family tree (parents, grandparents, children, grandchildren)
-        more structured than ego network
-        """
+        
+
         if person_id not in self.node_data:
             return {'nodes': [], 'edges': [], 'center': person_id}
         
@@ -454,20 +488,26 @@ class DashboardData:
         
         # children
         for child in node.get('children', []):
+
             nodes.add(child)
             # determine relation based on person's gender
+            
             if node['gender'] == 'F':
                 edges.append({'from': person_id, 'relation': 'motherOf', 'to': child})
+            
             else:
                 edges.append({'from': person_id, 'relation': 'fatherOf', 'to': child})
             
             # grandchildren
             if child in self.node_data:
                 child_node = self.node_data[child]
+            
                 for gc in child_node.get('children', []):
                     nodes.add(gc)
+            
                     if child_node['gender'] == 'F':
                         edges.append({'from': child, 'relation': 'motherOf', 'to': gc})
+            
                     else:
                         edges.append({'from': child, 'relation': 'fatherOf', 'to': gc})
         
@@ -477,37 +517,47 @@ class DashboardData:
             'edges': edges,
         }
     
+
+
     def get_connected_component(self, person_id: str) -> set:
-        """get all people in same connected component"""
+        
+
         if person_id not in self.G:
             return set()
         
         G_undirected = self.G.to_undirected()
+    
         for comp in nx.connected_components(G_undirected):
+    
             if person_id in comp:
+    
                 return comp
         
         return {person_id}
     
     def get_generation_stats(self) -> dict:
-        """generation distribution"""
+    
         gens = [n['generation'] for n in self.node_data.values()]
+    
         counts = Counter(gens)
+    
         return dict(sorted(counts.items()))
     
     def get_gender_stats(self) -> dict:
-        """gender distribution"""
+    
         genders = [n['gender'] for n in self.node_data.values()]
+    
         return dict(Counter(genders))
     
     def get_relation_stats(self) -> dict:
-        """relation type counts"""
+    
         rels = [r for _, r, _ in self.triplets]
         return dict(Counter(rels).most_common())
     
     def get_degree_stats(self) -> dict:
-        """degree distribution summary"""
+    
         degrees = [n['degree'] for n in self.node_data.values()]
+    
         return {
             'min': min(degrees),
             'max': max(degrees),
@@ -516,34 +566,45 @@ class DashboardData:
         }
     
     def search_people(self, query: str, limit: int = 20) -> list:
-        """simple search by person id prefix"""
+       
         query = query.lower()
         matches = [p for p in self.people if query in p.lower()]
+        
         return sorted(matches)[:limit]
     
     def get_high_degree_nodes(self, n: int = 20) -> list:
-        """get top n nodes by degree"""
+        
         sorted_nodes = sorted(self.node_data.items(), key=lambda x: x[1]['degree'], reverse=True)
+        
         return [{'person_id': p, **d} for p, d in sorted_nodes[:n]]
     
     def get_founders(self) -> list:
-        """get all founder nodes"""
+        
         return [p for p, d in self.node_data.items() if d['is_founder']]
     
     def get_anomalous_nodes(self) -> list:
-        """get nodes with anomalies"""
+        
         return [{'person_id': p, **d} for p, d in self.node_data.items() if d['has_anomaly']]
     
     def categorize_relation(self, relation: str) -> str:
         
         if relation in GENERATION_DELTAS:
+        
             delta = GENERATION_DELTAS[relation]
+        
             if delta == 0:
                 return 'horizontal'
+        
             else:
                 return 'vertical'
+        
         return 'unknown'
     
+
+# CLAUDE ASSISTED CODE STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
     def save_cache(self, filepath: str = 'dashboard_cache.pkl'):
         
         data = {
@@ -553,6 +614,7 @@ class DashboardData:
             'features': self.features,
             'node_data': self.node_data,
         }
+        
         with open(filepath, 'wb') as f:
             pickle.dump(data, f)
     
@@ -579,3 +641,7 @@ class DashboardData:
         self._build_graph()
         
         return True
+    
+
+# CLAUDE ASSISTED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+

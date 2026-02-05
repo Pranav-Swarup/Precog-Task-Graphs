@@ -13,10 +13,11 @@ from src.analysis_helpers import GraphAnalyzer
 from src.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
 
 
+# CLAUDE ASSISTED CODE STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# there is no thinking needed to write this file. all it does is run the pipeline. so i used ai here.
+
 def print_stats(loader, features, analyzer):
 
-    # Claude helped me a lot to format this neatly :D 
-    # (it wrote this entire file but, it's just boring code here so i figured why not)
 
     print("METAFAM DATASET SUMMARY")
     
@@ -171,6 +172,11 @@ def save_outputs(loader, features, analyzer, output_dir='outputs'):
     with open(os.path.join(output_dir, 'sibling_groups.json'), 'w') as f:
         json.dump(sibling_groups, f, indent=2)
     print(f"saved sibling_groups.json ({len(sibling_groups)} groups)")
+
+
+
+# CLAUDE ASSISTED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 
 def main(data_path='data/train.txt'):

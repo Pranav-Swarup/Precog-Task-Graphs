@@ -1,4 +1,6 @@
-# THIS FILE IS HERE TO GET THE RAW STUFF FROM THE DATASET
+# THIS FILE IS HERE TO ONLY GET THE RAW STUFF FROM THE DATASET
+
+# REMINDER - DO NOT MAKE ANY INFERENCES IN THIS FILE DO THAT IN PRIMARY OR SEC ANALYSIS
 
 from collections import defaultdict, Counter
 from typing import *
@@ -13,7 +15,7 @@ class RawFeatureExtractor:
         self.outgoing = defaultdict(list)
         self.incoming = defaultdict(list)
 
-        # ia m rebuilding the triplets here 
+        # i a m rebuilding the triplets here 
 
         for head, rel, tail in triplets:
             self.outgoing[head].append((rel, tail))
@@ -119,6 +121,7 @@ class RawFeatureExtractor:
         # method 1 incoming motherOf/fatherOf
         # "Y motherOf X" means Y is X's mother
         for rel, source in self.incoming[person_id]:
+            
             if rel == 'motherOf':
                 mothers.append(source)
             elif rel == 'fatherOf':
@@ -164,7 +167,7 @@ class RawFeatureExtractor:
             'total': len(children),
         }
 
-    
+    """  
     # deprecated dont use this quick gender funtion !!!!
 
     def _quick_gender_check(self, person_id: str) -> str:
@@ -176,7 +179,7 @@ class RawFeatureExtractor:
         
         return 'U'
     
-
+    """
     
     def get_siblings(self, person_id: str) -> List[str]:
         

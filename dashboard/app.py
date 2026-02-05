@@ -12,18 +12,18 @@ from data_backend import DashboardData
 from visualization import GraphViz
 
 st.set_page_config(
-    page_title="MetaFAM Explorer",
+    page_title="metafam kg explorer - by psk",
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.sidebar.caption("Made by Pranav Swarup Kumar")
+st.sidebar.caption("by Pranav Swarup (frontend by claude. but data from manually derived metrics)")
 
 if 'data' not in st.session_state:
     st.session_state.data = None
 if 'viz' not in st.session_state:
     st.session_state.viz = None
 
-st.sidebar.title("MetaFAM Explorer")
+st.sidebar.title("metafam kg explorer")
 st.sidebar.markdown("---")
 
 data_path = st.sidebar.text_input("Data file path", value="./data/train.txt", help="path to triplets file")
@@ -51,8 +51,8 @@ if col2.button("Load Cache"):
         st.sidebar.warning("no cache found")
 
 if st.session_state.data is None:
-    st.title("MetaFAM Knowledge Graph Explorer")
-    st.info("load data from sidebar to begin")
+    st.title("etafam kg explorer")
+    st.info("load data from sidebar. you can change the path if your data is smwher else")
     st.stop()
 
 data = st.session_state.data
@@ -95,15 +95,18 @@ def compute_generational_balance(_data_triplets, _people):
     gbi = {}
     for person in _people:
         ancestors = set(nx.ancestors(child_parent_dag, person)) if person in child_parent_dag else set()
+
         descendants = set(nx.descendants(parent_child_dag, person)) if person in parent_child_dag else set()
+
         n_anc, n_desc = len(ancestors), len(descendants)
         gbi[person] = (n_desc - n_anc) / (n_desc + n_anc + 1)
+    
     return gbi
 
 
 @st.cache_data
 def compute_generation_span(_data_triplets, _people, _node_data_gens):
-    """compute how many generations a person spans"""
+    
     from src.constants import PARENT_RELATIONS
     import networkx as nx
     
@@ -130,22 +133,27 @@ def compute_generation_span(_data_triplets, _people, _node_data_gens):
         min_gen = min(anc_gens) if anc_gens else person_gen
         max_gen = max(desc_gens) if desc_gens else person_gen
         gs[person] = max_gen - min_gen
+
     return gs
 
 
 def get_family_by_id(data, family_id):
-    """get all members of a family by family ID"""
+    
     import networkx as nx
     G_undirected = data.G.to_undirected()
+
     components = sorted(list(nx.connected_components(G_undirected)), key=len, reverse=True)
+    
     if family_id < len(components):
         return list(components[family_id])
+    
     return []
 
 
 def get_family_for_person(data, person_id):
-    """get full family (connected component) for a person"""
+    
     return list(data.get_connected_component(person_id))
+
 
 
 # prepare cached data for metrics
@@ -153,13 +161,16 @@ triplets_tuple = tuple(data.triplets)
 people_tuple = tuple(data.people)
 node_gens = {p: n['generation'] for p, n in data.node_data.items()}
 
-# ============ TABS ============
+# TAB ORDERING HERE
 
 tab_overview, tab_explore, tab_pathfinder, tab_person, tab_stats = st.tabs([
     "Overview", "Graph Explorer", "Path Finder", "Person Lookup", "Statistics"
 ])
 
-# ---------------- overview ----------------
+
+# MAIN PAGE 
+# CLAUDE ASSISTED CODE BEGINS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 with tab_overview:
     st.header("Dataset Overview")
@@ -357,10 +368,10 @@ with tab_overview:
 # ---------------- graph explorer ----------------
 
 with tab_explore:
-    st.header("Interactive Graph")
+    st.header("interactive graph - play around with stuff! its really fun :D")
     
     st.sidebar.markdown("---")
-    st.sidebar.subheader("Graph Controls")
+    st.sidebar.subheader("controls")
     
     view_mode = st.sidebar.radio("View Mode", ["Family Tree", "Ego Network", "Sample Nodes", "Family View"], index=0)
     color_by = st.sidebar.selectbox("Color by", ["generation", "gender", "degree"])
@@ -386,7 +397,7 @@ with tab_explore:
             sub_stats = data.get_subgraph_stats(subgraph['nodes'])
             full_stats = data.get_full_graph_stats()
             
-            with st.expander("📊 Subgraph Stats", expanded=False):
+            with st.expander("Subgraph Stats", expanded=False):
                 stat_cols = st.columns(4)
                 stat_cols[0].metric("Nodes", sub_stats['num_nodes'], f"{sub_stats['num_nodes']/full_stats['num_nodes']*100:.2f}%")
                 stat_cols[1].metric("Edges", sub_stats['num_edges'], f"{sub_stats['num_edges']/full_stats['num_edges']*100:.2f}%")
@@ -435,7 +446,7 @@ with tab_explore:
             sub_stats = data.get_subgraph_stats(tree['nodes'])
             full_stats = data.get_full_graph_stats()
             
-            with st.expander("📊 Subgraph Stats", expanded=False):
+            with st.expander("Subgraph Stats", expanded=False):
                 stat_cols = st.columns(4)
                 stat_cols[0].metric("Nodes", sub_stats['num_nodes'], f"{sub_stats['num_nodes']/full_stats['num_nodes']*100:.2f}%")
                 stat_cols[1].metric("Edges", sub_stats['num_edges'])
@@ -530,7 +541,7 @@ with tab_explore:
         elif color_by == "degree":
             st.write("Low degree = blue → High degree = red")
 
-            
+
 # ============ TAB: PATH FINDER ============
 
 with tab_pathfinder:
@@ -595,7 +606,9 @@ with tab_pathfinder:
                 st.error(f"Person '{person_b}' not found")
 
 
-# ============ TAB: PERSON LOOKUP ============
+# CLAUDE ASSISTED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 
 with tab_person:
     st.header("Person Details")
@@ -652,11 +665,11 @@ with tab_person:
                 
                 flags = []
                 if node['is_founder']:
-                    flags.append("🌟 Founder")
+                    flags.append("Founder")
                 if node['is_leaf']:
-                    flags.append("🍃 Leaf")
+                    flags.append("Leaf")
                 if node['has_anomaly']:
-                    flags.append(f"⚠️ Anomalies: {node['anomalies']}")
+                    flags.append(f"Anomalies: {node['anomalies']}")
                 if flags:
                     st.write("**Flags:** " + ", ".join(flags))
                 
@@ -679,12 +692,11 @@ with tab_person:
                         st.write(f"**{rel_type}** ({len(sources)}): {', '.join(sources[:5])}" + (" ..." if len(sources) > 5 else ""))
 
 
-# ============ TAB: STATISTICS ============
-
 with tab_stats:
     st.header("Detailed Statistics")
     
     st.subheader("Degree Distribution")
+
     degrees = [n['degree'] for n in data.node_data.values()]
     fig = px.histogram(degrees, nbins=30, title="Node Degree Distribution", labels={'value': 'Degree', 'count': 'Count'})
     st.plotly_chart(fig, use_container_width=True)
@@ -703,6 +715,11 @@ with tab_stats:
     else:
         st.success("No anomalies detected")
     
+
+# CLAUDE ASSISTED CODE STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
     st.markdown("---")
     st.subheader("Export Data")
     if st.button("Prepare CSV"):
@@ -714,7 +731,8 @@ with tab_stats:
         st.success("Saved to dashboard_cache.pkl")
 
 
-# ---------------- footer ----------------
+# CLAUDE ASSISTED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 st.sidebar.markdown("---")
-st.sidebar.caption("MetaFAM Explorer v2.0")
-st.sidebar.caption("Genealogy-specific metrics from tertiary analysis")
+st.sidebar.caption("metafam explorer version - idk at this point i lost count")
+st.sidebar.caption("latest edit was to include genealogy inspired metrics from the insights gathered from tertiary analysis. I also added a new full-family view to show ego networks in tree shape.")
