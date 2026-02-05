@@ -12,6 +12,9 @@ class RawFeatureExtractor:
         
         self.outgoing = defaultdict(list)
         self.incoming = defaultdict(list)
+
+        # ia m rebuilding the triplets here 
+
         for head, rel, tail in triplets:
             self.outgoing[head].append((rel, tail))
             self.incoming[tail].append((rel, head))
@@ -53,8 +56,11 @@ class RawFeatureExtractor:
 
         # build constraint edges
         neighbors = defaultdict(list)
+
         for head, rel, tail in self.triplets:
+        
             if rel in GENERATION_DELTAS:
+        
                 delta = GENERATION_DELTAS[rel]
                 neighbors[head].append((tail, delta))
                 neighbors[tail].append((head, -delta))
@@ -140,14 +146,14 @@ class RawFeatureExtractor:
         
         children = []
         
-        # method 1: outgoing motherOf/fatherOf
-        # "X motherOf Y" means Y is X's child
+        #  outgoing motherOf/fatherOf
+        # X motherOf y means Y is X's child
         for rel, target in self.outgoing[person_id]:
             if rel in PARENT_RELATIONS:
                 children.append(target)
         
-        # method 2: incoming daughterOf/sonOf
-        # "Y daughterOf X" means Y is X's child
+        #  incoming daughterOf/sonOf
+        # Y daughterOf X means Y is X's child
         for rel, source in self.incoming[person_id]:
             if rel in ('daughterOf', 'sonOf'):
                 if source not in children:
@@ -159,24 +165,31 @@ class RawFeatureExtractor:
         }
 
     
-    # deprecated dont use this below function !!!!
+    # deprecated dont use this quick gender funtion !!!!
 
     def _quick_gender_check(self, person_id: str) -> str:
         
-        for rel, _ in self.outgoing[person_id]:
+        for rel, smtg in self.outgoing[person_id]:
+            
             if rel in GENDER_EVIDENCE:
                 return GENDER_EVIDENCE[rel][0]
+        
         return 'U'
+    
+
     
     def get_siblings(self, person_id: str) -> List[str]:
         
         sibs = set()
+
         for rel, target in self.outgoing[person_id]:
             if rel in SIBLING_RELATIONS:
                 sibs.add(target)
+        
         for rel, source in self.incoming[person_id]:
             if rel in SIBLING_RELATIONS:
                 sibs.add(source)
+        
         return list(sibs)
     
     
@@ -187,15 +200,18 @@ class RawFeatureExtractor:
         
         for rel, _ in self.outgoing[person_id]:
             out_counts[rel] += 1
+        
         for rel, _ in self.incoming[person_id]:
             in_counts[rel] += 1
         
         return {
+        
             'outgoing': dict(out_counts),
             'incoming': dict(in_counts),
             'total_out': sum(out_counts.values()),
             'total_in': sum(in_counts.values()),
             'total': sum(out_counts.values()) + sum(in_counts.values()),
+        
         }
     
 

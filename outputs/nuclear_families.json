@@ -12,10 +12,10 @@
     "mother": "katharina1",
     "father": "dominik2",
     "children": [
+      "oskar24",
       "selina10",
-      "adam9",
       "isabella11",
-      "oskar24"
+      "adam9"
     ],
     "size": 6
   },
@@ -63,9 +63,9 @@
     "mother": "emma7",
     "father": "moritz8",
     "children": [
-      "luis14",
       "natalie13",
-      "paula12"
+      "paula12",
+      "luis14"
     ],
     "size": 5
   },
@@ -121,9 +121,9 @@
     "mother": "victoria30",
     "father": "raphael29",
     "children": [
-      "sebastian49",
+      "moritz31",
       "marie43",
-      "moritz31"
+      "sebastian49"
     ],
     "size": 5
   },
@@ -171,9 +171,9 @@
     "mother": "katharina64",
     "father": "rene58",
     "children": [
-      "jakob78",
       "felix65",
-      "oliver71"
+      "oliver71",
+      "jakob78"
     ],
     "size": 5
   },
@@ -280,9 +280,9 @@
     "mother": "amelie81",
     "father": "fabian83",
     "children": [
-      "jonathan84",
       "jan87",
-      "jonas101"
+      "jonas101",
+      "jonathan84"
     ],
     "size": 5
   },
@@ -290,8 +290,8 @@
     "mother": "nora85",
     "father": "florian82",
     "children": [
-      "marlene86",
-      "philipp104"
+      "philipp104",
+      "marlene86"
     ],
     "size": 4
   },
@@ -316,9 +316,9 @@
     "mother": "anastasia106",
     "father": "vincent107",
     "children": [
-      "theodor105",
       "julian108",
-      "adam125"
+      "adam125",
+      "theodor105"
     ],
     "size": 5
   },
@@ -358,8 +358,8 @@
     "mother": "claudia109",
     "father": "emil110",
     "children": [
-      "larissa124",
       "vincent107",
+      "larissa124",
       "johanna116"
     ],
     "size": 5
@@ -376,10 +376,10 @@
     "mother": "johanna131",
     "father": "david132",
     "children": [
-      "gabriel146",
-      "oskar133",
       "fabian140",
-      "larissa136"
+      "larissa136",
+      "oskar133",
+      "gabriel146"
     ],
     "size": 6
   },
@@ -435,8 +435,8 @@
     "mother": "beate134",
     "father": "emil135",
     "children": [
-      "maria152",
-      "alexander137"
+      "alexander137",
+      "maria152"
     ],
     "size": 4
   },
@@ -453,8 +453,8 @@
     "father": "elias159",
     "children": [
       "helga183",
-      "konstantin163",
-      "philipp160"
+      "philipp160",
+      "konstantin163"
     ],
     "size": 5
   },
@@ -534,8 +534,8 @@
     "mother": "emilia184",
     "father": "luca197",
     "children": [
-      "adam198",
-      "oliver207"
+      "oliver207",
+      "adam198"
     ],
     "size": 4
   },
@@ -543,9 +543,9 @@
     "mother": "selina185",
     "father": "gabriel186",
     "children": [
-      "vanessa193",
       "lisa194",
-      "beate196"
+      "beate196",
+      "vanessa193"
     ],
     "size": 5
   },
@@ -561,8 +561,8 @@
     "mother": "helga203",
     "father": "jonas204",
     "children": [
-      "rene205",
-      "florian208"
+      "florian208",
+      "rene205"
     ],
     "size": 4
   },
@@ -595,8 +595,8 @@
     "mother": "sofia191",
     "father": "michael192",
     "children": [
-      "helga203",
-      "elias190"
+      "elias190",
+      "helga203"
     ],
     "size": 4
   },
@@ -613,8 +613,8 @@
     "mother": "isabella212",
     "father": "adrian213",
     "children": [
-      "marcel214",
-      "marie215"
+      "marie215",
+      "marcel214"
     ],
     "size": 4
   },
@@ -694,8 +694,8 @@
     "mother": "claudia250",
     "father": "benjamin247",
     "children": [
-      "valerie260",
-      "elena257"
+      "elena257",
+      "valerie260"
     ],
     "size": 4
   },
@@ -767,8 +767,8 @@
     "mother": "olivia244",
     "father": "felix245",
     "children": [
-      "emil252",
-      "sebastian240"
+      "sebastian240",
+      "emil252"
     ],
     "size": 4
   },
@@ -776,8 +776,8 @@
     "mother": "emily264",
     "father": "elias263",
     "children": [
-      "luisa268",
-      "oliver265"
+      "oliver265",
+      "luisa268"
     ],
     "size": 4
   },
@@ -817,8 +817,8 @@
     "mother": "katharina266",
     "father": "oliver265",
     "children": [
-      "jonas271",
-      "isabella267"
+      "isabella267",
+      "jonas271"
     ],
     "size": 4
   },
@@ -858,9 +858,9 @@
     "mother": "natalie290",
     "father": "raphael289",
     "children": [
-      "valentin292",
       "mia293",
       "hannah291",
+      "valentin292",
       "angelina300"
     ],
     "size": 6
@@ -910,9 +910,9 @@
     "mother": "mia293",
     "father": "paul294",
     "children": [
-      "marlene304",
+      "maria295",
       "maximilian296",
-      "maria295"
+      "marlene304"
     ],
     "size": 5
   },
@@ -936,9 +936,9 @@
     "mother": "julia316",
     "father": "marko317",
     "children": [
-      "elias338",
       "helena324",
       "leonie318",
+      "elias338",
       "lara321"
     ],
     "size": 6
@@ -1134,9 +1134,9 @@
     "mother": "alina371",
     "father": "vincent372",
     "children": [
-      "fabian386",
-      "tobias384",
       "gertrude378",
+      "tobias384",
+      "fabian386",
       "simon374"
     ],
     "size": 6
@@ -1145,8 +1145,8 @@
     "mother": "leonie375",
     "father": "florian376",
     "children": [
-      "clara377",
       "vincent372",
+      "clara377",
       "hannah385"
     ],
     "size": 5
@@ -1164,9 +1164,9 @@
     "mother": "lena395",
     "father": "david396",
     "children": [
-      "marko416",
       "marlene405",
-      "beate406"
+      "beate406",
+      "marko416"
     ],
     "size": 5
   },
@@ -1206,8 +1206,8 @@
     "mother": "lisa400",
     "father": "philipp401",
     "children": [
-      "david396",
-      "samuel412"
+      "samuel412",
+      "david396"
     ],
     "size": 4
   },
@@ -1381,9 +1381,9 @@
     "mother": "ella473",
     "father": "adam474",
     "children": [
+      "elena492",
       "michael477",
       "elias478",
-      "elena492",
       "paula481"
     ],
     "size": 6
@@ -1392,8 +1392,8 @@
     "mother": "alina482",
     "father": "michael477",
     "children": [
-      "tobias483",
-      "thomas486"
+      "thomas486",
+      "tobias483"
     ],
     "size": 4
   },
@@ -1449,8 +1449,8 @@
     "mother": "ella500",
     "father": "noah501",
     "children": [
-      "julian508",
-      "sarah514"
+      "sarah514",
+      "julian508"
     ],
     "size": 4
   },
@@ -1475,8 +1475,8 @@
     "mother": "marlene512",
     "father": "luis513",
     "children": [
-      "lena524",
-      "victoria515"
+      "victoria515",
+      "lena524"
     ],
     "size": 4
   },
@@ -1516,8 +1516,8 @@
     "mother": "luisa506",
     "father": "jonas507",
     "children": [
-      "lara522",
-      "sofia502"
+      "sofia502",
+      "lara522"
     ],
     "size": 4
   },
@@ -1599,8 +1599,8 @@
     "mother": "anastasia533",
     "father": "benjamin534",
     "children": [
-      "christian532",
-      "thomas544"
+      "thomas544",
+      "christian532"
     ],
     "size": 4
   },
@@ -1666,10 +1666,10 @@
     "mother": "marie555",
     "father": "konstantin556",
     "children": [
+      "helena558",
       "noah557",
-      "lara560",
       "anna559",
-      "helena558"
+      "lara560"
     ],
     "size": 6
   },
@@ -1677,9 +1677,9 @@
     "mother": "hannah586",
     "father": "theodor578",
     "children": [
-      "luca603",
+      "felix587",
       "selina588",
-      "felix587"
+      "luca603"
     ],
     "size": 5
   },
@@ -1687,8 +1687,8 @@
     "mother": "claudia579",
     "father": "marcel580",
     "children": [
-      "paul583",
-      "theodor578"
+      "theodor578",
+      "paul583"
     ],
     "size": 4
   },
@@ -1736,8 +1736,8 @@
     "mother": "vanessa581",
     "father": "rene582",
     "children": [
-      "mia595",
-      "marcel580"
+      "marcel580",
+      "mia595"
     ],
     "size": 4
   },
@@ -1793,8 +1793,8 @@
     "mother": "lena606",
     "father": "emil607",
     "children": [
-      "fabian608",
-      "nina611"
+      "nina611",
+      "fabian608"
     ],
     "size": 4
   },
@@ -1802,8 +1802,8 @@
     "mother": "elena609",
     "father": "fabian608",
     "children": [
-      "luis629",
-      "amelie610"
+      "amelie610",
+      "luis629"
     ],
     "size": 4
   },
@@ -1811,9 +1811,9 @@
     "mother": "nina611",
     "father": "matthias612",
     "children": [
-      "lea618",
       "karin613",
-      "katharina617"
+      "katharina617",
+      "lea618"
     ],
     "size": 5
   },
@@ -1830,8 +1830,8 @@
     "mother": "lea640",
     "father": "michael645",
     "children": [
-      "paula648",
-      "maria653"
+      "maria653",
+      "paula648"
     ],
     "size": 4
   },
@@ -1839,8 +1839,8 @@
     "mother": "luisa632",
     "father": "raphael642",
     "children": [
-      "lina644",
-      "jakob647"
+      "jakob647",
+      "lina644"
     ],
     "size": 4
   },
@@ -1872,9 +1872,9 @@
     "mother": "emilia633",
     "father": "dominik634",
     "children": [
-      "fabian636",
+      "magdalena639",
       "leon635",
-      "magdalena639"
+      "fabian636"
     ],
     "size": 5
   },
@@ -1898,8 +1898,8 @@
     "mother": "karin657",
     "father": "jakob658",
     "children": [
-      "paul676",
       "sarah656",
+      "paul676",
       "helena661"
     ],
     "size": 5
@@ -1966,8 +1966,8 @@
     "father": "moritz663",
     "children": [
       "oskar664",
-      "stefan677",
-      "marko660"
+      "marko660",
+      "stefan677"
     ],
     "size": 5
   },
@@ -1975,9 +1975,9 @@
     "mother": "emma683",
     "father": "michael684",
     "children": [
+      "lara682",
       "dominik702",
-      "valerie690",
-      "lara682"
+      "valerie690"
     ],
     "size": 5
   },
@@ -1985,8 +1985,8 @@
     "mother": "sophie694",
     "father": "daniel695",
     "children": [
-      "charlotte706",
-      "patrick686"
+      "patrick686",
+      "charlotte706"
     ],
     "size": 4
   },
@@ -2020,10 +2020,10 @@
     "mother": "magdalena685",
     "father": "patrick686",
     "children": [
-      "elena696",
       "helga707",
+      "marie687",
       "michael684",
-      "marie687"
+      "elena696"
     ],
     "size": 6
   },
@@ -2031,10 +2031,10 @@
     "mother": "johanna688",
     "father": "christian689",
     "children": [
+      "leo693",
       "marlene692",
       "emma683",
-      "helena691",
-      "leo693"
+      "helena691"
     ],
     "size": 6
   },
@@ -2042,8 +2042,8 @@
     "mother": "johanna709",
     "father": "gabriel708",
     "children": [
-      "benjamin710",
-      "julian732"
+      "julian732",
+      "benjamin710"
     ],
     "size": 4
   },
@@ -2051,8 +2051,8 @@
     "mother": "marie717",
     "father": "adam719",
     "children": [
-      "sebastian720",
-      "maria725"
+      "maria725",
+      "sebastian720"
     ],
     "size": 4
   },
@@ -2117,10 +2117,10 @@
     "mother": "isabella714",
     "father": "fabian715",
     "children": [
-      "paula716",
-      "rene718",
       "marie717",
-      "johanna709"
+      "johanna709",
+      "paula716",
+      "rene718"
     ],
     "size": 6
   },
@@ -2128,9 +2128,9 @@
     "mother": "lisa736",
     "father": "adrian735",
     "children": [
-      "mia752",
+      "helena755",
       "valentin737",
-      "helena755"
+      "mia752"
     ],
     "size": 5
   },
@@ -2181,8 +2181,8 @@
     "mother": "johanna756",
     "father": "lukas757",
     "children": [
-      "moritz758",
-      "gabriel742"
+      "gabriel742",
+      "moritz758"
     ],
     "size": 4
   },
@@ -2190,8 +2190,8 @@
     "mother": "isabella743",
     "father": "paul739",
     "children": [
-      "jonathan750",
-      "nico744"
+      "nico744",
+      "jonathan750"
     ],
     "size": 4
   },
@@ -2210,8 +2210,8 @@
       "anastasia769",
       "rene765",
       "magdalena782",
-      "noah786",
-      "sarah776"
+      "sarah776",
+      "noah786"
     ],
     "size": 7
   },
@@ -2245,8 +2245,8 @@
     "mother": "hannah777",
     "father": "rene765",
     "children": [
-      "vanessa783",
-      "natalie778"
+      "natalie778",
+      "vanessa783"
     ],
     "size": 4
   },
@@ -2262,8 +2262,8 @@
     "mother": "nora766",
     "father": "florian767",
     "children": [
-      "moritz768",
-      "johanna781"
+      "johanna781",
+      "moritz768"
     ],
     "size": 4
   },
@@ -2271,8 +2271,8 @@
     "mother": "lara770",
     "father": "moritz768",
     "children": [
-      "oskar771",
-      "lukas772"
+      "lukas772",
+      "oskar771"
     ],
     "size": 4
   },
@@ -2280,8 +2280,8 @@
     "mother": "sophie787",
     "father": "oskar788",
     "children": [
-      "dominik789",
-      "tobias806"
+      "tobias806",
+      "dominik789"
     ],
     "size": 4
   },
@@ -2322,9 +2322,9 @@
     "mother": "laura790",
     "father": "dominik789",
     "children": [
+      "luisa791",
       "michael803",
-      "vincent792",
-      "luisa791"
+      "vincent792"
     ],
     "size": 5
   },
@@ -2348,11 +2348,11 @@
     "mother": "vanessa793",
     "father": "lorenz794",
     "children": [
-      "lisa805",
-      "emil809",
+      "oskar788",
       "emily808",
       "isabella807",
-      "oskar788"
+      "emil809",
+      "lisa805"
     ],
     "size": 7
   },
@@ -2361,8 +2361,8 @@
     "father": "moritz821",
     "children": [
       "david832",
-      "jakob835",
-      "elena822"
+      "elena822",
+      "jakob835"
     ],
     "size": 5
   },
@@ -2370,8 +2370,8 @@
     "mother": "isabella815",
     "father": "theodor816",
     "children": [
-      "claudia814",
       "fabian833",
+      "claudia814",
       "maximilian828"
     ],
     "size": 5
@@ -2440,9 +2440,9 @@
     "mother": "anna842",
     "father": "theodor841",
     "children": [
+      "valerie843",
       "matthias844",
-      "noah855",
-      "valerie843"
+      "noah855"
     ],
     "size": 5
   },
@@ -2474,9 +2474,9 @@
     "mother": "valerie843",
     "father": "marcel845",
     "children": [
-      "julia863",
       "lena854",
-      "jonathan846"
+      "jonathan846",
+      "julia863"
     ],
     "size": 5
   },
@@ -2517,8 +2517,8 @@
     "mother": "olivia849",
     "father": "marko850",
     "children": [
-      "marcel845",
-      "benjamin853"
+      "benjamin853",
+      "marcel845"
     ],
     "size": 4
   },
@@ -2534,10 +2534,10 @@
     "mother": "laura869",
     "father": "adrian870",
     "children": [
-      "lorenz876",
       "luis868",
       "selina871",
-      "fabian879"
+      "fabian879",
+      "lorenz876"
     ],
     "size": 6
   },
@@ -2545,8 +2545,8 @@
     "mother": "natalie877",
     "father": "elias878",
     "children": [
-      "sarah893",
       "noah886",
+      "sarah893",
       "jan874"
     ],
     "size": 5
@@ -2564,9 +2564,9 @@
     "mother": "paula881",
     "father": "patrick883",
     "children": [
-      "marlene884",
       "claudia887",
-      "stefan890"
+      "stefan890",
+      "marlene884"
     ],
     "size": 5
   },
@@ -2599,8 +2599,8 @@
     "mother": "marie894",
     "father": "paul900",
     "children": [
-      "sofia901",
       "lena906",
+      "sofia901",
       "noah905",
       "jan902"
     ],
@@ -2627,8 +2627,8 @@
     "mother": "lena906",
     "father": "moritz909",
     "children": [
-      "larissa910",
-      "marko912"
+      "marko912",
+      "larissa910"
     ],
     "size": 4
   },
@@ -2636,8 +2636,8 @@
     "mother": "vanessa907",
     "father": "fabian908",
     "children": [
-      "jonathan918",
-      "charlotte903"
+      "charlotte903",
+      "jonathan918"
     ],
     "size": 4
   },
@@ -2661,8 +2661,8 @@
     "mother": "anastasia897",
     "father": "luca898",
     "children": [
-      "helga917",
-      "florian896"
+      "florian896",
+      "helga917"
     ],
     "size": 4
   },
@@ -2679,8 +2679,8 @@
     "mother": "clara931",
     "father": "fabian921",
     "children": [
-      "luisa933",
-      "lina932"
+      "lina932",
+      "luisa933"
     ],
     "size": 4
   },
@@ -2688,10 +2688,10 @@
     "mother": "natalie922",
     "father": "sebastian923",
     "children": [
-      "tobias941",
       "oliver935",
+      "valentin934",
       "fabian921",
-      "valentin934"
+      "tobias941"
     ],
     "size": 6
   },
@@ -2715,8 +2715,8 @@
     "mother": "lea937",
     "father": "konstantin938",
     "children": [
-      "nora944",
-      "michael939"
+      "michael939",
+      "nora944"
     ],
     "size": 4
   },
@@ -2732,8 +2732,8 @@
     "mother": "larissa924",
     "father": "paul925",
     "children": [
-      "sebastian923",
-      "nina940"
+      "nina940",
+      "sebastian923"
     ],
     "size": 4
   },
@@ -2766,8 +2766,8 @@
     "mother": "sophie948",
     "father": "maximilian949",
     "children": [
-      "elias950",
-      "stefan947"
+      "stefan947",
+      "elias950"
     ],
     "size": 4
   },
@@ -2775,8 +2775,8 @@
     "mother": "helena961",
     "father": "philipp958",
     "children": [
-      "beate962",
-      "thomas966"
+      "thomas966",
+      "beate962"
     ],
     "size": 4
   },
@@ -2784,8 +2784,8 @@
     "mother": "laura959",
     "father": "christian960",
     "children": [
-      "simon970",
-      "sophie948"
+      "sophie948",
+      "simon970"
     ],
     "size": 4
   },
@@ -2828,8 +2828,8 @@
     "mother": "vanessa955",
     "father": "florian954",
     "children": [
-      "leon956",
-      "marie972"
+      "marie972",
+      "leon956"
     ],
     "size": 4
   },
@@ -2837,10 +2837,10 @@
     "mother": "katharina974",
     "father": "vincent973",
     "children": [
-      "christian987",
       "helga976",
+      "leonie975",
       "oliver988",
-      "leonie975"
+      "christian987"
     ],
     "size": 6
   },
@@ -2914,8 +2914,8 @@
     "mother": "charlotte980",
     "father": "alexander981",
     "children": [
-      "tobias982",
-      "emilia983"
+      "emilia983",
+      "tobias982"
     ],
     "size": 4
   },
@@ -2932,9 +2932,9 @@
     "mother": "angelina1002",
     "father": "tobias1011",
     "children": [
-      "elena1012",
+      "selina1013",
       "daniel1022",
-      "selina1013"
+      "elena1012"
     ],
     "size": 5
   },
@@ -2942,8 +2942,8 @@
     "mother": "olivia1007",
     "father": "luis1014",
     "children": [
-      "leonie1016",
-      "valentina1015"
+      "valentina1015",
+      "leonie1016"
     ],
     "size": 4
   },
@@ -2975,11 +2975,11 @@
     "mother": "anastasia1003",
     "father": "gabriel1004",
     "children": [
-      "paul1008",
-      "thomas1005",
+      "michael1025",
       "patrick1006",
+      "paul1008",
       "olivia1007",
-      "michael1025"
+      "thomas1005"
     ],
     "size": 7
   },
@@ -2996,10 +2996,10 @@
     "mother": "paula1026",
     "father": "stefan1027",
     "children": [
-      "lea1050",
       "theodor1029",
       "florian1037",
-      "angelina1028"
+      "angelina1028",
+      "lea1050"
     ],
     "size": 6
   },
@@ -3033,8 +3033,8 @@
     "children": [
       "marlene1033",
       "lena1038",
-      "philipp1031",
-      "julia1032"
+      "julia1032",
+      "philipp1031"
     ],
     "size": 6
   },
@@ -3058,10 +3058,10 @@
     "mother": "charlotte1034",
     "father": "theodor1029",
     "children": [
-      "magdalena1044",
-      "oliver1045",
       "olivia1043",
       "dominik1036",
+      "magdalena1044",
+      "oliver1045",
       "lisa1035"
     ],
     "size": 7
@@ -3070,9 +3070,9 @@
     "mother": "olivia1054",
     "father": "leon1055",
     "children": [
-      "nora1056",
+      "marko1057",
       "christian1053",
-      "marko1057"
+      "nora1056"
     ],
     "size": 5
   },
@@ -3130,10 +3130,10 @@
     "mother": "nora1056",
     "father": "marcel1058",
     "children": [
-      "angelina1059",
-      "laura1075",
+      "jan1062",
       "valerie1067",
-      "jan1062"
+      "angelina1059",
+      "laura1075"
     ],
     "size": 6
   },
@@ -3157,8 +3157,8 @@
     "mother": "emilia1089",
     "father": "thomas1091",
     "children": [
-      "felix1100",
-      "lorenz1092"
+      "lorenz1092",
+      "felix1100"
     ],
     "size": 4
   },
@@ -3190,11 +3190,11 @@
     "mother": "marlene1081",
     "father": "rene1082",
     "children": [
-      "emilia1089",
       "leo1088",
+      "elena1084",
+      "emilia1089",
       "jonas1085",
-      "paul1083",
-      "elena1084"
+      "paul1083"
     ],
     "size": 7
   },
@@ -3218,9 +3218,9 @@
     "mother": "katharina1086",
     "father": "luis1087",
     "children": [
+      "sarah1095",
       "rene1082",
-      "sofia1090",
-      "sarah1095"
+      "sofia1090"
     ],
     "size": 5
   },
@@ -3253,8 +3253,8 @@
     "mother": "marie1120",
     "father": "leo1121",
     "children": [
-      "mia1127",
       "maria1129",
+      "mia1127",
       "emma1110"
     ],
     "size": 5
@@ -3271,11 +3271,11 @@
     "mother": "selina1108",
     "father": "jan1107",
     "children": [
+      "samuel1116",
+      "leon1109",
       "charlotte1126",
       "david1128",
-      "johanna1119",
-      "samuel1116",
-      "leon1109"
+      "johanna1119"
     ],
     "size": 7
   },
@@ -3291,8 +3291,8 @@
     "mother": "lena1112",
     "father": "valentin1113",
     "children": [
-      "selina1108",
       "luca1130",
+      "selina1108",
       "oskar1125"
     ],
     "size": 5
@@ -3301,8 +3301,8 @@
     "mother": "olivia1134",
     "father": "raphael1131",
     "children": [
-      "helena1135",
-      "gabriel1140"
+      "gabriel1140",
+      "helena1135"
     ],
     "size": 4
   },
@@ -3318,8 +3318,8 @@
     "mother": "amelie1141",
     "father": "alexander1142",
     "children": [
-      "olivia1134",
-      "tobias1155"
+      "tobias1155",
+      "olivia1134"
     ],
     "size": 4
   },
@@ -3344,8 +3344,8 @@
     "mother": "julia1151",
     "father": "emil1148",
     "children": [
-      "elena1153",
-      "samuel1152"
+      "samuel1152",
+      "elena1153"
     ],
     "size": 4
   },
@@ -3378,8 +3378,8 @@
     "mother": "valerie1138",
     "father": "moritz1139",
     "children": [
-      "lara1143",
-      "lena1136"
+      "lena1136",
+      "lara1143"
     ],
     "size": 4
   },
@@ -3405,8 +3405,8 @@
     "mother": "charlotte1171",
     "father": "felix1172",
     "children": [
-      "larissa1176",
       "laura1173",
+      "larissa1176",
       "oliver1164"
     ],
     "size": 5
@@ -3456,8 +3456,8 @@
     "mother": "anna1166",
     "father": "benjamin1167",
     "children": [
-      "marko1175",
       "victoria1159",
+      "marko1175",
       "leo1168"
     ],
     "size": 5
@@ -3475,11 +3475,11 @@
     "mother": "helga1185",
     "father": "elias1186",
     "children": [
-      "anastasia1188",
-      "leonie1204",
-      "daniel1187",
+      "leo1205",
       "selina1184",
-      "leo1205"
+      "leonie1204",
+      "anastasia1188",
+      "daniel1187"
     ],
     "size": 7
   },
@@ -3487,8 +3487,8 @@
     "mother": "paula1193",
     "father": "noah1194",
     "children": [
-      "theodor1203",
-      "emil1191"
+      "emil1191",
+      "theodor1203"
     ],
     "size": 4
   },
@@ -3496,8 +3496,8 @@
     "mother": "anna1195",
     "father": "vincent1196",
     "children": [
-      "vanessa1200",
-      "simon1197"
+      "simon1197",
+      "vanessa1200"
     ],
     "size": 4
   },
@@ -3529,8 +3529,8 @@
     "mother": "marlene1189",
     "father": "daniel1187",
     "children": [
-      "anna1195",
-      "lara1190"
+      "lara1190",
+      "anna1195"
     ],
     "size": 4
   },
@@ -3555,8 +3555,8 @@
     "mother": "nina1221",
     "father": "emil1222",
     "children": [
-      "jonathan1233",
-      "tobias1223"
+      "tobias1223",
+      "jonathan1233"
     ],
     "size": 4
   },
@@ -3580,8 +3580,8 @@
     "mother": "julia1213",
     "father": "matthias1217",
     "children": [
-      "lina1228",
       "nina1221",
+      "lina1228",
       "katharina1218",
       "maria1224"
     ],
@@ -3607,11 +3607,11 @@
     "mother": "victoria1215",
     "father": "thomas1214",
     "children": [
-      "stefan1219",
       "samuel1216",
-      "angelina1220",
       "magdalena1236",
-      "dominik1227"
+      "angelina1220",
+      "dominik1227",
+      "stefan1219"
     ],
     "size": 7
   },
@@ -3620,8 +3620,8 @@
     "father": "jakob1237",
     "children": [
       "clara1239",
-      "vincent1261",
-      "matthias1240"
+      "matthias1240",
+      "vincent1261"
     ],
     "size": 5
   },
@@ -3645,8 +3645,8 @@
     "mother": "emma1251",
     "father": "patrick1252",
     "children": [
-      "helena1260",
-      "dominik1245"
+      "dominik1245",
+      "helena1260"
     ],
     "size": 4
   },
@@ -3694,10 +3694,10 @@
     "mother": "lara1244",
     "father": "dominik1245",
     "children": [
-      "gabriel1248",
       "nico1246",
-      "elias1253",
-      "fabian1247"
+      "gabriel1248",
+      "fabian1247",
+      "elias1253"
     ],
     "size": 6
   },
@@ -3705,10 +3705,10 @@
     "mother": "lea1264",
     "father": "thomas1268",
     "children": [
-      "sofia1269",
       "anna1287",
       "florian1274",
-      "valerie1284"
+      "valerie1284",
+      "sofia1269"
     ],
     "size": 6
   },
@@ -3716,9 +3716,9 @@
     "mother": "lena1265",
     "father": "marcel1266",
     "children": [
-      "leonie1280",
+      "lea1264",
       "michael1267",
-      "lea1264"
+      "leonie1280"
     ],
     "size": 5
   },
@@ -3743,8 +3743,8 @@
     "mother": "leonie1280",
     "father": "valentin1282",
     "children": [
-      "maximilian1283",
-      "jakob1286"
+      "jakob1286",
+      "maximilian1283"
     ],
     "size": 4
   },
@@ -3761,10 +3761,10 @@
     "mother": "valentina1272",
     "father": "marko1273",
     "children": [
-      "adam1281",
       "philipp1285",
       "marcel1266",
-      "emilia1288"
+      "emilia1288",
+      "adam1281"
     ],
     "size": 6
   },
@@ -3782,8 +3782,8 @@
     "mother": "mia1301",
     "father": "oliver1295",
     "children": [
-      "beate1302",
-      "sarah1305"
+      "sarah1305",
+      "beate1302"
     ],
     "size": 4
   },
@@ -3824,9 +3824,9 @@
     "mother": "anna1297",
     "father": "tobias1292",
     "children": [
+      "david1306",
       "julia1307",
-      "moritz1298",
-      "david1306"
+      "moritz1298"
     ],
     "size": 5
   },
@@ -3834,8 +3834,8 @@
     "mother": "sophie1294",
     "father": "jakob1293",
     "children": [
-      "alina1296",
-      "oliver1295"
+      "oliver1295",
+      "alina1296"
     ],
     "size": 4
   },

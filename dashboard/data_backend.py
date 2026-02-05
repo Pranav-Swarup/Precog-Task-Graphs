@@ -14,9 +14,6 @@ from src.constants import GENERATION_DELTAS, PARENT_RELATIONS, SIBLING_RELATIONS
 
 
 class DashboardData:
-    """
-    handles all data loading and provides clean interfaces for dashboard
-    """
     
     def __init__(self):
         self.triplets = []
@@ -32,7 +29,6 @@ class DashboardData:
         self.edge_set = set()
     
     def load(self, filepath: str):
-        """load and process data"""
         
         # use our loader
         loader = MetaFAMLoader(filepath)
@@ -539,7 +535,7 @@ class DashboardData:
         return [{'person_id': p, **d} for p, d in self.node_data.items() if d['has_anomaly']]
     
     def categorize_relation(self, relation: str) -> str:
-        """categorize a relation type"""
+        
         if relation in GENERATION_DELTAS:
             delta = GENERATION_DELTAS[relation]
             if delta == 0:
@@ -561,7 +557,7 @@ class DashboardData:
             pickle.dump(data, f)
     
     def load_cache(self, filepath: str = 'dashboard_cache.pkl') -> bool:
-        """load from cache if exists"""
+        
         if not os.path.exists(filepath):
             return False
         

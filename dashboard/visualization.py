@@ -1,7 +1,3 @@
-"""
-visualization helpers for pyvis
-handles node/edge styling and graph creation
-"""
 from pyvis.network import Network
 from typing import Dict, List, Optional, Set
 
@@ -301,7 +297,8 @@ class GraphViz:
         color_by: str = 'generation',
         size_by: str = 'degree',
     ) -> Network:
-        """convenience method for ego network"""
+        
+        
         subgraph = self.data.get_ego_network(person_id, hops)
         return self.create_graph(
             subgraph['nodes'],
