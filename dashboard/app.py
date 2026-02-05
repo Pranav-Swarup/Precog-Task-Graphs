@@ -16,7 +16,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-st.sidebar.caption("by Pranav Swarup (frontend by claude. but data from manually derived metrics)")
+st.sidebar.caption("by Pranav Swarup")
 
 if 'data' not in st.session_state:
     st.session_state.data = None
@@ -51,7 +51,7 @@ if col2.button("Load Cache"):
         st.sidebar.warning("no cache found")
 
 if st.session_state.data is None:
-    st.title("etafam kg explorer")
+    st.title("metafam kg explorer")
     st.info("load data from sidebar. you can change the path if your data is smwher else")
     st.stop()
 
@@ -368,7 +368,7 @@ with tab_overview:
 # ---------------- graph explorer ----------------
 
 with tab_explore:
-    st.header("interactive graph - play around with stuff! its really fun :D")
+    st.header("interactive graph - play around with stuff its really fun :D")
     
     st.sidebar.markdown("---")
     st.sidebar.subheader("controls")
