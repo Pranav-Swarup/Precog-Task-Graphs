@@ -1,11 +1,11 @@
-# inference functions that make decisions from raw features
-# all the thresholding, rounding, classification happens here
-# keeping this separate so raw data stays clean
+# inference function originally was meant to be a place for inferencing stuff from the raw data if it was messy. 
+# but the data is clean so this file is pretty small
 
 def infer_gender(gender_evidence: dict, threshold: float = 0.7) -> dict:
 
 
-    # here the data was actually clean. and all people turned out with 1.0 confidence dude or girl but itll work with broken data too
+    # here the data was actually clean. and all people turned out with 1.0 confidence to be a dude or girl 
+    # but itll work with broken data too
     # makes gender decision from raw evidence
     # threshold = what ratio counts as confident. 
 

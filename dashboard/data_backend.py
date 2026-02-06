@@ -1,4 +1,4 @@
-import networkx as nx
+import networkx as nx # pyright: ignore[reportMissingModuleSource]
 from collections import defaultdict, Counter
 import pickle
 import os
@@ -7,10 +7,10 @@ import sys
 # add parent dir to path so we can import src modules
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data_loader import MetaFAMLoader
-from src.feature_extractor import RawFeatureExtractor
-from src.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
-from src.constants import GENERATION_DELTAS, PARENT_RELATIONS, SIBLING_RELATIONS
+from src.task1.data_loader import MetaFAMLoader
+from src.task1.feature_extractor import RawFeatureExtractor
+from src.task1.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
+from src.task1.constants import GENERATION_DELTAS, PARENT_RELATIONS, SIBLING_RELATIONS
 
 
 class DashboardData:
@@ -225,6 +225,7 @@ class DashboardData:
             return sorted(founder_data, key=lambda x: x['descendants'], reverse=True)[:n]
         
         elif metric == 'gen_zscore':
+            
             # most central for their generation
             from collections import defaultdict
             import statistics
@@ -240,6 +241,8 @@ class DashboardData:
                 if len(degrees) < 2:
                     continue
                 degs = [d for _, d in degrees]
+                
+
                 mean_deg = statistics.mean(degs)
                 std_deg = statistics.stdev(degs) if len(degs) > 1 else 1
                 
@@ -392,18 +395,16 @@ class DashboardData:
             }
     
     def get_node(self, person_id: str) -> dict:
-        """get processed node data"""
+
+
         return self.node_data.get(person_id)
     
     def get_all_nodes(self) -> dict:
-        """get all node data"""
+
         return self.node_data
     
     def get_ego_network(self, person_id: str, hops: int = 1) -> dict:
-        """
-        get subgraph around a person
-        returns nodes and edges for visualization
-        """
+
         if person_id not in self.G:
             return {'nodes': [], 'edges': [], 'center': person_id}
         

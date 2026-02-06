@@ -7,10 +7,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data_loader import MetaFAMLoader
-from src.feature_extractor import RawFeatureExtractor
-from src.analysis_helpers import GraphAnalyzer
-from src.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
+from src.task1.data_loader import MetaFAMLoader
+from src.task1.feature_extractor import RawFeatureExtractor
+from src.task1.analysis_helpers import GraphAnalyzer
+from src.task1.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
 
 
 # CLAUDE ASSISTED CODE STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -70,7 +70,9 @@ def print_stats(loader, features, analyzer):
     # derivable relations
     derivable = analyzer.check_derivable_relations()
     print(f"\nDerivable relation coverage:")
+    
     for rel, stats in derivable.items():
+
         if stats['total'] > 0:
             pct = stats['derivable'] / stats['total'] * 100
             print(f"  {rel}: {stats['derivable']}/{stats['total']} ({pct:.1f}%)")
@@ -78,6 +80,7 @@ def print_stats(loader, features, analyzer):
     # high degree nodes
     high_deg = analyzer.find_high_degree_nodes(threshold=40)
     print(f"\nHigh degree nodes (40+): {len(high_deg)}")
+    
     for node in high_deg[:5]:
         print(f"  {node['person']}: degree {node['degree']}, gen {node['generation']}")
     
@@ -86,8 +89,7 @@ def print_stats(loader, features, analyzer):
     print(f"\nIsolated nodes (degree <= 2): {len(isolated)}")
 
 
-def save_outputs(loader, features, analyzer, output_dir='outputs'):
-    """saves everything to files"""
+def save_outputs(loader, features, analyzer, output_dir='raw_csv_outputs'):
     
     os.makedirs(output_dir, exist_ok=True)
     

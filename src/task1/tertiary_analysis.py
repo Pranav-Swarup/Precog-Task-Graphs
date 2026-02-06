@@ -1,17 +1,17 @@
-# family_centrality.py these are some rudimentary implementations of domain-aware metrics I tried coming up with
-# specifically for family knowledge graphs. based on semantic sense.
+# family_centrality.py these are some implementations of family-aware metrics 
+# I tried coming up with these so they make more sense for a family knowledge graph based on semantic ideas.
 
-import networkx as nx
+import networkx as nx # type: ignore
 from collections import defaultdict, Counter
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.data_loader import MetaFAMLoader
-from src.feature_extractor import RawFeatureExtractor
-from src.inference import infer_gender
-from src.constants import PARENT_RELATIONS, SIBLING_RELATIONS
+from src.task1.data_loader import MetaFAMLoader
+from src.task1.feature_extractor import RawFeatureExtractor
+from src.task1.inference import infer_gender
+from src.task1.constants import PARENT_RELATIONS, SIBLING_RELATIONS
 
 
 class FamilyCentrality:
@@ -23,8 +23,8 @@ class FamilyCentrality:
         self.features = features
         self.people = list(features['people'].keys())
         
-        # build parent-child DAG (directed, no sibling edges)
-        # this is the "true" genealogical structure
+        # build parent child DAG
+        # this is the true genealogical structure
     
         self.parent_child_dag = nx.DiGraph()
         for h, r, t in triplets:
@@ -47,7 +47,7 @@ class FamilyCentrality:
             elif person not in self.parent_child_dag:
                 pass
     
-    def _get_ancestors(self, person):
+    def get_ancestors(self, person):
         
         
         if person in self._ancestors_cache:
@@ -61,7 +61,7 @@ class FamilyCentrality:
         self._ancestors_cache[person] = ancestors
         return ancestors
     
-    def _get_descendants(self, person):
+    def get_descendants(self, person):
         
         if person in self._descendants_cache:
             return self._descendants_cache[person]
@@ -81,7 +81,7 @@ class FamilyCentrality:
         wdrc = {}
         
         for person in self.people:
-            descendants = self._get_descendants(person)
+            descendants = self.get_descendants(person)
             drc[person] = len(descendants)
             
             # weighted version
@@ -104,7 +104,7 @@ class FamilyCentrality:
         ud = {}
         
         for person in self.people:
-            ancestors = self._get_ancestors(person)
+            ancestors = self.get_ancestors(person)
             # which founders are among ancestors?
             founder_ancestors = ancestors & self.founders
             
@@ -121,8 +121,8 @@ class FamilyCentrality:
         bi = {}
         
         for person in self.people:
-            ancestors = self._get_ancestors(person)
-            descendants = self._get_descendants(person)
+            ancestors = self.get_ancestors(person)
+            descendants = self.get_descendants(person)
             
             n_anc = len(ancestors)
             n_desc = len(descendants)
@@ -134,32 +134,20 @@ class FamilyCentrality:
     
     
     def lineage_criticality_score(self):
-        """
-        LCS(v) = number of descendants who would lose ALL ancestor paths if v removed
         
-        different from articulation points:
-        - articulation points just check graph connectivity
-        - LCS checks genealogical continuity to founders
+        # LCS(v) = number of descendants who would lose ALL ancestor paths if v removed
         
-        a person with high LCS is a "genealogical bottleneck"
-        
-        COMPUTATION: for each descendant, check if all paths to founders go through v
-        equivalent to: descendant's ancestors ∩ founders ⊆ ancestors reachable via v
-        
-        SIMPLIFICATION: in practice, if v is the only parent of a child,
-        that child (and all their descendants) depend entirely on v for ancestry
-        """
         lcs = {}
         
         for person in self.people:
-            descendants = self._get_descendants(person)
-            person_ancestors = self._get_ancestors(person)
+            descendants = self.get_descendants(person)
+            person_ancestors = self.get_ancestors(person)
             person_founders = person_ancestors & self.founders
             
             critical_count = 0
             
             for desc in descendants:
-                desc_ancestors = self._get_ancestors(desc)
+                desc_ancestors = self.get_ancestors(desc)
                 desc_founders = desc_ancestors & self.founders
     
                 founders_not_through_person = desc_founders - person_founders
@@ -186,8 +174,8 @@ class FamilyCentrality:
                 gs[person] = 0
                 continue
             
-            ancestors = self._get_ancestors(person)
-            descendants = self._get_descendants(person)
+            ancestors = self.get_ancestors(person)
+            descendants = self.get_descendants(person)
             
             anc_gens = [self.features['people'][a]['generation'] for a in ancestors 
                        if self.features['people'][a]['generation'] is not None]
@@ -206,22 +194,22 @@ class FamilyCentrality:
     
         drc = self.descendant_counts()
         
-        print("computing ancestral diversity score...")
-        ads = self.upward_diversity()
+        print("upward diversity score...")
+        uds = self.upward_diversity()
         
-        print("computing generational balance index...")
-        gbi = self.balance_index()
+        print("generational balance index...")
+        bi = self.balance_index()
         
-        print("computing lineage criticality score...")
+        print("lineage criticality score...")
         lcs = self.lineage_criticality_score()
     
-        print("computing generation span...")
+        print("generation span...")
         gs = self.generation_span()
         
         return {
             'descendant_counts': drc,
-            'ancestral_diversity': ads,
-            'generational_balance': gbi,
+            'upward_diversity': uds,
+            'generational_balance': bi,
             
             'lineage_criticality': lcs,
             
@@ -232,13 +220,12 @@ class FamilyCentrality:
         
         
         drc_raw = results['descendant_counts']['raw']
-        ads = results['ancestral_diversity']
+        uds = results['upward_diversity']
         gbi = results['generational_balance']
         lcs = results['lineage_criticality']
         gs = results['generation_span']
         
         
-        # --- DRC ---
         print("\nDESCENDANT COUNTS")
         print("measures how many people exist downstream from this person")
         
@@ -249,39 +236,39 @@ class FamilyCentrality:
             gen = self.features['people'][person]['generation']
             print(f"  {person}: {score} descendants (gen {gen})")
         
-        # drc by generation
-        gen_drc = defaultdict(list)
+        # by generation
+        gen_dc = defaultdict(list)
         for person, score in drc_raw.items():
             gen = self.features['people'][person]['generation']
             if gen is not None:
-                gen_drc[gen].append(score)
+                gen_dc[gen].append(score)
         
         print("\naverage descendant counts by generation:")
-        for g in sorted(gen_drc.keys()):
-            avg = sum(gen_drc[g]) / len(gen_drc[g])
+        for g in sorted(gen_dc.keys()):
+            avg = sum(gen_dc[g]) / len(gen_dc[g])
             print(f"  gen {g}: {avg:.1f} avg descendants")
             
         
-        # --- ADS ---
-        print("\nANCESTRAL DIVERSITY SCORE")
+
+        print("\nUPWARD DIVERSITY SCORE")
         print("measures: how many distinct founder lineages converge at this person")
                 
-        top_ads = sorted(ads.items(), key=lambda x: x[1], reverse=True)[:10]
-        print("highest ancestral diversity:")
-        for person, score in top_ads:
+        top_uds = sorted(uds.items(), key=lambda x: x[1], reverse=True)[:10]
+        print("highest upward diversity:")
+        for person, score in top_uds:
             gen = self.features['people'][person]['generation']
             print(f"  {person}: {score} founder lineages (gen {gen})")
         
-        # ads by generation
-        gen_ads = defaultdict(list)
-        for person, score in ads.items():
+        # uds by generation
+        gen_uds = defaultdict(list)
+        for person, score in uds.items():
             gen = self.features['people'][person]['generation']
             if gen is not None:
-                gen_ads[gen].append(score)
+                gen_uds[gen].append(score)
         
-        print("\naverage ancestral diversity by generation:")
-        for g in sorted(gen_ads.keys()):
-            avg = sum(gen_ads[g]) / len(gen_ads[g])
+        print("\naverage upward diversity by generation:")
+        for g in sorted(gen_uds.keys()):
+            avg = sum(gen_uds[g]) / len(gen_uds[g])
             print(f"  gen {g}: {avg:.1f} founder lineages")
         
         
@@ -290,7 +277,7 @@ class FamilyCentrality:
         print("measures: ratio of descendants to ancestors")
         print("range: [-1 (all ancestors), 0 (balanced), +1 (all descendants)]\n")
         
-        # group by GBI range
+
         founder_like = [(p,g) for p,g in gbi.items() if g > 0.5]
         balanced = [(p,g) for p,g in gbi.items() if -0.3 <= g <= 0.3]
         leaf_like = [(p,g) for p,g in gbi.items() if g < -0.5]
@@ -300,15 +287,15 @@ class FamilyCentrality:
         print(f"  balanced (-0.3 to 0.3): {len(balanced)} people")
         print(f"  leaf-like (GBI < -0.5): {len(leaf_like)} people")
         
-        # --- LCS ---
+        # LC
         print("\nLINEAGE CRITICALITY")
-        print("measures: descendants who would lose all founder connections if this person removed")
+        print("measures descendants who would lose all founder connections if this person removed")
         
         top_lcs = sorted(lcs.items(), key=lambda x: x[1], reverse=True)[:10]
         print("highest lineage criticality:")
         for person, score in top_lcs:
             gen = self.features['people'][person]['generation']
-            desc_count = len(self._get_descendants(person))
+            desc_count = len(self.get_descendants(person))
             print(f"  {person}: {score}/{desc_count} critical descendants (gen {gen})")
         
         # how many people have LCS > 0?

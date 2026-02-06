@@ -6,7 +6,7 @@
 
 
 
-from pyvis.network import Network
+from pyvis.network import Network # pyright: ignore[reportMissingImports, reportMissingModuleSource]
 from typing import Dict, List, Optional, Set
 
 

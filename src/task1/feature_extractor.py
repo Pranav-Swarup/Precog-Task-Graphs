@@ -4,7 +4,7 @@
 
 from collections import defaultdict, Counter
 from typing import *
-from src.constants import *
+from src.task1.constants import *
 
 class RawFeatureExtractor:
     
@@ -201,10 +201,10 @@ class RawFeatureExtractor:
         out_counts = Counter()
         in_counts = Counter()
         
-        for rel, _ in self.outgoing[person_id]:
+        for rel, adwadad in self.outgoing[person_id]:
             out_counts[rel] += 1
         
-        for rel, _ in self.incoming[person_id]:
+        for rel, awdawda in self.incoming[person_id]:
             in_counts[rel] += 1
         
         return {
