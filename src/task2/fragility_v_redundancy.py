@@ -1,16 +1,17 @@
-# Generational Fragility: remove each person, measure what breaks.
+# removes each person, measures what breaks. did this for 5 families
 
 import networkx as nx # pyright: ignore[reportMissingModuleSource]
 import numpy as np  # pyright: ignore[reportMissingImports, reportMissingModuleSource]
 import sys
 import os
 from collections import defaultdict
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from src.task1.data_loader import MetaFAMLoader
 from src.task1.feature_extractor import RawFeatureExtractor
 from src.task2.graph_builder import *
+
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 def removal_impact(G, node):
 
@@ -89,6 +90,8 @@ def generational_disconnection(G, node, generation_map):
         'isolated_generations': isolated_gens,
     }
 
+# CLAUDE GENERATED CODE BEGINS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 def analyze_family(G_undirected, dag, family_nodes, generation_map):
     
@@ -165,3 +168,6 @@ if __name__ == '__main__':
                   f"reach_loss={r.get('reachability_loss_frac', 0)*100:.1f}%, "
                   f"orphaned={r.get('orphaned_descendants', 0)}, "
                   f"fragments={r.get('fragments', [])}")
+            
+
+# CLAUDE GENERATED CODE ENDS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

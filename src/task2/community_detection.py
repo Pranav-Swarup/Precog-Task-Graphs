@@ -37,6 +37,8 @@ def girvan_newman(G, k=None):
     return _communities_to_dict(best_partition)
 
 
+# CLAUDE GENERATED CODE BEGINS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 def spectral(G, n_clusters=None, seed=42):
 
     A = nx.to_numpy_array(G)
@@ -69,12 +71,6 @@ def spectral(G, n_clusters=None, seed=42):
 
     return {nodes[i]: int(labels[i]) for i in range(len(nodes))}
 
-
-def label_propagation(G):
-    communities = nx.community.label_propagation_communities(G)
-    return _communities_to_dict(communities)
-
-
 def node2vec_kmeans(G, n_clusters=None, dimensions=32, walk_length=10,
                     num_walks=80, seed=42):
 
@@ -100,6 +96,14 @@ def node2vec_kmeans(G, n_clusters=None, dimensions=32, walk_length=10,
 
     labels = KMeans(n_clusters=n_clusters, random_state=seed, n_init=10).fit_predict(embeddings)
     return {nodes[i]: int(labels[i]) for i in range(len(nodes))}
+
+
+# CLAUDE GENERATED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+def label_propagation(G):
+    communities = nx.community.label_propagation_communities(G)
+    return _communities_to_dict(communities)
 
 
 

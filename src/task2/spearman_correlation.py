@@ -1,0 +1,77 @@
+import networkx as nx # type: ignore
+from scipy.stats import spearmanr # pyright: ignore[reportMissingImports]
+from collections import defaultdict
+from itertools import combinations
+import sys
+import os
+from src.task1.data_loader import MetaFAMLoader
+from src.task1.feature_extractor import RawFeatureExtractor
+from src.task2.relation_weighed_distance import build_distance_graph
+from src.task2.ancestor_overlap import build_ancestor_sets, ancestor_jaccard
+
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+def spearman_correlation(triplets, features, n_families=5):
+    
+    people = list(features['people'].keys())
+    
+    G_full = nx.Graph()
+    for h, r, t in triplets:
+        G_full.add_edge(h, t)
+    
+    G_weighted = build_distance_graph(triplets)
+    ancestor_sets = build_ancestor_sets(triplets, people)
+    
+    families = list(nx.connected_components(G_full))[:n_families]
+    
+    all_weighted = []
+    all_overlap = []
+    
+    print(f"\nSPEARMAN CORRELATION: Weighted Distance vs Ancestor Overlap")
+    
+    for i, fam_nodes in enumerate(families):
+        fam_list = list(fam_nodes)
+        w_dists = []
+        overlaps = []
+        
+        for a, b in combinations(fam_list, 2):
+            # weighted distance
+            try:
+                wd = nx.dijkstra_path_length(G_weighted, a, b, weight='weight')
+            except nx.NetworkXNoPath:
+                continue
+            
+            # ancestor overlap
+            j = ancestor_jaccard(ancestor_sets.get(a, set()), ancestor_sets.get(b, set()))
+            
+            w_dists.append(wd)
+            overlaps.append(j)
+        
+        if len(w_dists) > 2:
+            rho, pval = spearmanr(w_dists, overlaps)
+            print(f"  Family {i} ({len(fam_list)} members, {len(w_dists)} pairs): "
+                  f"ρ = {rho:.4f}, p = {pval:.2e}")
+            all_weighted.extend(w_dists)
+            all_overlap.extend(overlaps)
+    
+    if len(all_weighted) > 2:
+        rho_all, pval_all = spearmanr(all_weighted, all_overlap)
+        print(f"\n  AGGREGATE ({len(all_weighted)} pairs across {len(families)} families): "
+              f"ρ = {rho_all:.4f}, p = {pval_all:.2e}")
+    
+    return all_weighted, all_overlap
+
+
+if __name__ == '__main__':
+    data_path = sys.argv[1] if len(sys.argv) > 1 else 'data/train.txt'
+    
+    loader = MetaFAMLoader(data_path)
+    loader.load()
+    
+    extractor = RawFeatureExtractor(loader.triplets, loader.people)
+    features = extractor.extract_all()
+
+    # spearman across families
+    spearman_correlation(loader.triplets, features, n_families=10)

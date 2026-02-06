@@ -145,11 +145,11 @@ if __name__ == '__main__':
     triplets = loader.triplets
     print(f"Loaded {len(triplets)} triplets\n")
 
-    #run_full_graph(triplets)
-    #run_intra_family(triplets, graph_type='full_undirected', max_families=10)
+    run_full_graph(triplets)
+    run_intra_family(triplets, graph_type='full_undirected', max_families=10)
     compare_graph_representations(triplets, family_index=0)
 
-    print("\n\n>>> Nuclear family graph representation <<<\n")
+    print("\n\nNuclear family graph representation\n")
     run_intra_family(triplets, graph_type='nuclear_family', max_families=10)
 
 # CLAUDE GENERATED CODE ENDS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
