@@ -1,18 +1,17 @@
 # computes standard graph theory metrics + family-specific stuff
 
-import networkx as nx
+import networkx as nx # type: ignore
 from collections import defaultdict, Counter
 import json
 import os
 import sys
 import random
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from src.task1.data_loader import MetaFAMLoader
 from src.task1.feature_extractor import RawFeatureExtractor
 from src.task1.inference import infer_gender
 from src.task1.constants import *
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 class GraphMetrics:

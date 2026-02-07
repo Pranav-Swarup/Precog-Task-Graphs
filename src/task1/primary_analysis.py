@@ -4,17 +4,19 @@ import json
 import csv
 import os
 import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from src.task1.data_loader import MetaFAMLoader
 from src.task1.feature_extractor import RawFeatureExtractor
 from src.task1.analysis_helpers import GraphAnalyzer
 from src.task1.inference import infer_gender, classify_anomaly_severity, is_leaf_node, is_founder_node
 
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 # CLAUDE ASSISTED CODE STARTS HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# there is no thinking needed to write this file. all it does is run the pipeline. so i used ai here.
+# there was no thinking needed to write this file.
+# all it does is run the pipeline tools i wrote in the other non analysis named files. 
+# so i used ai here.
 
 def print_stats(loader, features, analyzer):
 

@@ -1,7 +1,7 @@
 # same metric i did in task 1 
 # relatedness(A, B) = |ancestors(A) ∩ ancestors(B)| / |ancestors(A) ∪ ancestors(B)|
 
-# apparently theres a word for it -> Jaccard ≈ 1.0
+# apparently theres a word for it, Jaccard ≈ 1.0 if u are siblings or same parent.
 # if you have cousins and u share grandparents then jaccard is lower
 # uses FamilyCentrality from tertiary_analysis.py
 

@@ -1,5 +1,7 @@
 # graph-wide analysis and pattern detection, ts looks at multiple people at once and make claimns
 
+# I solemnly swear that I am up to no good.
+
 from collections import defaultdict, Counter
 from src.task1.constants import SYMMETRIC_GROUPS, DERIVABLE_PATTERNS, PARENT_RELATIONS
 

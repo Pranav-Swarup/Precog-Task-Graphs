@@ -5,13 +5,12 @@ import networkx as nx # type: ignore
 from collections import defaultdict, Counter
 import os
 import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 from src.task1.data_loader import MetaFAMLoader
 from src.task1.feature_extractor import RawFeatureExtractor
 from src.task1.inference import infer_gender
 from src.task1.constants import PARENT_RELATIONS, SIBLING_RELATIONS
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 class FamilyCentrality:

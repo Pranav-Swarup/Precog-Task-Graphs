@@ -1,0 +1,1413 @@
+source,rule,r1,r2,r3,std_support,std_body,std_confidence,pca_support,pca_body,pca_confidence
+inductive_inverse,"girlSecondCousinOf(X,Y) -> boySecondCousinOf(Y,X)",girlSecondCousinOf,boySecondCousinOf,,40,62,0.6451612903225806,40,40,1.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> girlSecondCousinOf(Y,X)",boySecondCousinOf,girlSecondCousinOf,,40,68,0.5882352941176471,40,40,1.0
+inductive_inverse,"nephewOf(X,Y) -> auntOf(Y,X)",nephewOf,auntOf,,298,514,0.5797665369649806,298,298,1.0
+inductive_inverse,"secondAuntOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",secondAuntOf,boyFirstCousinOnceRemovedOf,,98,175,0.56,98,98,1.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> secondAuntOf(Y,X)",boyFirstCousinOnceRemovedOf,secondAuntOf,,98,180,0.5444444444444444,98,98,1.0
+inductive_inverse,"brotherOf(X,Y) -> sisterOf(Y,X)",brotherOf,sisterOf,,308,570,0.5403508771929825,308,308,1.0
+inductive_inverse,"auntOf(X,Y) -> nephewOf(Y,X)",auntOf,nephewOf,,298,556,0.5359712230215827,298,298,1.0
+inductive_inverse,"boyCousinOf(X,Y) -> girlCousinOf(Y,X)",boyCousinOf,girlCousinOf,,209,391,0.5345268542199488,209,209,1.0
+inductive_inverse,"girlCousinOf(X,Y) -> girlCousinOf(Y,X)",girlCousinOf,girlCousinOf,,236,445,0.5303370786516854,236,236,1.0
+inductive_inverse,"uncleOf(X,Y) -> nieceOf(Y,X)",uncleOf,nieceOf,,238,454,0.5242290748898678,238,238,1.0
+inductive_inverse,"nieceOf(X,Y) -> auntOf(Y,X)",nieceOf,auntOf,,258,496,0.5201612903225806,258,258,1.0
+inductive_inverse,"secondUncleOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",secondUncleOf,boyFirstCousinOnceRemovedOf,,82,158,0.5189873417721519,82,82,1.0
+inductive_inverse,"sisterOf(X,Y) -> sisterOf(Y,X)",sisterOf,sisterOf,,328,636,0.5157232704402516,328,328,1.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> greatGrandsonOf(Y,X)",greatGrandfatherOf,greatGrandsonOf,,312,617,0.5056726094003241,312,312,1.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> greatGrandsonOf(Y,X)",greatGrandmotherOf,greatGrandsonOf,,312,617,0.5056726094003241,312,312,1.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> secondAuntOf(Y,X)",girlFirstCousinOnceRemovedOf,secondAuntOf,,77,153,0.5032679738562091,77,77,1.0
+inductive_inverse,"daughterOf(X,Y) -> fatherOf(Y,X)",daughterOf,fatherOf,,316,628,0.5031847133757962,316,360,0.8777777777777778
+inductive_inverse,"grandfatherOf(X,Y) -> grandsonOf(Y,X)",grandfatherOf,grandsonOf,,407,813,0.5006150061500615,407,407,1.0
+inductive_inverse,"grandmotherOf(X,Y) -> grandsonOf(Y,X)",grandmotherOf,grandsonOf,,407,813,0.5006150061500615,407,407,1.0
+inductive_inverse,"grandsonOf(X,Y) -> grandfatherOf(Y,X)",grandsonOf,grandfatherOf,,407,814,0.5,407,407,1.0
+inductive_inverse,"grandsonOf(X,Y) -> grandmotherOf(Y,X)",grandsonOf,grandmotherOf,,407,814,0.5,407,407,1.0
+inductive_inverse,"granddaughterOf(X,Y) -> grandfatherOf(Y,X)",granddaughterOf,grandfatherOf,,406,812,0.5,406,406,1.0
+inductive_inverse,"granddaughterOf(X,Y) -> grandmotherOf(Y,X)",granddaughterOf,grandmotherOf,,406,812,0.5,406,406,1.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> greatGrandfatherOf(Y,X)",greatGrandsonOf,greatGrandfatherOf,,312,624,0.5,312,312,1.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> greatGrandmotherOf(Y,X)",greatGrandsonOf,greatGrandmotherOf,,312,624,0.5,312,312,1.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> greatGrandfatherOf(Y,X)",greatGranddaughterOf,greatGrandfatherOf,,305,610,0.5,305,305,1.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> greatGrandmotherOf(Y,X)",greatGranddaughterOf,greatGrandmotherOf,,305,610,0.5,305,305,1.0
+inductive_inverse,"grandfatherOf(X,Y) -> granddaughterOf(Y,X)",grandfatherOf,granddaughterOf,,406,813,0.4993849938499385,406,406,1.0
+inductive_inverse,"grandmotherOf(X,Y) -> granddaughterOf(Y,X)",grandmotherOf,granddaughterOf,,406,813,0.4993849938499385,406,406,1.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> secondUncleOf(Y,X)",girlFirstCousinOnceRemovedOf,secondUncleOf,,76,153,0.49673202614379086,76,76,1.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> greatGranddaughterOf(Y,X)",greatGrandfatherOf,greatGranddaughterOf,,305,617,0.49432739059967584,305,305,1.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> greatGranddaughterOf(Y,X)",greatGrandmotherOf,greatGranddaughterOf,,305,617,0.49432739059967584,305,305,1.0
+inductive_inverse,"sonOf(X,Y) -> fatherOf(Y,X)",sonOf,fatherOf,,292,600,0.4866666666666667,292,336,0.8690476190476191
+inductive_inverse,"sisterOf(X,Y) -> brotherOf(Y,X)",sisterOf,brotherOf,,308,636,0.48427672955974843,308,308,1.0
+inductive_inverse,"secondUncleOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",secondUncleOf,girlFirstCousinOnceRemovedOf,,76,158,0.4810126582278481,76,76,1.0
+inductive_inverse,"nieceOf(X,Y) -> uncleOf(Y,X)",nieceOf,uncleOf,,238,496,0.4798387096774194,238,238,1.0
+inductive_inverse,"uncleOf(X,Y) -> nephewOf(Y,X)",uncleOf,nephewOf,,216,454,0.47577092511013214,216,216,1.0
+inductive_inverse,"girlCousinOf(X,Y) -> boyCousinOf(Y,X)",girlCousinOf,boyCousinOf,,209,445,0.4696629213483146,209,209,1.0
+inductive_inverse,"boyCousinOf(X,Y) -> boyCousinOf(Y,X)",boyCousinOf,boyCousinOf,,182,391,0.46547314578005117,182,182,1.0
+inductive_inverse,"auntOf(X,Y) -> nieceOf(Y,X)",auntOf,nieceOf,,258,556,0.46402877697841727,258,258,1.0
+inductive_inverse,"brotherOf(X,Y) -> brotherOf(Y,X)",brotherOf,brotherOf,,262,570,0.45964912280701753,262,262,1.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> secondUncleOf(Y,X)",boyFirstCousinOnceRemovedOf,secondUncleOf,,82,180,0.45555555555555555,82,82,1.0
+inductive_inverse,"secondAuntOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",secondAuntOf,girlFirstCousinOnceRemovedOf,,77,175,0.44,77,77,1.0
+inductive_inverse,"fatherOf(X,Y) -> daughterOf(Y,X)",fatherOf,daughterOf,,316,733,0.4311050477489768,316,370,0.8540540540540541
+inductive_inverse,"nephewOf(X,Y) -> uncleOf(Y,X)",nephewOf,uncleOf,,216,514,0.42023346303501946,216,216,1.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> boySecondCousinOf(Y,X)",boySecondCousinOf,boySecondCousinOf,,28,68,0.4117647058823529,28,28,1.0
+inductive_inverse,"fatherOf(X,Y) -> sonOf(Y,X)",fatherOf,sonOf,,292,733,0.39836289222373805,292,363,0.8044077134986226
+inductive_inverse,"sonOf(X,Y) -> motherOf(Y,X)",sonOf,motherOf,,220,600,0.36666666666666664,220,264,0.8333333333333334
+inductive_inverse,"daughterOf(X,Y) -> motherOf(Y,X)",daughterOf,motherOf,,224,628,0.35668789808917195,224,268,0.835820895522388
+inductive_inverse,"girlSecondCousinOf(X,Y) -> girlSecondCousinOf(Y,X)",girlSecondCousinOf,girlSecondCousinOf,,22,62,0.3548387096774194,22,22,1.0
+inductive_inverse,"motherOf(X,Y) -> daughterOf(Y,X)",motherOf,daughterOf,,224,733,0.30559345156889495,224,370,0.6054054054054054
+inductive_inverse,"motherOf(X,Y) -> sonOf(Y,X)",motherOf,sonOf,,220,733,0.30013642564802184,220,363,0.6060606060606061
+inductive_inverse,"auntOf(X,Y) -> auntOf(Y,X)",auntOf,auntOf,,0,556,0.0,0,106,0.0
+inductive_inverse,"auntOf(X,Y) -> boyCousinOf(Y,X)",auntOf,boyCousinOf,,0,556,0.0,0,219,0.0
+inductive_inverse,"auntOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",auntOf,boyFirstCousinOnceRemovedOf,,0,556,0.0,0,73,0.0
+inductive_inverse,"auntOf(X,Y) -> boySecondCousinOf(Y,X)",auntOf,boySecondCousinOf,,0,556,0.0,0,36,0.0
+inductive_inverse,"auntOf(X,Y) -> brotherOf(Y,X)",auntOf,brotherOf,,0,556,0.0,0,236,0.0
+inductive_inverse,"auntOf(X,Y) -> daughterOf(Y,X)",auntOf,daughterOf,,0,556,0.0,0,258,0.0
+inductive_inverse,"auntOf(X,Y) -> fatherOf(Y,X)",auntOf,fatherOf,,0,556,0.0,0,112,0.0
+inductive_inverse,"auntOf(X,Y) -> girlCousinOf(Y,X)",auntOf,girlCousinOf,,0,556,0.0,0,200,0.0
+inductive_inverse,"auntOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",auntOf,girlFirstCousinOnceRemovedOf,,0,556,0.0,0,45,0.0
+inductive_inverse,"auntOf(X,Y) -> girlSecondCousinOf(Y,X)",auntOf,girlSecondCousinOf,,0,556,0.0,0,26,0.0
+inductive_inverse,"auntOf(X,Y) -> granddaughterOf(Y,X)",auntOf,granddaughterOf,,0,556,0.0,0,258,0.0
+inductive_inverse,"auntOf(X,Y) -> grandfatherOf(Y,X)",auntOf,grandfatherOf,,0,556,0.0,0,43,0.0
+inductive_inverse,"auntOf(X,Y) -> grandmotherOf(Y,X)",auntOf,grandmotherOf,,0,556,0.0,0,20,0.0
+inductive_inverse,"auntOf(X,Y) -> grandsonOf(Y,X)",auntOf,grandsonOf,,0,556,0.0,0,298,0.0
+inductive_inverse,"auntOf(X,Y) -> greatAuntOf(Y,X)",auntOf,greatAuntOf,,0,556,0.0,0,36,0.0
+inductive_inverse,"auntOf(X,Y) -> greatGranddaughterOf(Y,X)",auntOf,greatGranddaughterOf,,0,556,0.0,0,178,0.0
+inductive_inverse,"auntOf(X,Y) -> greatGrandfatherOf(Y,X)",auntOf,greatGrandfatherOf,,0,556,0.0,0,19,0.0
+inductive_inverse,"auntOf(X,Y) -> greatGrandmotherOf(Y,X)",auntOf,greatGrandmotherOf,,0,556,0.0,0,5,0.0
+inductive_inverse,"auntOf(X,Y) -> greatGrandsonOf(Y,X)",auntOf,greatGrandsonOf,,0,556,0.0,0,212,0.0
+inductive_inverse,"auntOf(X,Y) -> greatUncleOf(Y,X)",auntOf,greatUncleOf,,0,556,0.0,0,55,0.0
+inductive_inverse,"auntOf(X,Y) -> motherOf(Y,X)",auntOf,motherOf,,0,556,0.0,0,76,0.0
+inductive_inverse,"auntOf(X,Y) -> secondAuntOf(Y,X)",auntOf,secondAuntOf,,0,556,0.0,0,119,0.0
+inductive_inverse,"auntOf(X,Y) -> secondUncleOf(Y,X)",auntOf,secondUncleOf,,0,556,0.0,0,102,0.0
+inductive_inverse,"auntOf(X,Y) -> sisterOf(Y,X)",auntOf,sisterOf,,0,556,0.0,0,208,0.0
+inductive_inverse,"auntOf(X,Y) -> sonOf(Y,X)",auntOf,sonOf,,0,556,0.0,0,298,0.0
+inductive_inverse,"auntOf(X,Y) -> uncleOf(Y,X)",auntOf,uncleOf,,0,556,0.0,0,147,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> auntOf(Y,X)",boyCousinOf,auntOf,,0,391,0.0,0,73,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",boyCousinOf,boyFirstCousinOnceRemovedOf,,0,391,0.0,0,28,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> boySecondCousinOf(Y,X)",boyCousinOf,boySecondCousinOf,,0,391,0.0,0,6,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> brotherOf(Y,X)",boyCousinOf,brotherOf,,0,391,0.0,0,127,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> daughterOf(Y,X)",boyCousinOf,daughterOf,,0,391,0.0,0,209,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> fatherOf(Y,X)",boyCousinOf,fatherOf,,0,391,0.0,0,60,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",boyCousinOf,girlFirstCousinOnceRemovedOf,,0,391,0.0,0,22,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> girlSecondCousinOf(Y,X)",boyCousinOf,girlSecondCousinOf,,0,391,0.0,0,7,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> granddaughterOf(Y,X)",boyCousinOf,granddaughterOf,,0,391,0.0,0,209,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> grandfatherOf(Y,X)",boyCousinOf,grandfatherOf,,0,391,0.0,0,16,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> grandmotherOf(Y,X)",boyCousinOf,grandmotherOf,,0,391,0.0,0,13,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> grandsonOf(Y,X)",boyCousinOf,grandsonOf,,0,391,0.0,0,182,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> greatAuntOf(Y,X)",boyCousinOf,greatAuntOf,,0,391,0.0,0,21,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> greatGranddaughterOf(Y,X)",boyCousinOf,greatGranddaughterOf,,0,391,0.0,0,150,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> greatGrandfatherOf(Y,X)",boyCousinOf,greatGrandfatherOf,,0,391,0.0,0,6,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> greatGrandmotherOf(Y,X)",boyCousinOf,greatGrandmotherOf,,0,391,0.0,0,1,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> greatGrandsonOf(Y,X)",boyCousinOf,greatGrandsonOf,,0,391,0.0,0,117,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> greatUncleOf(Y,X)",boyCousinOf,greatUncleOf,,0,391,0.0,0,17,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> motherOf(Y,X)",boyCousinOf,motherOf,,0,391,0.0,0,51,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> nephewOf(Y,X)",boyCousinOf,nephewOf,,0,391,0.0,0,182,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> nieceOf(Y,X)",boyCousinOf,nieceOf,,0,391,0.0,0,209,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> secondAuntOf(Y,X)",boyCousinOf,secondAuntOf,,0,391,0.0,0,151,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> secondUncleOf(Y,X)",boyCousinOf,secondUncleOf,,0,391,0.0,0,127,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> sisterOf(Y,X)",boyCousinOf,sisterOf,,0,391,0.0,0,162,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> sonOf(Y,X)",boyCousinOf,sonOf,,0,391,0.0,0,182,0.0
+inductive_inverse,"boyCousinOf(X,Y) -> uncleOf(Y,X)",boyCousinOf,uncleOf,,0,391,0.0,0,68,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> auntOf(Y,X)",boyFirstCousinOnceRemovedOf,auntOf,,0,180,0.0,0,32,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> boyCousinOf(Y,X)",boyFirstCousinOnceRemovedOf,boyCousinOf,,0,180,0.0,0,82,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",boyFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,,0,180,0.0,0,5,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> boySecondCousinOf(Y,X)",boyFirstCousinOnceRemovedOf,boySecondCousinOf,,0,180,0.0,0,0,0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> brotherOf(Y,X)",boyFirstCousinOnceRemovedOf,brotherOf,,0,180,0.0,0,54,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> daughterOf(Y,X)",boyFirstCousinOnceRemovedOf,daughterOf,,0,180,0.0,0,98,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> fatherOf(Y,X)",boyFirstCousinOnceRemovedOf,fatherOf,,0,180,0.0,0,22,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> girlCousinOf(Y,X)",boyFirstCousinOnceRemovedOf,girlCousinOf,,0,180,0.0,0,98,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",boyFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,,0,180,0.0,0,3,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> girlSecondCousinOf(Y,X)",boyFirstCousinOnceRemovedOf,girlSecondCousinOf,,0,180,0.0,0,2,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> granddaughterOf(Y,X)",boyFirstCousinOnceRemovedOf,granddaughterOf,,0,180,0.0,0,98,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> grandfatherOf(Y,X)",boyFirstCousinOnceRemovedOf,grandfatherOf,,0,180,0.0,0,5,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> grandmotherOf(Y,X)",boyFirstCousinOnceRemovedOf,grandmotherOf,,0,180,0.0,0,5,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> grandsonOf(Y,X)",boyFirstCousinOnceRemovedOf,grandsonOf,,0,180,0.0,0,82,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> greatAuntOf(Y,X)",boyFirstCousinOnceRemovedOf,greatAuntOf,,0,180,0.0,0,10,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> greatGranddaughterOf(Y,X)",boyFirstCousinOnceRemovedOf,greatGranddaughterOf,,0,180,0.0,0,54,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> greatGrandfatherOf(Y,X)",boyFirstCousinOnceRemovedOf,greatGrandfatherOf,,0,180,0.0,0,2,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> greatGrandmotherOf(Y,X)",boyFirstCousinOnceRemovedOf,greatGrandmotherOf,,0,180,0.0,0,0,0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> greatGrandsonOf(Y,X)",boyFirstCousinOnceRemovedOf,greatGrandsonOf,,0,180,0.0,0,51,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> greatUncleOf(Y,X)",boyFirstCousinOnceRemovedOf,greatUncleOf,,0,180,0.0,0,5,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> motherOf(Y,X)",boyFirstCousinOnceRemovedOf,motherOf,,0,180,0.0,0,22,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> nephewOf(Y,X)",boyFirstCousinOnceRemovedOf,nephewOf,,0,180,0.0,0,82,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> nieceOf(Y,X)",boyFirstCousinOnceRemovedOf,nieceOf,,0,180,0.0,0,98,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> sisterOf(Y,X)",boyFirstCousinOnceRemovedOf,sisterOf,,0,180,0.0,0,68,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> sonOf(Y,X)",boyFirstCousinOnceRemovedOf,sonOf,,0,180,0.0,0,82,0.0
+inductive_inverse,"boyFirstCousinOnceRemovedOf(X,Y) -> uncleOf(Y,X)",boyFirstCousinOnceRemovedOf,uncleOf,,0,180,0.0,0,27,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> auntOf(Y,X)",boySecondCousinOf,auntOf,,0,68,0.0,0,6,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> boyCousinOf(Y,X)",boySecondCousinOf,boyCousinOf,,0,68,0.0,0,4,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",boySecondCousinOf,boyFirstCousinOnceRemovedOf,,0,68,0.0,0,28,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> brotherOf(Y,X)",boySecondCousinOf,brotherOf,,0,68,0.0,0,19,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> daughterOf(Y,X)",boySecondCousinOf,daughterOf,,0,68,0.0,0,40,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> fatherOf(Y,X)",boySecondCousinOf,fatherOf,,0,68,0.0,0,6,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> girlCousinOf(Y,X)",boySecondCousinOf,girlCousinOf,,0,68,0.0,0,10,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",boySecondCousinOf,girlFirstCousinOnceRemovedOf,,0,68,0.0,0,40,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> granddaughterOf(Y,X)",boySecondCousinOf,granddaughterOf,,0,68,0.0,0,40,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> grandfatherOf(Y,X)",boySecondCousinOf,grandfatherOf,,0,68,0.0,0,1,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> grandmotherOf(Y,X)",boySecondCousinOf,grandmotherOf,,0,68,0.0,0,1,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> grandsonOf(Y,X)",boySecondCousinOf,grandsonOf,,0,68,0.0,0,28,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> greatAuntOf(Y,X)",boySecondCousinOf,greatAuntOf,,0,68,0.0,0,1,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> greatGranddaughterOf(Y,X)",boySecondCousinOf,greatGranddaughterOf,,0,68,0.0,0,40,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> greatGrandfatherOf(Y,X)",boySecondCousinOf,greatGrandfatherOf,,0,68,0.0,0,0,0
+inductive_inverse,"boySecondCousinOf(X,Y) -> greatGrandmotherOf(Y,X)",boySecondCousinOf,greatGrandmotherOf,,0,68,0.0,0,0,0
+inductive_inverse,"boySecondCousinOf(X,Y) -> greatGrandsonOf(Y,X)",boySecondCousinOf,greatGrandsonOf,,0,68,0.0,0,28,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> greatUncleOf(Y,X)",boySecondCousinOf,greatUncleOf,,0,68,0.0,0,3,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> motherOf(Y,X)",boySecondCousinOf,motherOf,,0,68,0.0,0,6,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> nephewOf(Y,X)",boySecondCousinOf,nephewOf,,0,68,0.0,0,21,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> nieceOf(Y,X)",boySecondCousinOf,nieceOf,,0,68,0.0,0,30,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> secondAuntOf(Y,X)",boySecondCousinOf,secondAuntOf,,0,68,0.0,0,2,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> secondUncleOf(Y,X)",boySecondCousinOf,secondUncleOf,,0,68,0.0,0,0,0
+inductive_inverse,"boySecondCousinOf(X,Y) -> sisterOf(Y,X)",boySecondCousinOf,sisterOf,,0,68,0.0,0,26,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> sonOf(Y,X)",boySecondCousinOf,sonOf,,0,68,0.0,0,28,0.0
+inductive_inverse,"boySecondCousinOf(X,Y) -> uncleOf(Y,X)",boySecondCousinOf,uncleOf,,0,68,0.0,0,7,0.0
+inductive_inverse,"brotherOf(X,Y) -> auntOf(Y,X)",brotherOf,auntOf,,0,570,0.0,0,222,0.0
+inductive_inverse,"brotherOf(X,Y) -> boyCousinOf(Y,X)",brotherOf,boyCousinOf,,0,570,0.0,0,116,0.0
+inductive_inverse,"brotherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",brotherOf,boyFirstCousinOnceRemovedOf,,0,570,0.0,0,48,0.0
+inductive_inverse,"brotherOf(X,Y) -> boySecondCousinOf(Y,X)",brotherOf,boySecondCousinOf,,0,570,0.0,0,22,0.0
+inductive_inverse,"brotherOf(X,Y) -> daughterOf(Y,X)",brotherOf,daughterOf,,0,570,0.0,0,308,0.0
+inductive_inverse,"brotherOf(X,Y) -> fatherOf(Y,X)",brotherOf,fatherOf,,0,570,0.0,0,126,0.0
+inductive_inverse,"brotherOf(X,Y) -> girlCousinOf(Y,X)",brotherOf,girlCousinOf,,0,570,0.0,0,126,0.0
+inductive_inverse,"brotherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",brotherOf,girlFirstCousinOnceRemovedOf,,0,570,0.0,0,23,0.0
+inductive_inverse,"brotherOf(X,Y) -> girlSecondCousinOf(Y,X)",brotherOf,girlSecondCousinOf,,0,570,0.0,0,12,0.0
+inductive_inverse,"brotherOf(X,Y) -> granddaughterOf(Y,X)",brotherOf,granddaughterOf,,0,570,0.0,0,247,0.0
+inductive_inverse,"brotherOf(X,Y) -> grandfatherOf(Y,X)",brotherOf,grandfatherOf,,0,570,0.0,0,59,0.0
+inductive_inverse,"brotherOf(X,Y) -> grandmotherOf(Y,X)",brotherOf,grandmotherOf,,0,570,0.0,0,49,0.0
+inductive_inverse,"brotherOf(X,Y) -> grandsonOf(Y,X)",brotherOf,grandsonOf,,0,570,0.0,0,226,0.0
+inductive_inverse,"brotherOf(X,Y) -> greatAuntOf(Y,X)",brotherOf,greatAuntOf,,0,570,0.0,0,132,0.0
+inductive_inverse,"brotherOf(X,Y) -> greatGranddaughterOf(Y,X)",brotherOf,greatGranddaughterOf,,0,570,0.0,0,147,0.0
+inductive_inverse,"brotherOf(X,Y) -> greatGrandfatherOf(Y,X)",brotherOf,greatGrandfatherOf,,0,570,0.0,0,25,0.0
+inductive_inverse,"brotherOf(X,Y) -> greatGrandmotherOf(Y,X)",brotherOf,greatGrandmotherOf,,0,570,0.0,0,21,0.0
+inductive_inverse,"brotherOf(X,Y) -> greatGrandsonOf(Y,X)",brotherOf,greatGrandsonOf,,0,570,0.0,0,152,0.0
+inductive_inverse,"brotherOf(X,Y) -> greatUncleOf(Y,X)",brotherOf,greatUncleOf,,0,570,0.0,0,105,0.0
+inductive_inverse,"brotherOf(X,Y) -> motherOf(Y,X)",brotherOf,motherOf,,0,570,0.0,0,130,0.0
+inductive_inverse,"brotherOf(X,Y) -> nephewOf(Y,X)",brotherOf,nephewOf,,0,570,0.0,0,190,0.0
+inductive_inverse,"brotherOf(X,Y) -> nieceOf(Y,X)",brotherOf,nieceOf,,0,570,0.0,0,192,0.0
+inductive_inverse,"brotherOf(X,Y) -> secondAuntOf(Y,X)",brotherOf,secondAuntOf,,0,570,0.0,0,76,0.0
+inductive_inverse,"brotherOf(X,Y) -> secondUncleOf(Y,X)",brotherOf,secondUncleOf,,0,570,0.0,0,50,0.0
+inductive_inverse,"brotherOf(X,Y) -> sonOf(Y,X)",brotherOf,sonOf,,0,570,0.0,0,262,0.0
+inductive_inverse,"brotherOf(X,Y) -> uncleOf(Y,X)",brotherOf,uncleOf,,0,570,0.0,0,202,0.0
+inductive_inverse,"daughterOf(X,Y) -> auntOf(Y,X)",daughterOf,auntOf,,0,628,0.0,0,54,0.0
+inductive_inverse,"daughterOf(X,Y) -> boyCousinOf(Y,X)",daughterOf,boyCousinOf,,0,628,0.0,0,27,0.0
+inductive_inverse,"daughterOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",daughterOf,boyFirstCousinOnceRemovedOf,,0,628,0.0,0,14,0.0
+inductive_inverse,"daughterOf(X,Y) -> boySecondCousinOf(Y,X)",daughterOf,boySecondCousinOf,,0,628,0.0,0,1,0.0
+inductive_inverse,"daughterOf(X,Y) -> brotherOf(Y,X)",daughterOf,brotherOf,,0,628,0.0,0,87,0.0
+inductive_inverse,"daughterOf(X,Y) -> daughterOf(Y,X)",daughterOf,daughterOf,,0,628,0.0,0,128,0.0
+inductive_inverse,"daughterOf(X,Y) -> girlCousinOf(Y,X)",daughterOf,girlCousinOf,,0,628,0.0,0,18,0.0
+inductive_inverse,"daughterOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",daughterOf,girlFirstCousinOnceRemovedOf,,0,628,0.0,0,7,0.0
+inductive_inverse,"daughterOf(X,Y) -> girlSecondCousinOf(Y,X)",daughterOf,girlSecondCousinOf,,0,628,0.0,0,5,0.0
+inductive_inverse,"daughterOf(X,Y) -> granddaughterOf(Y,X)",daughterOf,granddaughterOf,,0,628,0.0,0,71,0.0
+inductive_inverse,"daughterOf(X,Y) -> grandfatherOf(Y,X)",daughterOf,grandfatherOf,,0,628,0.0,0,274,0.0
+inductive_inverse,"daughterOf(X,Y) -> grandmotherOf(Y,X)",daughterOf,grandmotherOf,,0,628,0.0,0,188,0.0
+inductive_inverse,"daughterOf(X,Y) -> grandsonOf(Y,X)",daughterOf,grandsonOf,,0,628,0.0,0,81,0.0
+inductive_inverse,"daughterOf(X,Y) -> greatAuntOf(Y,X)",daughterOf,greatAuntOf,,0,628,0.0,0,33,0.0
+inductive_inverse,"daughterOf(X,Y) -> greatGranddaughterOf(Y,X)",daughterOf,greatGranddaughterOf,,0,628,0.0,0,33,0.0
+inductive_inverse,"daughterOf(X,Y) -> greatGrandfatherOf(Y,X)",daughterOf,greatGrandfatherOf,,0,628,0.0,0,195,0.0
+inductive_inverse,"daughterOf(X,Y) -> greatGrandmotherOf(Y,X)",daughterOf,greatGrandmotherOf,,0,628,0.0,0,121,0.0
+inductive_inverse,"daughterOf(X,Y) -> greatGrandsonOf(Y,X)",daughterOf,greatGrandsonOf,,0,628,0.0,0,37,0.0
+inductive_inverse,"daughterOf(X,Y) -> greatUncleOf(Y,X)",daughterOf,greatUncleOf,,0,628,0.0,0,18,0.0
+inductive_inverse,"daughterOf(X,Y) -> nephewOf(Y,X)",daughterOf,nephewOf,,0,628,0.0,0,51,0.0
+inductive_inverse,"daughterOf(X,Y) -> nieceOf(Y,X)",daughterOf,nieceOf,,0,628,0.0,0,49,0.0
+inductive_inverse,"daughterOf(X,Y) -> secondAuntOf(Y,X)",daughterOf,secondAuntOf,,0,628,0.0,0,8,0.0
+inductive_inverse,"daughterOf(X,Y) -> secondUncleOf(Y,X)",daughterOf,secondUncleOf,,0,628,0.0,0,15,0.0
+inductive_inverse,"daughterOf(X,Y) -> sisterOf(Y,X)",daughterOf,sisterOf,,0,628,0.0,0,83,0.0
+inductive_inverse,"daughterOf(X,Y) -> sonOf(Y,X)",daughterOf,sonOf,,0,628,0.0,0,164,0.0
+inductive_inverse,"daughterOf(X,Y) -> uncleOf(Y,X)",daughterOf,uncleOf,,0,628,0.0,0,40,0.0
+inductive_inverse,"fatherOf(X,Y) -> auntOf(Y,X)",fatherOf,auntOf,,0,733,0.0,0,169,0.0
+inductive_inverse,"fatherOf(X,Y) -> boyCousinOf(Y,X)",fatherOf,boyCousinOf,,0,733,0.0,0,146,0.0
+inductive_inverse,"fatherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",fatherOf,boyFirstCousinOnceRemovedOf,,0,733,0.0,0,78,0.0
+inductive_inverse,"fatherOf(X,Y) -> boySecondCousinOf(Y,X)",fatherOf,boySecondCousinOf,,0,733,0.0,0,33,0.0
+inductive_inverse,"fatherOf(X,Y) -> brotherOf(Y,X)",fatherOf,brotherOf,,0,733,0.0,0,248,0.0
+inductive_inverse,"fatherOf(X,Y) -> fatherOf(Y,X)",fatherOf,fatherOf,,0,733,0.0,0,187,0.0
+inductive_inverse,"fatherOf(X,Y) -> girlCousinOf(Y,X)",fatherOf,girlCousinOf,,0,733,0.0,0,141,0.0
+inductive_inverse,"fatherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",fatherOf,girlFirstCousinOnceRemovedOf,,0,733,0.0,0,58,0.0
+inductive_inverse,"fatherOf(X,Y) -> girlSecondCousinOf(Y,X)",fatherOf,girlSecondCousinOf,,0,733,0.0,0,30,0.0
+inductive_inverse,"fatherOf(X,Y) -> granddaughterOf(Y,X)",fatherOf,granddaughterOf,,0,733,0.0,0,263,0.0
+inductive_inverse,"fatherOf(X,Y) -> grandfatherOf(Y,X)",fatherOf,grandfatherOf,,0,733,0.0,0,105,0.0
+inductive_inverse,"fatherOf(X,Y) -> grandmotherOf(Y,X)",fatherOf,grandmotherOf,,0,733,0.0,0,90,0.0
+inductive_inverse,"fatherOf(X,Y) -> grandsonOf(Y,X)",fatherOf,grandsonOf,,0,733,0.0,0,279,0.0
+inductive_inverse,"fatherOf(X,Y) -> greatAuntOf(Y,X)",fatherOf,greatAuntOf,,0,733,0.0,0,106,0.0
+inductive_inverse,"fatherOf(X,Y) -> greatGranddaughterOf(Y,X)",fatherOf,greatGranddaughterOf,,0,733,0.0,0,184,0.0
+inductive_inverse,"fatherOf(X,Y) -> greatGrandfatherOf(Y,X)",fatherOf,greatGrandfatherOf,,0,733,0.0,0,56,0.0
+inductive_inverse,"fatherOf(X,Y) -> greatGrandmotherOf(Y,X)",fatherOf,greatGrandmotherOf,,0,733,0.0,0,55,0.0
+inductive_inverse,"fatherOf(X,Y) -> greatGrandsonOf(Y,X)",fatherOf,greatGrandsonOf,,0,733,0.0,0,186,0.0
+inductive_inverse,"fatherOf(X,Y) -> greatUncleOf(Y,X)",fatherOf,greatUncleOf,,0,733,0.0,0,85,0.0
+inductive_inverse,"fatherOf(X,Y) -> motherOf(Y,X)",fatherOf,motherOf,,0,733,0.0,0,165,0.0
+inductive_inverse,"fatherOf(X,Y) -> nephewOf(Y,X)",fatherOf,nephewOf,,0,733,0.0,0,229,0.0
+inductive_inverse,"fatherOf(X,Y) -> nieceOf(Y,X)",fatherOf,nieceOf,,0,733,0.0,0,210,0.0
+inductive_inverse,"fatherOf(X,Y) -> secondAuntOf(Y,X)",fatherOf,secondAuntOf,,0,733,0.0,0,79,0.0
+inductive_inverse,"fatherOf(X,Y) -> secondUncleOf(Y,X)",fatherOf,secondUncleOf,,0,733,0.0,0,75,0.0
+inductive_inverse,"fatherOf(X,Y) -> sisterOf(Y,X)",fatherOf,sisterOf,,0,733,0.0,0,261,0.0
+inductive_inverse,"fatherOf(X,Y) -> uncleOf(Y,X)",fatherOf,uncleOf,,0,733,0.0,0,169,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> auntOf(Y,X)",girlCousinOf,auntOf,,0,445,0.0,0,97,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",girlCousinOf,boyFirstCousinOnceRemovedOf,,0,445,0.0,0,22,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> boySecondCousinOf(Y,X)",girlCousinOf,boySecondCousinOf,,0,445,0.0,0,7,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> brotherOf(Y,X)",girlCousinOf,brotherOf,,0,445,0.0,0,167,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> daughterOf(Y,X)",girlCousinOf,daughterOf,,0,445,0.0,0,236,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> fatherOf(Y,X)",girlCousinOf,fatherOf,,0,445,0.0,0,68,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",girlCousinOf,girlFirstCousinOnceRemovedOf,,0,445,0.0,0,30,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> girlSecondCousinOf(Y,X)",girlCousinOf,girlSecondCousinOf,,0,445,0.0,0,10,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> granddaughterOf(Y,X)",girlCousinOf,granddaughterOf,,0,445,0.0,0,236,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> grandfatherOf(Y,X)",girlCousinOf,grandfatherOf,,0,445,0.0,0,18,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> grandmotherOf(Y,X)",girlCousinOf,grandmotherOf,,0,445,0.0,0,5,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> grandsonOf(Y,X)",girlCousinOf,grandsonOf,,0,445,0.0,0,209,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> greatAuntOf(Y,X)",girlCousinOf,greatAuntOf,,0,445,0.0,0,18,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> greatGranddaughterOf(Y,X)",girlCousinOf,greatGranddaughterOf,,0,445,0.0,0,166,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> greatGrandfatherOf(Y,X)",girlCousinOf,greatGrandfatherOf,,0,445,0.0,0,5,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> greatGrandmotherOf(Y,X)",girlCousinOf,greatGrandmotherOf,,0,445,0.0,0,0,0
+inductive_inverse,"girlCousinOf(X,Y) -> greatGrandsonOf(Y,X)",girlCousinOf,greatGrandsonOf,,0,445,0.0,0,149,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> greatUncleOf(Y,X)",girlCousinOf,greatUncleOf,,0,445,0.0,0,16,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> motherOf(Y,X)",girlCousinOf,motherOf,,0,445,0.0,0,58,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> nephewOf(Y,X)",girlCousinOf,nephewOf,,0,445,0.0,0,209,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> nieceOf(Y,X)",girlCousinOf,nieceOf,,0,445,0.0,0,236,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> secondAuntOf(Y,X)",girlCousinOf,secondAuntOf,,0,445,0.0,0,154,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> secondUncleOf(Y,X)",girlCousinOf,secondUncleOf,,0,445,0.0,0,128,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> sisterOf(Y,X)",girlCousinOf,sisterOf,,0,445,0.0,0,191,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> sonOf(Y,X)",girlCousinOf,sonOf,,0,445,0.0,0,209,0.0
+inductive_inverse,"girlCousinOf(X,Y) -> uncleOf(Y,X)",girlCousinOf,uncleOf,,0,445,0.0,0,96,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> auntOf(Y,X)",girlFirstCousinOnceRemovedOf,auntOf,,0,153,0.0,0,22,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> boyCousinOf(Y,X)",girlFirstCousinOnceRemovedOf,boyCousinOf,,0,153,0.0,0,76,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",girlFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,,0,153,0.0,0,9,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> boySecondCousinOf(Y,X)",girlFirstCousinOnceRemovedOf,boySecondCousinOf,,0,153,0.0,0,1,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> brotherOf(Y,X)",girlFirstCousinOnceRemovedOf,brotherOf,,0,153,0.0,0,63,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> daughterOf(Y,X)",girlFirstCousinOnceRemovedOf,daughterOf,,0,153,0.0,0,77,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> fatherOf(Y,X)",girlFirstCousinOnceRemovedOf,fatherOf,,0,153,0.0,0,28,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> girlCousinOf(Y,X)",girlFirstCousinOnceRemovedOf,girlCousinOf,,0,153,0.0,0,77,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",girlFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,,0,153,0.0,0,3,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> girlSecondCousinOf(Y,X)",girlFirstCousinOnceRemovedOf,girlSecondCousinOf,,0,153,0.0,0,0,0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> granddaughterOf(Y,X)",girlFirstCousinOnceRemovedOf,granddaughterOf,,0,153,0.0,0,77,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> grandfatherOf(Y,X)",girlFirstCousinOnceRemovedOf,grandfatherOf,,0,153,0.0,0,9,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> grandmotherOf(Y,X)",girlFirstCousinOnceRemovedOf,grandmotherOf,,0,153,0.0,0,0,0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> grandsonOf(Y,X)",girlFirstCousinOnceRemovedOf,grandsonOf,,0,153,0.0,0,76,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> greatAuntOf(Y,X)",girlFirstCousinOnceRemovedOf,greatAuntOf,,0,153,0.0,0,5,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> greatGranddaughterOf(Y,X)",girlFirstCousinOnceRemovedOf,greatGranddaughterOf,,0,153,0.0,0,51,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> greatGrandfatherOf(Y,X)",girlFirstCousinOnceRemovedOf,greatGrandfatherOf,,0,153,0.0,0,1,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> greatGrandmotherOf(Y,X)",girlFirstCousinOnceRemovedOf,greatGrandmotherOf,,0,153,0.0,0,0,0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> greatGrandsonOf(Y,X)",girlFirstCousinOnceRemovedOf,greatGrandsonOf,,0,153,0.0,0,43,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> greatUncleOf(Y,X)",girlFirstCousinOnceRemovedOf,greatUncleOf,,0,153,0.0,0,5,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> motherOf(Y,X)",girlFirstCousinOnceRemovedOf,motherOf,,0,153,0.0,0,15,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> nephewOf(Y,X)",girlFirstCousinOnceRemovedOf,nephewOf,,0,153,0.0,0,76,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> nieceOf(Y,X)",girlFirstCousinOnceRemovedOf,nieceOf,,0,153,0.0,0,77,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> sisterOf(Y,X)",girlFirstCousinOnceRemovedOf,sisterOf,,0,153,0.0,0,56,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> sonOf(Y,X)",girlFirstCousinOnceRemovedOf,sonOf,,0,153,0.0,0,76,0.0
+inductive_inverse,"girlFirstCousinOnceRemovedOf(X,Y) -> uncleOf(Y,X)",girlFirstCousinOnceRemovedOf,uncleOf,,0,153,0.0,0,34,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> auntOf(Y,X)",girlSecondCousinOf,auntOf,,0,62,0.0,0,1,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> boyCousinOf(Y,X)",girlSecondCousinOf,boyCousinOf,,0,62,0.0,0,12,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",girlSecondCousinOf,boyFirstCousinOnceRemovedOf,,0,62,0.0,0,40,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> brotherOf(Y,X)",girlSecondCousinOf,brotherOf,,0,62,0.0,0,23,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> daughterOf(Y,X)",girlSecondCousinOf,daughterOf,,0,62,0.0,0,22,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> fatherOf(Y,X)",girlSecondCousinOf,fatherOf,,0,62,0.0,0,9,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> girlCousinOf(Y,X)",girlSecondCousinOf,girlCousinOf,,0,62,0.0,0,9,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",girlSecondCousinOf,girlFirstCousinOnceRemovedOf,,0,62,0.0,0,22,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> granddaughterOf(Y,X)",girlSecondCousinOf,granddaughterOf,,0,62,0.0,0,22,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> grandfatherOf(Y,X)",girlSecondCousinOf,grandfatherOf,,0,62,0.0,0,1,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> grandmotherOf(Y,X)",girlSecondCousinOf,grandmotherOf,,0,62,0.0,0,0,0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> grandsonOf(Y,X)",girlSecondCousinOf,grandsonOf,,0,62,0.0,0,40,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> greatAuntOf(Y,X)",girlSecondCousinOf,greatAuntOf,,0,62,0.0,0,0,0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> greatGranddaughterOf(Y,X)",girlSecondCousinOf,greatGranddaughterOf,,0,62,0.0,0,22,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> greatGrandfatherOf(Y,X)",girlSecondCousinOf,greatGrandfatherOf,,0,62,0.0,0,0,0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> greatGrandmotherOf(Y,X)",girlSecondCousinOf,greatGrandmotherOf,,0,62,0.0,0,0,0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> greatGrandsonOf(Y,X)",girlSecondCousinOf,greatGrandsonOf,,0,62,0.0,0,40,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> greatUncleOf(Y,X)",girlSecondCousinOf,greatUncleOf,,0,62,0.0,0,3,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> motherOf(Y,X)",girlSecondCousinOf,motherOf,,0,62,0.0,0,1,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> nephewOf(Y,X)",girlSecondCousinOf,nephewOf,,0,62,0.0,0,36,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> nieceOf(Y,X)",girlSecondCousinOf,nieceOf,,0,62,0.0,0,17,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> secondAuntOf(Y,X)",girlSecondCousinOf,secondAuntOf,,0,62,0.0,0,1,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> secondUncleOf(Y,X)",girlSecondCousinOf,secondUncleOf,,0,62,0.0,0,2,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> sisterOf(Y,X)",girlSecondCousinOf,sisterOf,,0,62,0.0,0,11,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> sonOf(Y,X)",girlSecondCousinOf,sonOf,,0,62,0.0,0,40,0.0
+inductive_inverse,"girlSecondCousinOf(X,Y) -> uncleOf(Y,X)",girlSecondCousinOf,uncleOf,,0,62,0.0,0,10,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> auntOf(Y,X)",granddaughterOf,auntOf,,0,812,0.0,0,21,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> boyCousinOf(Y,X)",granddaughterOf,boyCousinOf,,0,812,0.0,0,23,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",granddaughterOf,boyFirstCousinOnceRemovedOf,,0,812,0.0,0,5,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> boySecondCousinOf(Y,X)",granddaughterOf,boySecondCousinOf,,0,812,0.0,0,0,0
+inductive_inverse,"granddaughterOf(X,Y) -> brotherOf(Y,X)",granddaughterOf,brotherOf,,0,812,0.0,0,99,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> daughterOf(Y,X)",granddaughterOf,daughterOf,,0,812,0.0,0,135,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> fatherOf(Y,X)",granddaughterOf,fatherOf,,0,812,0.0,0,406,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> girlCousinOf(Y,X)",granddaughterOf,girlCousinOf,,0,812,0.0,0,8,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",granddaughterOf,girlFirstCousinOnceRemovedOf,,0,812,0.0,0,3,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> girlSecondCousinOf(Y,X)",granddaughterOf,girlSecondCousinOf,,0,812,0.0,0,0,0
+inductive_inverse,"granddaughterOf(X,Y) -> granddaughterOf(Y,X)",granddaughterOf,granddaughterOf,,0,812,0.0,0,38,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> grandsonOf(Y,X)",granddaughterOf,grandsonOf,,0,812,0.0,0,75,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> greatAuntOf(Y,X)",granddaughterOf,greatAuntOf,,0,812,0.0,0,7,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> greatGranddaughterOf(Y,X)",granddaughterOf,greatGranddaughterOf,,0,812,0.0,0,11,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> greatGrandfatherOf(Y,X)",granddaughterOf,greatGrandfatherOf,,0,812,0.0,0,308,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> greatGrandmotherOf(Y,X)",granddaughterOf,greatGrandmotherOf,,0,812,0.0,0,308,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> greatGrandsonOf(Y,X)",granddaughterOf,greatGrandsonOf,,0,812,0.0,0,20,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> greatUncleOf(Y,X)",granddaughterOf,greatUncleOf,,0,812,0.0,0,26,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> motherOf(Y,X)",granddaughterOf,motherOf,,0,812,0.0,0,406,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> nephewOf(Y,X)",granddaughterOf,nephewOf,,0,812,0.0,0,55,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> nieceOf(Y,X)",granddaughterOf,nieceOf,,0,812,0.0,0,24,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> secondAuntOf(Y,X)",granddaughterOf,secondAuntOf,,0,812,0.0,0,2,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> secondUncleOf(Y,X)",granddaughterOf,secondUncleOf,,0,812,0.0,0,8,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> sisterOf(Y,X)",granddaughterOf,sisterOf,,0,812,0.0,0,60,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> sonOf(Y,X)",granddaughterOf,sonOf,,0,812,0.0,0,170,0.0
+inductive_inverse,"granddaughterOf(X,Y) -> uncleOf(Y,X)",granddaughterOf,uncleOf,,0,812,0.0,0,44,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> auntOf(Y,X)",grandfatherOf,auntOf,,0,813,0.0,0,204,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> boyCousinOf(Y,X)",grandfatherOf,boyCousinOf,,0,813,0.0,0,201,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",grandfatherOf,boyFirstCousinOnceRemovedOf,,0,813,0.0,0,107,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> boySecondCousinOf(Y,X)",grandfatherOf,boySecondCousinOf,,0,813,0.0,0,48,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> brotherOf(Y,X)",grandfatherOf,brotherOf,,0,813,0.0,0,319,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> daughterOf(Y,X)",grandfatherOf,daughterOf,,0,813,0.0,0,406,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> fatherOf(Y,X)",grandfatherOf,fatherOf,,0,813,0.0,0,180,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> girlCousinOf(Y,X)",grandfatherOf,girlCousinOf,,0,813,0.0,0,209,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",grandfatherOf,girlFirstCousinOnceRemovedOf,,0,813,0.0,0,83,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> girlSecondCousinOf(Y,X)",grandfatherOf,girlSecondCousinOf,,0,813,0.0,0,38,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> grandfatherOf(Y,X)",grandfatherOf,grandfatherOf,,0,813,0.0,0,89,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> grandmotherOf(Y,X)",grandfatherOf,grandmotherOf,,0,813,0.0,0,53,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> greatAuntOf(Y,X)",grandfatherOf,greatAuntOf,,0,813,0.0,0,107,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> greatGranddaughterOf(Y,X)",grandfatherOf,greatGranddaughterOf,,0,813,0.0,0,279,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> greatGrandfatherOf(Y,X)",grandfatherOf,greatGrandfatherOf,,0,813,0.0,0,33,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> greatGrandmotherOf(Y,X)",grandfatherOf,greatGrandmotherOf,,0,813,0.0,0,17,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> greatGrandsonOf(Y,X)",grandfatherOf,greatGrandsonOf,,0,813,0.0,0,280,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> greatUncleOf(Y,X)",grandfatherOf,greatUncleOf,,0,813,0.0,0,95,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> motherOf(Y,X)",grandfatherOf,motherOf,,0,813,0.0,0,149,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> nephewOf(Y,X)",grandfatherOf,nephewOf,,0,813,0.0,0,332,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> nieceOf(Y,X)",grandfatherOf,nieceOf,,0,813,0.0,0,324,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> secondAuntOf(Y,X)",grandfatherOf,secondAuntOf,,0,813,0.0,0,116,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> secondUncleOf(Y,X)",grandfatherOf,secondUncleOf,,0,813,0.0,0,102,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> sisterOf(Y,X)",grandfatherOf,sisterOf,,0,813,0.0,0,327,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> sonOf(Y,X)",grandfatherOf,sonOf,,0,813,0.0,0,407,0.0
+inductive_inverse,"grandfatherOf(X,Y) -> uncleOf(Y,X)",grandfatherOf,uncleOf,,0,813,0.0,0,211,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> auntOf(Y,X)",grandmotherOf,auntOf,,0,813,0.0,0,204,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> boyCousinOf(Y,X)",grandmotherOf,boyCousinOf,,0,813,0.0,0,201,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",grandmotherOf,boyFirstCousinOnceRemovedOf,,0,813,0.0,0,107,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> boySecondCousinOf(Y,X)",grandmotherOf,boySecondCousinOf,,0,813,0.0,0,48,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> brotherOf(Y,X)",grandmotherOf,brotherOf,,0,813,0.0,0,319,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> daughterOf(Y,X)",grandmotherOf,daughterOf,,0,813,0.0,0,406,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> fatherOf(Y,X)",grandmotherOf,fatherOf,,0,813,0.0,0,180,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> girlCousinOf(Y,X)",grandmotherOf,girlCousinOf,,0,813,0.0,0,209,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",grandmotherOf,girlFirstCousinOnceRemovedOf,,0,813,0.0,0,83,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> girlSecondCousinOf(Y,X)",grandmotherOf,girlSecondCousinOf,,0,813,0.0,0,38,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> grandfatherOf(Y,X)",grandmotherOf,grandfatherOf,,0,813,0.0,0,89,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> grandmotherOf(Y,X)",grandmotherOf,grandmotherOf,,0,813,0.0,0,53,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> greatAuntOf(Y,X)",grandmotherOf,greatAuntOf,,0,813,0.0,0,107,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> greatGranddaughterOf(Y,X)",grandmotherOf,greatGranddaughterOf,,0,813,0.0,0,279,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> greatGrandfatherOf(Y,X)",grandmotherOf,greatGrandfatherOf,,0,813,0.0,0,33,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> greatGrandmotherOf(Y,X)",grandmotherOf,greatGrandmotherOf,,0,813,0.0,0,17,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> greatGrandsonOf(Y,X)",grandmotherOf,greatGrandsonOf,,0,813,0.0,0,280,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> greatUncleOf(Y,X)",grandmotherOf,greatUncleOf,,0,813,0.0,0,95,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> motherOf(Y,X)",grandmotherOf,motherOf,,0,813,0.0,0,149,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> nephewOf(Y,X)",grandmotherOf,nephewOf,,0,813,0.0,0,332,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> nieceOf(Y,X)",grandmotherOf,nieceOf,,0,813,0.0,0,324,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> secondAuntOf(Y,X)",grandmotherOf,secondAuntOf,,0,813,0.0,0,116,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> secondUncleOf(Y,X)",grandmotherOf,secondUncleOf,,0,813,0.0,0,102,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> sisterOf(Y,X)",grandmotherOf,sisterOf,,0,813,0.0,0,327,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> sonOf(Y,X)",grandmotherOf,sonOf,,0,813,0.0,0,407,0.0
+inductive_inverse,"grandmotherOf(X,Y) -> uncleOf(Y,X)",grandmotherOf,uncleOf,,0,813,0.0,0,211,0.0
+inductive_inverse,"grandsonOf(X,Y) -> auntOf(Y,X)",grandsonOf,auntOf,,0,814,0.0,0,45,0.0
+inductive_inverse,"grandsonOf(X,Y) -> boyCousinOf(Y,X)",grandsonOf,boyCousinOf,,0,814,0.0,0,14,0.0
+inductive_inverse,"grandsonOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",grandsonOf,boyFirstCousinOnceRemovedOf,,0,814,0.0,0,5,0.0
+inductive_inverse,"grandsonOf(X,Y) -> boySecondCousinOf(Y,X)",grandsonOf,boySecondCousinOf,,0,814,0.0,0,1,0.0
+inductive_inverse,"grandsonOf(X,Y) -> brotherOf(Y,X)",grandsonOf,brotherOf,,0,814,0.0,0,85,0.0
+inductive_inverse,"grandsonOf(X,Y) -> daughterOf(Y,X)",grandsonOf,daughterOf,,0,814,0.0,0,158,0.0
+inductive_inverse,"grandsonOf(X,Y) -> fatherOf(Y,X)",grandsonOf,fatherOf,,0,814,0.0,0,407,0.0
+inductive_inverse,"grandsonOf(X,Y) -> girlCousinOf(Y,X)",grandsonOf,girlCousinOf,,0,814,0.0,0,5,0.0
+inductive_inverse,"grandsonOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",grandsonOf,girlFirstCousinOnceRemovedOf,,0,814,0.0,0,4,0.0
+inductive_inverse,"grandsonOf(X,Y) -> girlSecondCousinOf(Y,X)",grandsonOf,girlSecondCousinOf,,0,814,0.0,0,2,0.0
+inductive_inverse,"grandsonOf(X,Y) -> granddaughterOf(Y,X)",grandsonOf,granddaughterOf,,0,814,0.0,0,53,0.0
+inductive_inverse,"grandsonOf(X,Y) -> grandsonOf(Y,X)",grandsonOf,grandsonOf,,0,814,0.0,0,73,0.0
+inductive_inverse,"grandsonOf(X,Y) -> greatAuntOf(Y,X)",grandsonOf,greatAuntOf,,0,814,0.0,0,25,0.0
+inductive_inverse,"grandsonOf(X,Y) -> greatGranddaughterOf(Y,X)",grandsonOf,greatGranddaughterOf,,0,814,0.0,0,11,0.0
+inductive_inverse,"grandsonOf(X,Y) -> greatGrandfatherOf(Y,X)",grandsonOf,greatGrandfatherOf,,0,814,0.0,0,316,0.0
+inductive_inverse,"grandsonOf(X,Y) -> greatGrandmotherOf(Y,X)",grandsonOf,greatGrandmotherOf,,0,814,0.0,0,316,0.0
+inductive_inverse,"grandsonOf(X,Y) -> greatGrandsonOf(Y,X)",grandsonOf,greatGrandsonOf,,0,814,0.0,0,20,0.0
+inductive_inverse,"grandsonOf(X,Y) -> greatUncleOf(Y,X)",grandsonOf,greatUncleOf,,0,814,0.0,0,12,0.0
+inductive_inverse,"grandsonOf(X,Y) -> motherOf(Y,X)",grandsonOf,motherOf,,0,814,0.0,0,407,0.0
+inductive_inverse,"grandsonOf(X,Y) -> nephewOf(Y,X)",grandsonOf,nephewOf,,0,814,0.0,0,38,0.0
+inductive_inverse,"grandsonOf(X,Y) -> nieceOf(Y,X)",grandsonOf,nieceOf,,0,814,0.0,0,31,0.0
+inductive_inverse,"grandsonOf(X,Y) -> secondAuntOf(Y,X)",grandsonOf,secondAuntOf,,0,814,0.0,0,3,0.0
+inductive_inverse,"grandsonOf(X,Y) -> secondUncleOf(Y,X)",grandsonOf,secondUncleOf,,0,814,0.0,0,5,0.0
+inductive_inverse,"grandsonOf(X,Y) -> sisterOf(Y,X)",grandsonOf,sisterOf,,0,814,0.0,0,82,0.0
+inductive_inverse,"grandsonOf(X,Y) -> sonOf(Y,X)",grandsonOf,sonOf,,0,814,0.0,0,154,0.0
+inductive_inverse,"grandsonOf(X,Y) -> uncleOf(Y,X)",grandsonOf,uncleOf,,0,814,0.0,0,39,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> auntOf(Y,X)",greatAuntOf,auntOf,,0,312,0.0,0,37,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> boyCousinOf(Y,X)",greatAuntOf,boyCousinOf,,0,312,0.0,0,94,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",greatAuntOf,boyFirstCousinOnceRemovedOf,,0,312,0.0,0,98,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> boySecondCousinOf(Y,X)",greatAuntOf,boySecondCousinOf,,0,312,0.0,0,33,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> brotherOf(Y,X)",greatAuntOf,brotherOf,,0,312,0.0,0,105,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> daughterOf(Y,X)",greatAuntOf,daughterOf,,0,312,0.0,0,148,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> fatherOf(Y,X)",greatAuntOf,fatherOf,,0,312,0.0,0,43,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> girlCousinOf(Y,X)",greatAuntOf,girlCousinOf,,0,312,0.0,0,77,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",greatAuntOf,girlFirstCousinOnceRemovedOf,,0,312,0.0,0,78,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> girlSecondCousinOf(Y,X)",greatAuntOf,girlSecondCousinOf,,0,312,0.0,0,38,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> granddaughterOf(Y,X)",greatAuntOf,granddaughterOf,,0,312,0.0,0,148,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> grandfatherOf(Y,X)",greatAuntOf,grandfatherOf,,0,312,0.0,0,14,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> grandmotherOf(Y,X)",greatAuntOf,grandmotherOf,,0,312,0.0,0,11,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> grandsonOf(Y,X)",greatAuntOf,grandsonOf,,0,312,0.0,0,164,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> greatAuntOf(Y,X)",greatAuntOf,greatAuntOf,,0,312,0.0,0,12,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> greatGranddaughterOf(Y,X)",greatAuntOf,greatGranddaughterOf,,0,312,0.0,0,148,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> greatGrandfatherOf(Y,X)",greatAuntOf,greatGrandfatherOf,,0,312,0.0,0,1,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> greatGrandmotherOf(Y,X)",greatAuntOf,greatGrandmotherOf,,0,312,0.0,0,1,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> greatGrandsonOf(Y,X)",greatAuntOf,greatGrandsonOf,,0,312,0.0,0,164,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> greatUncleOf(Y,X)",greatAuntOf,greatUncleOf,,0,312,0.0,0,14,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> motherOf(Y,X)",greatAuntOf,motherOf,,0,312,0.0,0,35,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> nephewOf(Y,X)",greatAuntOf,nephewOf,,0,312,0.0,0,154,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> nieceOf(Y,X)",greatAuntOf,nieceOf,,0,312,0.0,0,123,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> secondAuntOf(Y,X)",greatAuntOf,secondAuntOf,,0,312,0.0,0,31,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> secondUncleOf(Y,X)",greatAuntOf,secondUncleOf,,0,312,0.0,0,38,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> sisterOf(Y,X)",greatAuntOf,sisterOf,,0,312,0.0,0,102,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> sonOf(Y,X)",greatAuntOf,sonOf,,0,312,0.0,0,164,0.0
+inductive_inverse,"greatAuntOf(X,Y) -> uncleOf(Y,X)",greatAuntOf,uncleOf,,0,312,0.0,0,44,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> auntOf(Y,X)",greatGranddaughterOf,auntOf,,0,610,0.0,0,9,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> boyCousinOf(Y,X)",greatGranddaughterOf,boyCousinOf,,0,610,0.0,0,8,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",greatGranddaughterOf,boyFirstCousinOnceRemovedOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> boySecondCousinOf(Y,X)",greatGranddaughterOf,boySecondCousinOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> brotherOf(Y,X)",greatGranddaughterOf,brotherOf,,0,610,0.0,0,53,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> daughterOf(Y,X)",greatGranddaughterOf,daughterOf,,0,610,0.0,0,62,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> fatherOf(Y,X)",greatGranddaughterOf,fatherOf,,0,610,0.0,0,305,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> girlCousinOf(Y,X)",greatGranddaughterOf,girlCousinOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",greatGranddaughterOf,girlFirstCousinOnceRemovedOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> girlSecondCousinOf(Y,X)",greatGranddaughterOf,girlSecondCousinOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> granddaughterOf(Y,X)",greatGranddaughterOf,granddaughterOf,,0,610,0.0,0,15,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> grandfatherOf(Y,X)",greatGranddaughterOf,grandfatherOf,,0,610,0.0,0,305,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> grandmotherOf(Y,X)",greatGranddaughterOf,grandmotherOf,,0,610,0.0,0,305,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> grandsonOf(Y,X)",greatGranddaughterOf,grandsonOf,,0,610,0.0,0,25,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> greatAuntOf(Y,X)",greatGranddaughterOf,greatAuntOf,,0,610,0.0,0,4,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> greatGranddaughterOf(Y,X)",greatGranddaughterOf,greatGranddaughterOf,,0,610,0.0,0,1,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> greatGrandsonOf(Y,X)",greatGranddaughterOf,greatGrandsonOf,,0,610,0.0,0,4,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> greatUncleOf(Y,X)",greatGranddaughterOf,greatUncleOf,,0,610,0.0,0,6,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> motherOf(Y,X)",greatGranddaughterOf,motherOf,,0,610,0.0,0,305,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> nephewOf(Y,X)",greatGranddaughterOf,nephewOf,,0,610,0.0,0,14,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> nieceOf(Y,X)",greatGranddaughterOf,nieceOf,,0,610,0.0,0,8,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> secondAuntOf(Y,X)",greatGranddaughterOf,secondAuntOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> secondUncleOf(Y,X)",greatGranddaughterOf,secondUncleOf,,0,610,0.0,0,0,0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> sisterOf(Y,X)",greatGranddaughterOf,sisterOf,,0,610,0.0,0,29,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> sonOf(Y,X)",greatGranddaughterOf,sonOf,,0,610,0.0,0,79,0.0
+inductive_inverse,"greatGranddaughterOf(X,Y) -> uncleOf(Y,X)",greatGranddaughterOf,uncleOf,,0,610,0.0,0,22,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> auntOf(Y,X)",greatGrandfatherOf,auntOf,,0,617,0.0,0,113,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> boyCousinOf(Y,X)",greatGrandfatherOf,boyCousinOf,,0,617,0.0,0,182,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",greatGrandfatherOf,boyFirstCousinOnceRemovedOf,,0,617,0.0,0,114,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> boySecondCousinOf(Y,X)",greatGrandfatherOf,boySecondCousinOf,,0,617,0.0,0,47,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> brotherOf(Y,X)",greatGrandfatherOf,brotherOf,,0,617,0.0,0,225,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> daughterOf(Y,X)",greatGrandfatherOf,daughterOf,,0,617,0.0,0,305,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> fatherOf(Y,X)",greatGrandfatherOf,fatherOf,,0,617,0.0,0,110,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> girlCousinOf(Y,X)",greatGrandfatherOf,girlCousinOf,,0,617,0.0,0,183,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",greatGrandfatherOf,girlFirstCousinOnceRemovedOf,,0,617,0.0,0,91,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> girlSecondCousinOf(Y,X)",greatGrandfatherOf,girlSecondCousinOf,,0,617,0.0,0,39,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> granddaughterOf(Y,X)",greatGrandfatherOf,granddaughterOf,,0,617,0.0,0,305,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> grandfatherOf(Y,X)",greatGrandfatherOf,grandfatherOf,,0,617,0.0,0,37,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> grandmotherOf(Y,X)",greatGrandfatherOf,grandmotherOf,,0,617,0.0,0,16,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> grandsonOf(Y,X)",greatGrandfatherOf,grandsonOf,,0,617,0.0,0,312,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> greatAuntOf(Y,X)",greatGrandfatherOf,greatAuntOf,,0,617,0.0,0,42,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> greatGrandfatherOf(Y,X)",greatGrandfatherOf,greatGrandfatherOf,,0,617,0.0,0,4,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> greatGrandmotherOf(Y,X)",greatGrandfatherOf,greatGrandmotherOf,,0,617,0.0,0,2,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> greatUncleOf(Y,X)",greatGrandfatherOf,greatUncleOf,,0,617,0.0,0,28,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> motherOf(Y,X)",greatGrandfatherOf,motherOf,,0,617,0.0,0,82,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> nephewOf(Y,X)",greatGrandfatherOf,nephewOf,,0,617,0.0,0,274,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> nieceOf(Y,X)",greatGrandfatherOf,nieceOf,,0,617,0.0,0,253,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> secondAuntOf(Y,X)",greatGrandfatherOf,secondAuntOf,,0,617,0.0,0,84,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> secondUncleOf(Y,X)",greatGrandfatherOf,secondUncleOf,,0,617,0.0,0,82,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> sisterOf(Y,X)",greatGrandfatherOf,sisterOf,,0,617,0.0,0,234,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> sonOf(Y,X)",greatGrandfatherOf,sonOf,,0,617,0.0,0,312,0.0
+inductive_inverse,"greatGrandfatherOf(X,Y) -> uncleOf(Y,X)",greatGrandfatherOf,uncleOf,,0,617,0.0,0,121,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> auntOf(Y,X)",greatGrandmotherOf,auntOf,,0,617,0.0,0,113,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> boyCousinOf(Y,X)",greatGrandmotherOf,boyCousinOf,,0,617,0.0,0,182,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",greatGrandmotherOf,boyFirstCousinOnceRemovedOf,,0,617,0.0,0,114,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> boySecondCousinOf(Y,X)",greatGrandmotherOf,boySecondCousinOf,,0,617,0.0,0,47,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> brotherOf(Y,X)",greatGrandmotherOf,brotherOf,,0,617,0.0,0,225,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> daughterOf(Y,X)",greatGrandmotherOf,daughterOf,,0,617,0.0,0,305,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> fatherOf(Y,X)",greatGrandmotherOf,fatherOf,,0,617,0.0,0,110,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> girlCousinOf(Y,X)",greatGrandmotherOf,girlCousinOf,,0,617,0.0,0,183,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",greatGrandmotherOf,girlFirstCousinOnceRemovedOf,,0,617,0.0,0,91,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> girlSecondCousinOf(Y,X)",greatGrandmotherOf,girlSecondCousinOf,,0,617,0.0,0,39,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> granddaughterOf(Y,X)",greatGrandmotherOf,granddaughterOf,,0,617,0.0,0,305,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> grandfatherOf(Y,X)",greatGrandmotherOf,grandfatherOf,,0,617,0.0,0,37,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> grandmotherOf(Y,X)",greatGrandmotherOf,grandmotherOf,,0,617,0.0,0,16,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> grandsonOf(Y,X)",greatGrandmotherOf,grandsonOf,,0,617,0.0,0,312,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> greatAuntOf(Y,X)",greatGrandmotherOf,greatAuntOf,,0,617,0.0,0,42,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> greatGrandfatherOf(Y,X)",greatGrandmotherOf,greatGrandfatherOf,,0,617,0.0,0,4,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> greatGrandmotherOf(Y,X)",greatGrandmotherOf,greatGrandmotherOf,,0,617,0.0,0,2,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> greatUncleOf(Y,X)",greatGrandmotherOf,greatUncleOf,,0,617,0.0,0,28,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> motherOf(Y,X)",greatGrandmotherOf,motherOf,,0,617,0.0,0,82,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> nephewOf(Y,X)",greatGrandmotherOf,nephewOf,,0,617,0.0,0,274,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> nieceOf(Y,X)",greatGrandmotherOf,nieceOf,,0,617,0.0,0,253,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> secondAuntOf(Y,X)",greatGrandmotherOf,secondAuntOf,,0,617,0.0,0,84,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> secondUncleOf(Y,X)",greatGrandmotherOf,secondUncleOf,,0,617,0.0,0,82,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> sisterOf(Y,X)",greatGrandmotherOf,sisterOf,,0,617,0.0,0,234,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> sonOf(Y,X)",greatGrandmotherOf,sonOf,,0,617,0.0,0,312,0.0
+inductive_inverse,"greatGrandmotherOf(X,Y) -> uncleOf(Y,X)",greatGrandmotherOf,uncleOf,,0,617,0.0,0,121,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> auntOf(Y,X)",greatGrandsonOf,auntOf,,0,624,0.0,0,10,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> boyCousinOf(Y,X)",greatGrandsonOf,boyCousinOf,,0,624,0.0,0,8,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",greatGrandsonOf,boyFirstCousinOnceRemovedOf,,0,624,0.0,0,0,0
+inductive_inverse,"greatGrandsonOf(X,Y) -> boySecondCousinOf(Y,X)",greatGrandsonOf,boySecondCousinOf,,0,624,0.0,0,0,0
+inductive_inverse,"greatGrandsonOf(X,Y) -> brotherOf(Y,X)",greatGrandsonOf,brotherOf,,0,624,0.0,0,39,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> daughterOf(Y,X)",greatGrandsonOf,daughterOf,,0,624,0.0,0,86,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> fatherOf(Y,X)",greatGrandsonOf,fatherOf,,0,624,0.0,0,312,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> girlCousinOf(Y,X)",greatGrandsonOf,girlCousinOf,,0,624,0.0,0,1,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",greatGrandsonOf,girlFirstCousinOnceRemovedOf,,0,624,0.0,0,0,0
+inductive_inverse,"greatGrandsonOf(X,Y) -> girlSecondCousinOf(Y,X)",greatGrandsonOf,girlSecondCousinOf,,0,624,0.0,0,0,0
+inductive_inverse,"greatGrandsonOf(X,Y) -> granddaughterOf(Y,X)",greatGrandsonOf,granddaughterOf,,0,624,0.0,0,15,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> grandfatherOf(Y,X)",greatGrandsonOf,grandfatherOf,,0,624,0.0,0,312,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> grandmotherOf(Y,X)",greatGrandsonOf,grandmotherOf,,0,624,0.0,0,312,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> grandsonOf(Y,X)",greatGrandsonOf,grandsonOf,,0,624,0.0,0,22,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> greatAuntOf(Y,X)",greatGrandsonOf,greatAuntOf,,0,624,0.0,0,6,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> greatGranddaughterOf(Y,X)",greatGrandsonOf,greatGranddaughterOf,,0,624,0.0,0,1,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> greatGrandsonOf(Y,X)",greatGrandsonOf,greatGrandsonOf,,0,624,0.0,0,1,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> greatUncleOf(Y,X)",greatGrandsonOf,greatUncleOf,,0,624,0.0,0,2,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> motherOf(Y,X)",greatGrandsonOf,motherOf,,0,624,0.0,0,312,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> nephewOf(Y,X)",greatGrandsonOf,nephewOf,,0,624,0.0,0,15,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> nieceOf(Y,X)",greatGrandsonOf,nieceOf,,0,624,0.0,0,10,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> secondAuntOf(Y,X)",greatGrandsonOf,secondAuntOf,,0,624,0.0,0,0,0
+inductive_inverse,"greatGrandsonOf(X,Y) -> secondUncleOf(Y,X)",greatGrandsonOf,secondUncleOf,,0,624,0.0,0,3,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> sisterOf(Y,X)",greatGrandsonOf,sisterOf,,0,624,0.0,0,39,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> sonOf(Y,X)",greatGrandsonOf,sonOf,,0,624,0.0,0,81,0.0
+inductive_inverse,"greatGrandsonOf(X,Y) -> uncleOf(Y,X)",greatGrandsonOf,uncleOf,,0,624,0.0,0,9,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> auntOf(Y,X)",greatUncleOf,auntOf,,0,237,0.0,0,39,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> boyCousinOf(Y,X)",greatUncleOf,boyCousinOf,,0,237,0.0,0,53,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",greatUncleOf,boyFirstCousinOnceRemovedOf,,0,237,0.0,0,89,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> boySecondCousinOf(Y,X)",greatUncleOf,boySecondCousinOf,,0,237,0.0,0,40,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> brotherOf(Y,X)",greatUncleOf,brotherOf,,0,237,0.0,0,81,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> daughterOf(Y,X)",greatUncleOf,daughterOf,,0,237,0.0,0,112,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> fatherOf(Y,X)",greatUncleOf,fatherOf,,0,237,0.0,0,43,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> girlCousinOf(Y,X)",greatUncleOf,girlCousinOf,,0,237,0.0,0,43,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",greatUncleOf,girlFirstCousinOnceRemovedOf,,0,237,0.0,0,60,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> girlSecondCousinOf(Y,X)",greatUncleOf,girlSecondCousinOf,,0,237,0.0,0,31,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> granddaughterOf(Y,X)",greatUncleOf,granddaughterOf,,0,237,0.0,0,112,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> grandfatherOf(Y,X)",greatUncleOf,grandfatherOf,,0,237,0.0,0,12,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> grandmotherOf(Y,X)",greatUncleOf,grandmotherOf,,0,237,0.0,0,5,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> grandsonOf(Y,X)",greatUncleOf,grandsonOf,,0,237,0.0,0,125,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> greatAuntOf(Y,X)",greatUncleOf,greatAuntOf,,0,237,0.0,0,19,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> greatGranddaughterOf(Y,X)",greatUncleOf,greatGranddaughterOf,,0,237,0.0,0,112,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> greatGrandfatherOf(Y,X)",greatUncleOf,greatGrandfatherOf,,0,237,0.0,0,1,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> greatGrandmotherOf(Y,X)",greatUncleOf,greatGrandmotherOf,,0,237,0.0,0,0,0
+inductive_inverse,"greatUncleOf(X,Y) -> greatGrandsonOf(Y,X)",greatUncleOf,greatGrandsonOf,,0,237,0.0,0,125,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> greatUncleOf(Y,X)",greatUncleOf,greatUncleOf,,0,237,0.0,0,17,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> motherOf(Y,X)",greatUncleOf,motherOf,,0,237,0.0,0,25,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> nephewOf(Y,X)",greatUncleOf,nephewOf,,0,237,0.0,0,103,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> nieceOf(Y,X)",greatUncleOf,nieceOf,,0,237,0.0,0,82,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> secondAuntOf(Y,X)",greatUncleOf,secondAuntOf,,0,237,0.0,0,8,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> secondUncleOf(Y,X)",greatUncleOf,secondUncleOf,,0,237,0.0,0,12,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> sisterOf(Y,X)",greatUncleOf,sisterOf,,0,237,0.0,0,80,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> sonOf(Y,X)",greatUncleOf,sonOf,,0,237,0.0,0,125,0.0
+inductive_inverse,"greatUncleOf(X,Y) -> uncleOf(Y,X)",greatUncleOf,uncleOf,,0,237,0.0,0,42,0.0
+inductive_inverse,"motherOf(X,Y) -> auntOf(Y,X)",motherOf,auntOf,,0,733,0.0,0,169,0.0
+inductive_inverse,"motherOf(X,Y) -> boyCousinOf(Y,X)",motherOf,boyCousinOf,,0,733,0.0,0,146,0.0
+inductive_inverse,"motherOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",motherOf,boyFirstCousinOnceRemovedOf,,0,733,0.0,0,78,0.0
+inductive_inverse,"motherOf(X,Y) -> boySecondCousinOf(Y,X)",motherOf,boySecondCousinOf,,0,733,0.0,0,33,0.0
+inductive_inverse,"motherOf(X,Y) -> brotherOf(Y,X)",motherOf,brotherOf,,0,733,0.0,0,248,0.0
+inductive_inverse,"motherOf(X,Y) -> fatherOf(Y,X)",motherOf,fatherOf,,0,733,0.0,0,187,0.0
+inductive_inverse,"motherOf(X,Y) -> girlCousinOf(Y,X)",motherOf,girlCousinOf,,0,733,0.0,0,141,0.0
+inductive_inverse,"motherOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",motherOf,girlFirstCousinOnceRemovedOf,,0,733,0.0,0,58,0.0
+inductive_inverse,"motherOf(X,Y) -> girlSecondCousinOf(Y,X)",motherOf,girlSecondCousinOf,,0,733,0.0,0,30,0.0
+inductive_inverse,"motherOf(X,Y) -> granddaughterOf(Y,X)",motherOf,granddaughterOf,,0,733,0.0,0,263,0.0
+inductive_inverse,"motherOf(X,Y) -> grandfatherOf(Y,X)",motherOf,grandfatherOf,,0,733,0.0,0,105,0.0
+inductive_inverse,"motherOf(X,Y) -> grandmotherOf(Y,X)",motherOf,grandmotherOf,,0,733,0.0,0,90,0.0
+inductive_inverse,"motherOf(X,Y) -> grandsonOf(Y,X)",motherOf,grandsonOf,,0,733,0.0,0,279,0.0
+inductive_inverse,"motherOf(X,Y) -> greatAuntOf(Y,X)",motherOf,greatAuntOf,,0,733,0.0,0,106,0.0
+inductive_inverse,"motherOf(X,Y) -> greatGranddaughterOf(Y,X)",motherOf,greatGranddaughterOf,,0,733,0.0,0,184,0.0
+inductive_inverse,"motherOf(X,Y) -> greatGrandfatherOf(Y,X)",motherOf,greatGrandfatherOf,,0,733,0.0,0,56,0.0
+inductive_inverse,"motherOf(X,Y) -> greatGrandmotherOf(Y,X)",motherOf,greatGrandmotherOf,,0,733,0.0,0,55,0.0
+inductive_inverse,"motherOf(X,Y) -> greatGrandsonOf(Y,X)",motherOf,greatGrandsonOf,,0,733,0.0,0,186,0.0
+inductive_inverse,"motherOf(X,Y) -> greatUncleOf(Y,X)",motherOf,greatUncleOf,,0,733,0.0,0,85,0.0
+inductive_inverse,"motherOf(X,Y) -> motherOf(Y,X)",motherOf,motherOf,,0,733,0.0,0,165,0.0
+inductive_inverse,"motherOf(X,Y) -> nephewOf(Y,X)",motherOf,nephewOf,,0,733,0.0,0,229,0.0
+inductive_inverse,"motherOf(X,Y) -> nieceOf(Y,X)",motherOf,nieceOf,,0,733,0.0,0,210,0.0
+inductive_inverse,"motherOf(X,Y) -> secondAuntOf(Y,X)",motherOf,secondAuntOf,,0,733,0.0,0,79,0.0
+inductive_inverse,"motherOf(X,Y) -> secondUncleOf(Y,X)",motherOf,secondUncleOf,,0,733,0.0,0,75,0.0
+inductive_inverse,"motherOf(X,Y) -> sisterOf(Y,X)",motherOf,sisterOf,,0,733,0.0,0,261,0.0
+inductive_inverse,"motherOf(X,Y) -> uncleOf(Y,X)",motherOf,uncleOf,,0,733,0.0,0,169,0.0
+inductive_inverse,"nephewOf(X,Y) -> boyCousinOf(Y,X)",nephewOf,boyCousinOf,,0,514,0.0,0,73,0.0
+inductive_inverse,"nephewOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",nephewOf,boyFirstCousinOnceRemovedOf,,0,514,0.0,0,13,0.0
+inductive_inverse,"nephewOf(X,Y) -> boySecondCousinOf(Y,X)",nephewOf,boySecondCousinOf,,0,514,0.0,0,7,0.0
+inductive_inverse,"nephewOf(X,Y) -> brotherOf(Y,X)",nephewOf,brotherOf,,0,514,0.0,0,216,0.0
+inductive_inverse,"nephewOf(X,Y) -> daughterOf(Y,X)",nephewOf,daughterOf,,0,514,0.0,0,298,0.0
+inductive_inverse,"nephewOf(X,Y) -> fatherOf(Y,X)",nephewOf,fatherOf,,0,514,0.0,0,90,0.0
+inductive_inverse,"nephewOf(X,Y) -> girlCousinOf(Y,X)",nephewOf,girlCousinOf,,0,514,0.0,0,69,0.0
+inductive_inverse,"nephewOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",nephewOf,girlFirstCousinOnceRemovedOf,,0,514,0.0,0,6,0.0
+inductive_inverse,"nephewOf(X,Y) -> girlSecondCousinOf(Y,X)",nephewOf,girlSecondCousinOf,,0,514,0.0,0,2,0.0
+inductive_inverse,"nephewOf(X,Y) -> granddaughterOf(Y,X)",nephewOf,granddaughterOf,,0,514,0.0,0,203,0.0
+inductive_inverse,"nephewOf(X,Y) -> grandfatherOf(Y,X)",nephewOf,grandfatherOf,,0,514,0.0,0,46,0.0
+inductive_inverse,"nephewOf(X,Y) -> grandmotherOf(Y,X)",nephewOf,grandmotherOf,,0,514,0.0,0,47,0.0
+inductive_inverse,"nephewOf(X,Y) -> grandsonOf(Y,X)",nephewOf,grandsonOf,,0,514,0.0,0,165,0.0
+inductive_inverse,"nephewOf(X,Y) -> greatAuntOf(Y,X)",nephewOf,greatAuntOf,,0,514,0.0,0,215,0.0
+inductive_inverse,"nephewOf(X,Y) -> greatGranddaughterOf(Y,X)",nephewOf,greatGranddaughterOf,,0,514,0.0,0,102,0.0
+inductive_inverse,"nephewOf(X,Y) -> greatGrandfatherOf(Y,X)",nephewOf,greatGrandfatherOf,,0,514,0.0,0,11,0.0
+inductive_inverse,"nephewOf(X,Y) -> greatGrandmotherOf(Y,X)",nephewOf,greatGrandmotherOf,,0,514,0.0,0,17,0.0
+inductive_inverse,"nephewOf(X,Y) -> greatGrandsonOf(Y,X)",nephewOf,greatGrandsonOf,,0,514,0.0,0,93,0.0
+inductive_inverse,"nephewOf(X,Y) -> greatUncleOf(Y,X)",nephewOf,greatUncleOf,,0,514,0.0,0,133,0.0
+inductive_inverse,"nephewOf(X,Y) -> motherOf(Y,X)",nephewOf,motherOf,,0,514,0.0,0,121,0.0
+inductive_inverse,"nephewOf(X,Y) -> nephewOf(Y,X)",nephewOf,nephewOf,,0,514,0.0,0,127,0.0
+inductive_inverse,"nephewOf(X,Y) -> nieceOf(Y,X)",nephewOf,nieceOf,,0,514,0.0,0,141,0.0
+inductive_inverse,"nephewOf(X,Y) -> secondAuntOf(Y,X)",nephewOf,secondAuntOf,,0,514,0.0,0,36,0.0
+inductive_inverse,"nephewOf(X,Y) -> secondUncleOf(Y,X)",nephewOf,secondUncleOf,,0,514,0.0,0,32,0.0
+inductive_inverse,"nephewOf(X,Y) -> sisterOf(Y,X)",nephewOf,sisterOf,,0,514,0.0,0,298,0.0
+inductive_inverse,"nephewOf(X,Y) -> sonOf(Y,X)",nephewOf,sonOf,,0,514,0.0,0,216,0.0
+inductive_inverse,"nieceOf(X,Y) -> boyCousinOf(Y,X)",nieceOf,boyCousinOf,,0,496,0.0,0,61,0.0
+inductive_inverse,"nieceOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",nieceOf,boyFirstCousinOnceRemovedOf,,0,496,0.0,0,22,0.0
+inductive_inverse,"nieceOf(X,Y) -> boySecondCousinOf(Y,X)",nieceOf,boySecondCousinOf,,0,496,0.0,0,8,0.0
+inductive_inverse,"nieceOf(X,Y) -> brotherOf(Y,X)",nieceOf,brotherOf,,0,496,0.0,0,238,0.0
+inductive_inverse,"nieceOf(X,Y) -> daughterOf(Y,X)",nieceOf,daughterOf,,0,496,0.0,0,258,0.0
+inductive_inverse,"nieceOf(X,Y) -> fatherOf(Y,X)",nieceOf,fatherOf,,0,496,0.0,0,98,0.0
+inductive_inverse,"nieceOf(X,Y) -> girlCousinOf(Y,X)",nieceOf,girlCousinOf,,0,496,0.0,0,43,0.0
+inductive_inverse,"nieceOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",nieceOf,girlFirstCousinOnceRemovedOf,,0,496,0.0,0,9,0.0
+inductive_inverse,"nieceOf(X,Y) -> girlSecondCousinOf(Y,X)",nieceOf,girlSecondCousinOf,,0,496,0.0,0,5,0.0
+inductive_inverse,"nieceOf(X,Y) -> granddaughterOf(Y,X)",nieceOf,granddaughterOf,,0,496,0.0,0,168,0.0
+inductive_inverse,"nieceOf(X,Y) -> grandfatherOf(Y,X)",nieceOf,grandfatherOf,,0,496,0.0,0,51,0.0
+inductive_inverse,"nieceOf(X,Y) -> grandmotherOf(Y,X)",nieceOf,grandmotherOf,,0,496,0.0,0,47,0.0
+inductive_inverse,"nieceOf(X,Y) -> grandsonOf(Y,X)",nieceOf,grandsonOf,,0,496,0.0,0,189,0.0
+inductive_inverse,"nieceOf(X,Y) -> greatAuntOf(Y,X)",nieceOf,greatAuntOf,,0,496,0.0,0,189,0.0
+inductive_inverse,"nieceOf(X,Y) -> greatGranddaughterOf(Y,X)",nieceOf,greatGranddaughterOf,,0,496,0.0,0,68,0.0
+inductive_inverse,"nieceOf(X,Y) -> greatGrandfatherOf(Y,X)",nieceOf,greatGrandfatherOf,,0,496,0.0,0,10,0.0
+inductive_inverse,"nieceOf(X,Y) -> greatGrandmotherOf(Y,X)",nieceOf,greatGrandmotherOf,,0,496,0.0,0,11,0.0
+inductive_inverse,"nieceOf(X,Y) -> greatGrandsonOf(Y,X)",nieceOf,greatGrandsonOf,,0,496,0.0,0,93,0.0
+inductive_inverse,"nieceOf(X,Y) -> greatUncleOf(Y,X)",nieceOf,greatUncleOf,,0,496,0.0,0,147,0.0
+inductive_inverse,"nieceOf(X,Y) -> motherOf(Y,X)",nieceOf,motherOf,,0,496,0.0,0,115,0.0
+inductive_inverse,"nieceOf(X,Y) -> nephewOf(Y,X)",nieceOf,nephewOf,,0,496,0.0,0,135,0.0
+inductive_inverse,"nieceOf(X,Y) -> nieceOf(Y,X)",nieceOf,nieceOf,,0,496,0.0,0,105,0.0
+inductive_inverse,"nieceOf(X,Y) -> secondAuntOf(Y,X)",nieceOf,secondAuntOf,,0,496,0.0,0,26,0.0
+inductive_inverse,"nieceOf(X,Y) -> secondUncleOf(Y,X)",nieceOf,secondUncleOf,,0,496,0.0,0,29,0.0
+inductive_inverse,"nieceOf(X,Y) -> sisterOf(Y,X)",nieceOf,sisterOf,,0,496,0.0,0,258,0.0
+inductive_inverse,"nieceOf(X,Y) -> sonOf(Y,X)",nieceOf,sonOf,,0,496,0.0,0,238,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> auntOf(Y,X)",secondAuntOf,auntOf,,0,175,0.0,0,6,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> boyCousinOf(Y,X)",secondAuntOf,boyCousinOf,,0,175,0.0,0,43,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> boySecondCousinOf(Y,X)",secondAuntOf,boySecondCousinOf,,0,175,0.0,0,55,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> brotherOf(Y,X)",secondAuntOf,brotherOf,,0,175,0.0,0,53,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> daughterOf(Y,X)",secondAuntOf,daughterOf,,0,175,0.0,0,77,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> fatherOf(Y,X)",secondAuntOf,fatherOf,,0,175,0.0,0,20,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> girlCousinOf(Y,X)",secondAuntOf,girlCousinOf,,0,175,0.0,0,35,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> girlSecondCousinOf(Y,X)",secondAuntOf,girlSecondCousinOf,,0,175,0.0,0,40,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> granddaughterOf(Y,X)",secondAuntOf,granddaughterOf,,0,175,0.0,0,77,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> grandfatherOf(Y,X)",secondAuntOf,grandfatherOf,,0,175,0.0,0,4,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> grandmotherOf(Y,X)",secondAuntOf,grandmotherOf,,0,175,0.0,0,1,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> grandsonOf(Y,X)",secondAuntOf,grandsonOf,,0,175,0.0,0,98,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> greatAuntOf(Y,X)",secondAuntOf,greatAuntOf,,0,175,0.0,0,0,0
+inductive_inverse,"secondAuntOf(X,Y) -> greatGranddaughterOf(Y,X)",secondAuntOf,greatGranddaughterOf,,0,175,0.0,0,77,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> greatGrandfatherOf(Y,X)",secondAuntOf,greatGrandfatherOf,,0,175,0.0,0,0,0
+inductive_inverse,"secondAuntOf(X,Y) -> greatGrandmotherOf(Y,X)",secondAuntOf,greatGrandmotherOf,,0,175,0.0,0,0,0
+inductive_inverse,"secondAuntOf(X,Y) -> greatGrandsonOf(Y,X)",secondAuntOf,greatGrandsonOf,,0,175,0.0,0,98,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> greatUncleOf(Y,X)",secondAuntOf,greatUncleOf,,0,175,0.0,0,6,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> motherOf(Y,X)",secondAuntOf,motherOf,,0,175,0.0,0,6,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> nephewOf(Y,X)",secondAuntOf,nephewOf,,0,175,0.0,0,93,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> nieceOf(Y,X)",secondAuntOf,nieceOf,,0,175,0.0,0,61,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> secondAuntOf(Y,X)",secondAuntOf,secondAuntOf,,0,175,0.0,0,6,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> secondUncleOf(Y,X)",secondAuntOf,secondUncleOf,,0,175,0.0,0,10,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> sisterOf(Y,X)",secondAuntOf,sisterOf,,0,175,0.0,0,36,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> sonOf(Y,X)",secondAuntOf,sonOf,,0,175,0.0,0,98,0.0
+inductive_inverse,"secondAuntOf(X,Y) -> uncleOf(Y,X)",secondAuntOf,uncleOf,,0,175,0.0,0,19,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> auntOf(Y,X)",secondUncleOf,auntOf,,0,158,0.0,0,13,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> boyCousinOf(Y,X)",secondUncleOf,boyCousinOf,,0,158,0.0,0,28,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> boySecondCousinOf(Y,X)",secondUncleOf,boySecondCousinOf,,0,158,0.0,0,53,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> brotherOf(Y,X)",secondUncleOf,brotherOf,,0,158,0.0,0,44,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> daughterOf(Y,X)",secondUncleOf,daughterOf,,0,158,0.0,0,76,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> fatherOf(Y,X)",secondUncleOf,fatherOf,,0,158,0.0,0,21,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> girlCousinOf(Y,X)",secondUncleOf,girlCousinOf,,0,158,0.0,0,23,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> girlSecondCousinOf(Y,X)",secondUncleOf,girlSecondCousinOf,,0,158,0.0,0,58,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> granddaughterOf(Y,X)",secondUncleOf,granddaughterOf,,0,158,0.0,0,76,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> grandfatherOf(Y,X)",secondUncleOf,grandfatherOf,,0,158,0.0,0,3,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> grandmotherOf(Y,X)",secondUncleOf,grandmotherOf,,0,158,0.0,0,4,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> grandsonOf(Y,X)",secondUncleOf,grandsonOf,,0,158,0.0,0,82,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> greatAuntOf(Y,X)",secondUncleOf,greatAuntOf,,0,158,0.0,0,4,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> greatGranddaughterOf(Y,X)",secondUncleOf,greatGranddaughterOf,,0,158,0.0,0,76,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> greatGrandfatherOf(Y,X)",secondUncleOf,greatGrandfatherOf,,0,158,0.0,0,0,0
+inductive_inverse,"secondUncleOf(X,Y) -> greatGrandmotherOf(Y,X)",secondUncleOf,greatGrandmotherOf,,0,158,0.0,0,0,0
+inductive_inverse,"secondUncleOf(X,Y) -> greatGrandsonOf(Y,X)",secondUncleOf,greatGrandsonOf,,0,158,0.0,0,82,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> greatUncleOf(Y,X)",secondUncleOf,greatUncleOf,,0,158,0.0,0,3,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> motherOf(Y,X)",secondUncleOf,motherOf,,0,158,0.0,0,13,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> nephewOf(Y,X)",secondUncleOf,nephewOf,,0,158,0.0,0,72,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> nieceOf(Y,X)",secondUncleOf,nieceOf,,0,158,0.0,0,56,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> secondAuntOf(Y,X)",secondUncleOf,secondAuntOf,,0,158,0.0,0,5,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> secondUncleOf(Y,X)",secondUncleOf,secondUncleOf,,0,158,0.0,0,3,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> sisterOf(Y,X)",secondUncleOf,sisterOf,,0,158,0.0,0,45,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> sonOf(Y,X)",secondUncleOf,sonOf,,0,158,0.0,0,82,0.0
+inductive_inverse,"secondUncleOf(X,Y) -> uncleOf(Y,X)",secondUncleOf,uncleOf,,0,158,0.0,0,14,0.0
+inductive_inverse,"sisterOf(X,Y) -> auntOf(Y,X)",sisterOf,auntOf,,0,636,0.0,0,249,0.0
+inductive_inverse,"sisterOf(X,Y) -> boyCousinOf(Y,X)",sisterOf,boyCousinOf,,0,636,0.0,0,126,0.0
+inductive_inverse,"sisterOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",sisterOf,boyFirstCousinOnceRemovedOf,,0,636,0.0,0,23,0.0
+inductive_inverse,"sisterOf(X,Y) -> boySecondCousinOf(Y,X)",sisterOf,boySecondCousinOf,,0,636,0.0,0,12,0.0
+inductive_inverse,"sisterOf(X,Y) -> daughterOf(Y,X)",sisterOf,daughterOf,,0,636,0.0,0,328,0.0
+inductive_inverse,"sisterOf(X,Y) -> fatherOf(Y,X)",sisterOf,fatherOf,,0,636,0.0,0,135,0.0
+inductive_inverse,"sisterOf(X,Y) -> girlCousinOf(Y,X)",sisterOf,girlCousinOf,,0,636,0.0,0,124,0.0
+inductive_inverse,"sisterOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",sisterOf,girlFirstCousinOnceRemovedOf,,0,636,0.0,0,28,0.0
+inductive_inverse,"sisterOf(X,Y) -> girlSecondCousinOf(Y,X)",sisterOf,girlSecondCousinOf,,0,636,0.0,0,12,0.0
+inductive_inverse,"sisterOf(X,Y) -> granddaughterOf(Y,X)",sisterOf,granddaughterOf,,0,636,0.0,0,264,0.0
+inductive_inverse,"sisterOf(X,Y) -> grandfatherOf(Y,X)",sisterOf,grandfatherOf,,0,636,0.0,0,80,0.0
+inductive_inverse,"sisterOf(X,Y) -> grandmotherOf(Y,X)",sisterOf,grandmotherOf,,0,636,0.0,0,56,0.0
+inductive_inverse,"sisterOf(X,Y) -> grandsonOf(Y,X)",sisterOf,grandsonOf,,0,636,0.0,0,247,0.0
+inductive_inverse,"sisterOf(X,Y) -> greatAuntOf(Y,X)",sisterOf,greatAuntOf,,0,636,0.0,0,140,0.0
+inductive_inverse,"sisterOf(X,Y) -> greatGranddaughterOf(Y,X)",sisterOf,greatGranddaughterOf,,0,636,0.0,0,170,0.0
+inductive_inverse,"sisterOf(X,Y) -> greatGrandfatherOf(Y,X)",sisterOf,greatGrandfatherOf,,0,636,0.0,0,38,0.0
+inductive_inverse,"sisterOf(X,Y) -> greatGrandmotherOf(Y,X)",sisterOf,greatGrandmotherOf,,0,636,0.0,0,17,0.0
+inductive_inverse,"sisterOf(X,Y) -> greatGrandsonOf(Y,X)",sisterOf,greatGrandsonOf,,0,636,0.0,0,147,0.0
+inductive_inverse,"sisterOf(X,Y) -> greatUncleOf(Y,X)",sisterOf,greatUncleOf,,0,636,0.0,0,104,0.0
+inductive_inverse,"sisterOf(X,Y) -> motherOf(Y,X)",sisterOf,motherOf,,0,636,0.0,0,144,0.0
+inductive_inverse,"sisterOf(X,Y) -> nephewOf(Y,X)",sisterOf,nephewOf,,0,636,0.0,0,192,0.0
+inductive_inverse,"sisterOf(X,Y) -> nieceOf(Y,X)",sisterOf,nieceOf,,0,636,0.0,0,200,0.0
+inductive_inverse,"sisterOf(X,Y) -> secondAuntOf(Y,X)",sisterOf,secondAuntOf,,0,636,0.0,0,74,0.0
+inductive_inverse,"sisterOf(X,Y) -> secondUncleOf(Y,X)",sisterOf,secondUncleOf,,0,636,0.0,0,76,0.0
+inductive_inverse,"sisterOf(X,Y) -> sonOf(Y,X)",sisterOf,sonOf,,0,636,0.0,0,308,0.0
+inductive_inverse,"sisterOf(X,Y) -> uncleOf(Y,X)",sisterOf,uncleOf,,0,636,0.0,0,223,0.0
+inductive_inverse,"sonOf(X,Y) -> auntOf(Y,X)",sonOf,auntOf,,0,600,0.0,0,44,0.0
+inductive_inverse,"sonOf(X,Y) -> boyCousinOf(Y,X)",sonOf,boyCousinOf,,0,600,0.0,0,27,0.0
+inductive_inverse,"sonOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",sonOf,boyFirstCousinOnceRemovedOf,,0,600,0.0,0,7,0.0
+inductive_inverse,"sonOf(X,Y) -> boySecondCousinOf(Y,X)",sonOf,boySecondCousinOf,,0,600,0.0,0,1,0.0
+inductive_inverse,"sonOf(X,Y) -> brotherOf(Y,X)",sonOf,brotherOf,,0,600,0.0,0,105,0.0
+inductive_inverse,"sonOf(X,Y) -> daughterOf(Y,X)",sonOf,daughterOf,,0,600,0.0,0,109,0.0
+inductive_inverse,"sonOf(X,Y) -> girlCousinOf(Y,X)",sonOf,girlCousinOf,,0,600,0.0,0,14,0.0
+inductive_inverse,"sonOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",sonOf,girlFirstCousinOnceRemovedOf,,0,600,0.0,0,3,0.0
+inductive_inverse,"sonOf(X,Y) -> girlSecondCousinOf(Y,X)",sonOf,girlSecondCousinOf,,0,600,0.0,0,0,0
+inductive_inverse,"sonOf(X,Y) -> granddaughterOf(Y,X)",sonOf,granddaughterOf,,0,600,0.0,0,52,0.0
+inductive_inverse,"sonOf(X,Y) -> grandfatherOf(Y,X)",sonOf,grandfatherOf,,0,600,0.0,0,264,0.0
+inductive_inverse,"sonOf(X,Y) -> grandmotherOf(Y,X)",sonOf,grandmotherOf,,0,600,0.0,0,195,0.0
+inductive_inverse,"sonOf(X,Y) -> grandsonOf(Y,X)",sonOf,grandsonOf,,0,600,0.0,0,93,0.0
+inductive_inverse,"sonOf(X,Y) -> greatAuntOf(Y,X)",sonOf,greatAuntOf,,0,600,0.0,0,29,0.0
+inductive_inverse,"sonOf(X,Y) -> greatGranddaughterOf(Y,X)",sonOf,greatGranddaughterOf,,0,600,0.0,0,24,0.0
+inductive_inverse,"sonOf(X,Y) -> greatGrandfatherOf(Y,X)",sonOf,greatGrandfatherOf,,0,600,0.0,0,179,0.0
+inductive_inverse,"sonOf(X,Y) -> greatGrandmotherOf(Y,X)",sonOf,greatGrandmotherOf,,0,600,0.0,0,116,0.0
+inductive_inverse,"sonOf(X,Y) -> greatGrandsonOf(Y,X)",sonOf,greatGrandsonOf,,0,600,0.0,0,38,0.0
+inductive_inverse,"sonOf(X,Y) -> greatUncleOf(Y,X)",sonOf,greatUncleOf,,0,600,0.0,0,26,0.0
+inductive_inverse,"sonOf(X,Y) -> nephewOf(Y,X)",sonOf,nephewOf,,0,600,0.0,0,61,0.0
+inductive_inverse,"sonOf(X,Y) -> nieceOf(Y,X)",sonOf,nieceOf,,0,600,0.0,0,32,0.0
+inductive_inverse,"sonOf(X,Y) -> secondAuntOf(Y,X)",sonOf,secondAuntOf,,0,600,0.0,0,6,0.0
+inductive_inverse,"sonOf(X,Y) -> secondUncleOf(Y,X)",sonOf,secondUncleOf,,0,600,0.0,0,16,0.0
+inductive_inverse,"sonOf(X,Y) -> sisterOf(Y,X)",sonOf,sisterOf,,0,600,0.0,0,71,0.0
+inductive_inverse,"sonOf(X,Y) -> sonOf(Y,X)",sonOf,sonOf,,0,600,0.0,0,163,0.0
+inductive_inverse,"sonOf(X,Y) -> uncleOf(Y,X)",sonOf,uncleOf,,0,600,0.0,0,60,0.0
+inductive_inverse,"uncleOf(X,Y) -> auntOf(Y,X)",uncleOf,auntOf,,0,454,0.0,0,84,0.0
+inductive_inverse,"uncleOf(X,Y) -> boyCousinOf(Y,X)",uncleOf,boyCousinOf,,0,454,0.0,0,159,0.0
+inductive_inverse,"uncleOf(X,Y) -> boyFirstCousinOnceRemovedOf(Y,X)",uncleOf,boyFirstCousinOnceRemovedOf,,0,454,0.0,0,76,0.0
+inductive_inverse,"uncleOf(X,Y) -> boySecondCousinOf(Y,X)",uncleOf,boySecondCousinOf,,0,454,0.0,0,32,0.0
+inductive_inverse,"uncleOf(X,Y) -> brotherOf(Y,X)",uncleOf,brotherOf,,0,454,0.0,0,150,0.0
+inductive_inverse,"uncleOf(X,Y) -> daughterOf(Y,X)",uncleOf,daughterOf,,0,454,0.0,0,238,0.0
+inductive_inverse,"uncleOf(X,Y) -> fatherOf(Y,X)",uncleOf,fatherOf,,0,454,0.0,0,69,0.0
+inductive_inverse,"uncleOf(X,Y) -> girlCousinOf(Y,X)",uncleOf,girlCousinOf,,0,454,0.0,0,181,0.0
+inductive_inverse,"uncleOf(X,Y) -> girlFirstCousinOnceRemovedOf(Y,X)",uncleOf,girlFirstCousinOnceRemovedOf,,0,454,0.0,0,62,0.0
+inductive_inverse,"uncleOf(X,Y) -> girlSecondCousinOf(Y,X)",uncleOf,girlSecondCousinOf,,0,454,0.0,0,29,0.0
+inductive_inverse,"uncleOf(X,Y) -> granddaughterOf(Y,X)",uncleOf,granddaughterOf,,0,454,0.0,0,238,0.0
+inductive_inverse,"uncleOf(X,Y) -> grandfatherOf(Y,X)",uncleOf,grandfatherOf,,0,454,0.0,0,27,0.0
+inductive_inverse,"uncleOf(X,Y) -> grandmotherOf(Y,X)",uncleOf,grandmotherOf,,0,454,0.0,0,20,0.0
+inductive_inverse,"uncleOf(X,Y) -> grandsonOf(Y,X)",uncleOf,grandsonOf,,0,454,0.0,0,216,0.0
+inductive_inverse,"uncleOf(X,Y) -> greatAuntOf(Y,X)",uncleOf,greatAuntOf,,0,454,0.0,0,31,0.0
+inductive_inverse,"uncleOf(X,Y) -> greatGranddaughterOf(Y,X)",uncleOf,greatGranddaughterOf,,0,454,0.0,0,201,0.0
+inductive_inverse,"uncleOf(X,Y) -> greatGrandfatherOf(Y,X)",uncleOf,greatGrandfatherOf,,0,454,0.0,0,8,0.0
+inductive_inverse,"uncleOf(X,Y) -> greatGrandmotherOf(Y,X)",uncleOf,greatGrandmotherOf,,0,454,0.0,0,8,0.0
+inductive_inverse,"uncleOf(X,Y) -> greatGrandsonOf(Y,X)",uncleOf,greatGrandsonOf,,0,454,0.0,0,173,0.0
+inductive_inverse,"uncleOf(X,Y) -> greatUncleOf(Y,X)",uncleOf,greatUncleOf,,0,454,0.0,0,22,0.0
+inductive_inverse,"uncleOf(X,Y) -> motherOf(Y,X)",uncleOf,motherOf,,0,454,0.0,0,69,0.0
+inductive_inverse,"uncleOf(X,Y) -> secondAuntOf(Y,X)",uncleOf,secondAuntOf,,0,454,0.0,0,93,0.0
+inductive_inverse,"uncleOf(X,Y) -> secondUncleOf(Y,X)",uncleOf,secondUncleOf,,0,454,0.0,0,88,0.0
+inductive_inverse,"uncleOf(X,Y) -> sisterOf(Y,X)",uncleOf,sisterOf,,0,454,0.0,0,178,0.0
+inductive_inverse,"uncleOf(X,Y) -> sonOf(Y,X)",uncleOf,sonOf,,0,454,0.0,0,216,0.0
+inductive_inverse,"uncleOf(X,Y) -> uncleOf(Y,X)",uncleOf,uncleOf,,0,454,0.0,0,68,0.0
+inductive_two_hop,"sisterOf(X,Y) ^ grandsonOf(Y,Z) -> granddaughterOf(X,Z)",sisterOf,grandsonOf,granddaughterOf,508,508,1.0,508,508,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ granddaughterOf(Y,Z) -> granddaughterOf(X,Z)",sisterOf,granddaughterOf,granddaughterOf,476,476,1.0,476,476,1.0
+inductive_two_hop,"grandfatherOf(X,Y) ^ brotherOf(Y,Z) -> grandfatherOf(X,Z)",grandfatherOf,brotherOf,grandfatherOf,463,463,1.0,463,463,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ brotherOf(Y,Z) -> grandmotherOf(X,Z)",grandmotherOf,brotherOf,grandmotherOf,463,463,1.0,463,463,1.0
+inductive_two_hop,"grandfatherOf(X,Y) ^ sisterOf(Y,Z) -> grandfatherOf(X,Z)",grandfatherOf,sisterOf,grandfatherOf,459,459,1.0,459,459,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ sisterOf(Y,Z) -> grandmotherOf(X,Z)",grandmotherOf,sisterOf,grandmotherOf,459,459,1.0,459,459,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ granddaughterOf(Y,Z) -> grandsonOf(X,Z)",brotherOf,granddaughterOf,grandsonOf,442,442,1.0,442,442,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ fatherOf(Y,Z) -> sisterOf(X,Z)",daughterOf,fatherOf,sisterOf,439,439,1.0,439,439,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ grandsonOf(Y,Z) -> grandsonOf(X,Z)",brotherOf,grandsonOf,grandsonOf,418,418,1.0,418,418,1.0
+inductive_two_hop,"sonOf(X,Y) ^ fatherOf(Y,Z) -> brotherOf(X,Z)",sonOf,fatherOf,brotherOf,418,418,1.0,418,418,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ sisterOf(Y,Z) -> sisterOf(X,Z)",sisterOf,sisterOf,sisterOf,392,392,1.0,392,392,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ grandsonOf(Y,Z) -> greatGranddaughterOf(X,Z)",nieceOf,grandsonOf,greatGranddaughterOf,374,374,1.0,374,374,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ granddaughterOf(Y,Z) -> greatGrandsonOf(X,Z)",nephewOf,granddaughterOf,greatGrandsonOf,360,360,1.0,360,360,1.0
+inductive_two_hop,"grandfatherOf(X,Y) ^ uncleOf(Y,Z) -> greatGrandfatherOf(X,Z)",grandfatherOf,uncleOf,greatGrandfatherOf,353,353,1.0,353,353,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ uncleOf(Y,Z) -> greatGrandmotherOf(X,Z)",grandmotherOf,uncleOf,greatGrandmotherOf,353,353,1.0,353,353,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ brotherOf(Y,Z) -> sisterOf(X,Z)",sisterOf,brotherOf,sisterOf,352,352,1.0,352,352,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ auntOf(Y,Z) -> grandfatherOf(X,Z)",fatherOf,auntOf,grandfatherOf,348,348,1.0,348,348,1.0
+inductive_two_hop,"motherOf(X,Y) ^ auntOf(Y,Z) -> grandmotherOf(X,Z)",motherOf,auntOf,grandmotherOf,348,348,1.0,348,348,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",sisterOf,greatGranddaughterOf,greatGranddaughterOf,344,344,1.0,344,344,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ fatherOf(Y,Z) -> grandfatherOf(X,Z)",fatherOf,fatherOf,grandfatherOf,338,338,1.0,338,338,1.0
+inductive_two_hop,"grandfatherOf(X,Y) ^ auntOf(Y,Z) -> greatGrandfatherOf(X,Z)",grandfatherOf,auntOf,greatGrandfatherOf,338,338,1.0,338,338,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ auntOf(Y,Z) -> greatGrandmotherOf(X,Z)",grandmotherOf,auntOf,greatGrandmotherOf,338,338,1.0,338,338,1.0
+inductive_two_hop,"motherOf(X,Y) ^ fatherOf(Y,Z) -> grandmotherOf(X,Z)",motherOf,fatherOf,grandmotherOf,338,338,1.0,338,338,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ grandsonOf(Y,Z) -> greatGrandsonOf(X,Z)",nephewOf,grandsonOf,greatGrandsonOf,332,332,1.0,332,332,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ daughterOf(Y,Z) -> daughterOf(X,Z)",sisterOf,daughterOf,daughterOf,329,329,1.0,329,329,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ greatGrandsonOf(Y,Z) -> greatGranddaughterOf(X,Z)",sisterOf,greatGrandsonOf,greatGranddaughterOf,328,328,1.0,328,328,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ sonOf(Y,Z) -> daughterOf(X,Z)",sisterOf,sonOf,daughterOf,327,327,1.0,327,327,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ sisterOf(Y,Z) -> brotherOf(X,Z)",brotherOf,sisterOf,brotherOf,324,324,1.0,324,324,1.0
+inductive_two_hop,"auntOf(X,Y) ^ brotherOf(Y,Z) -> auntOf(X,Z)",auntOf,brotherOf,auntOf,320,320,1.0,320,320,1.0
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ sisterOf(Y,Z) -> greatGrandfatherOf(X,Z)",greatGrandfatherOf,sisterOf,greatGrandfatherOf,316,316,1.0,316,316,1.0
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ sisterOf(Y,Z) -> greatGrandmotherOf(X,Z)",greatGrandmotherOf,sisterOf,greatGrandmotherOf,316,316,1.0,316,316,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ granddaughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",nieceOf,granddaughterOf,greatGranddaughterOf,316,316,1.0,316,316,1.0
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ brotherOf(Y,Z) -> greatGrandfatherOf(X,Z)",greatGrandfatherOf,brotherOf,greatGrandfatherOf,310,310,1.0,310,310,1.0
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ brotherOf(Y,Z) -> greatGrandmotherOf(X,Z)",greatGrandmotherOf,brotherOf,greatGrandmotherOf,310,310,1.0,310,310,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ motherOf(Y,Z) -> grandfatherOf(X,Z)",fatherOf,motherOf,grandfatherOf,309,309,1.0,309,309,1.0
+inductive_two_hop,"motherOf(X,Y) ^ motherOf(Y,Z) -> grandmotherOf(X,Z)",motherOf,motherOf,grandmotherOf,309,309,1.0,309,309,1.0
+inductive_two_hop,"sonOf(X,Y) ^ motherOf(Y,Z) -> brotherOf(X,Z)",sonOf,motherOf,brotherOf,307,307,1.0,307,307,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ motherOf(Y,Z) -> sisterOf(X,Z)",daughterOf,motherOf,sisterOf,306,306,1.0,306,306,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ uncleOf(Y,Z) -> grandfatherOf(X,Z)",fatherOf,uncleOf,grandfatherOf,300,300,1.0,300,300,1.0
+inductive_two_hop,"motherOf(X,Y) ^ uncleOf(Y,Z) -> grandmotherOf(X,Z)",motherOf,uncleOf,grandmotherOf,300,300,1.0,300,300,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ daughterOf(Y,Z) -> sonOf(X,Z)",brotherOf,daughterOf,sonOf,297,297,1.0,297,297,1.0
+inductive_two_hop,"grandfatherOf(X,Y) ^ fatherOf(Y,Z) -> greatGrandfatherOf(X,Z)",grandfatherOf,fatherOf,greatGrandfatherOf,295,295,1.0,295,295,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ fatherOf(Y,Z) -> greatGrandmotherOf(X,Z)",grandmotherOf,fatherOf,greatGrandmotherOf,295,295,1.0,295,295,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ greatGrandsonOf(Y,Z) -> greatGrandsonOf(X,Z)",brotherOf,greatGrandsonOf,greatGrandsonOf,292,292,1.0,292,292,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ brotherOf(Y,Z) -> brotherOf(X,Z)",brotherOf,brotherOf,brotherOf,288,288,1.0,288,288,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> greatGrandsonOf(X,Z)",brotherOf,greatGranddaughterOf,greatGrandsonOf,288,288,1.0,288,288,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ grandfatherOf(Y,Z) -> greatGrandfatherOf(X,Z)",fatherOf,grandfatherOf,greatGrandfatherOf,287,287,1.0,287,287,1.0
+inductive_two_hop,"motherOf(X,Y) ^ grandfatherOf(Y,Z) -> greatGrandmotherOf(X,Z)",motherOf,grandfatherOf,greatGrandmotherOf,287,287,1.0,287,287,1.0
+inductive_two_hop,"auntOf(X,Y) ^ sisterOf(Y,Z) -> auntOf(X,Z)",auntOf,sisterOf,auntOf,285,285,1.0,285,285,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ daughterOf(Y,Z) -> grandsonOf(X,Z)",nephewOf,daughterOf,grandsonOf,284,284,1.0,284,284,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ nephewOf(Y,Z) -> nieceOf(X,Z)",sisterOf,nephewOf,nieceOf,284,284,1.0,284,284,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ sonOf(Y,Z) -> sonOf(X,Z)",brotherOf,sonOf,sonOf,273,273,1.0,273,273,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ sonOf(Y,Z) -> granddaughterOf(X,Z)",daughterOf,sonOf,granddaughterOf,273,273,1.0,273,273,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ daughterOf(Y,Z) -> granddaughterOf(X,Z)",nieceOf,daughterOf,granddaughterOf,272,272,1.0,272,272,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ sisterOf(Y,Z) -> girlCousinOf(X,Z)",girlCousinOf,sisterOf,girlCousinOf,266,266,1.0,266,266,1.0
+inductive_two_hop,"sonOf(X,Y) ^ sonOf(Y,Z) -> grandsonOf(X,Z)",sonOf,sonOf,grandsonOf,265,265,1.0,265,265,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ girlCousinOf(Y,Z) -> girlCousinOf(X,Z)",sisterOf,girlCousinOf,girlCousinOf,263,263,1.0,263,263,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ nieceOf(Y,Z) -> nieceOf(X,Z)",sisterOf,nieceOf,nieceOf,262,262,1.0,262,262,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ sonOf(Y,Z) -> greatGranddaughterOf(X,Z)",granddaughterOf,sonOf,greatGranddaughterOf,258,258,1.0,258,258,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ grandmotherOf(Y,Z) -> greatGrandfatherOf(X,Z)",fatherOf,grandmotherOf,greatGrandfatherOf,256,256,1.0,256,256,1.0
+inductive_two_hop,"motherOf(X,Y) ^ grandmotherOf(Y,Z) -> greatGrandmotherOf(X,Z)",motherOf,grandmotherOf,greatGrandmotherOf,256,256,1.0,256,256,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ fatherOf(Y,Z) -> auntOf(X,Z)",sisterOf,fatherOf,auntOf,253,253,1.0,253,253,1.0
+inductive_two_hop,"grandfatherOf(X,Y) ^ motherOf(Y,Z) -> greatGrandfatherOf(X,Z)",grandfatherOf,motherOf,greatGrandfatherOf,252,252,1.0,252,252,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ motherOf(Y,Z) -> greatGrandmotherOf(X,Z)",grandmotherOf,motherOf,greatGrandmotherOf,252,252,1.0,252,252,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ sonOf(Y,Z) -> granddaughterOf(X,Z)",nieceOf,sonOf,granddaughterOf,250,250,1.0,250,250,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ nieceOf(Y,Z) -> nephewOf(X,Z)",brotherOf,nieceOf,nephewOf,249,249,1.0,249,249,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ boyCousinOf(Y,Z) -> girlCousinOf(X,Z)",sisterOf,boyCousinOf,girlCousinOf,247,247,1.0,247,247,1.0
+inductive_two_hop,"sonOf(X,Y) ^ grandsonOf(Y,Z) -> greatGrandsonOf(X,Z)",sonOf,grandsonOf,greatGrandsonOf,244,244,1.0,244,244,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ brotherOf(Y,Z) -> girlCousinOf(X,Z)",girlCousinOf,brotherOf,girlCousinOf,241,241,1.0,241,241,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ nephewOf(Y,Z) -> nephewOf(X,Z)",brotherOf,nephewOf,nephewOf,238,238,1.0,238,238,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ daughterOf(Y,Z) -> granddaughterOf(X,Z)",daughterOf,daughterOf,granddaughterOf,234,234,1.0,234,234,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ sonOf(Y,Z) -> grandsonOf(X,Z)",nephewOf,sonOf,grandsonOf,234,234,1.0,234,234,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ daughterOf(Y,Z) -> greatGrandsonOf(X,Z)",grandsonOf,daughterOf,greatGrandsonOf,233,233,1.0,233,233,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ motherOf(Y,Z) -> auntOf(X,Z)",sisterOf,motherOf,auntOf,232,232,1.0,232,232,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ motherOf(Y,Z) -> uncleOf(X,Z)",brotherOf,motherOf,uncleOf,229,229,1.0,229,229,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ sonOf(Y,Z) -> greatGrandsonOf(X,Z)",grandsonOf,sonOf,greatGrandsonOf,229,229,1.0,229,229,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ sisterOf(Y,Z) -> uncleOf(X,Z)",uncleOf,sisterOf,uncleOf,226,226,1.0,226,226,1.0
+inductive_two_hop,"auntOf(X,Y) ^ uncleOf(Y,Z) -> greatAuntOf(X,Z)",auntOf,uncleOf,greatAuntOf,220,220,1.0,220,220,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ greatAuntOf(Y,Z) -> greatGrandfatherOf(X,Z)",fatherOf,greatAuntOf,greatGrandfatherOf,219,219,1.0,219,219,1.0
+inductive_two_hop,"motherOf(X,Y) ^ greatAuntOf(Y,Z) -> greatGrandmotherOf(X,Z)",motherOf,greatAuntOf,greatGrandmotherOf,219,219,1.0,219,219,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ motherOf(Y,Z) -> girlCousinOf(X,Z)",nieceOf,motherOf,girlCousinOf,215,215,1.0,215,215,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ girlCousinOf(Y,Z) -> boyCousinOf(X,Z)",brotherOf,girlCousinOf,boyCousinOf,210,210,1.0,210,210,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ motherOf(Y,Z) -> boyCousinOf(X,Z)",nephewOf,motherOf,boyCousinOf,209,209,1.0,209,209,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ sisterOf(Y,Z) -> boyCousinOf(X,Z)",boyCousinOf,sisterOf,boyCousinOf,207,207,1.0,207,207,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ daughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",granddaughterOf,daughterOf,greatGranddaughterOf,204,204,1.0,204,204,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ grandsonOf(Y,Z) -> greatGranddaughterOf(X,Z)",daughterOf,grandsonOf,greatGranddaughterOf,202,202,1.0,202,202,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ brotherOf(Y,Z) -> uncleOf(X,Z)",uncleOf,brotherOf,uncleOf,202,202,1.0,202,202,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ grandfatherOf(Y,Z) -> greatAuntOf(X,Z)",sisterOf,grandfatherOf,greatAuntOf,200,200,1.0,200,200,1.0
+inductive_two_hop,"sonOf(X,Y) ^ brotherOf(Y,Z) -> nephewOf(X,Z)",sonOf,brotherOf,nephewOf,200,200,1.0,200,200,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ granddaughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",daughterOf,granddaughterOf,greatGranddaughterOf,198,198,1.0,198,198,1.0
+inductive_two_hop,"sonOf(X,Y) ^ daughterOf(Y,Z) -> grandsonOf(X,Z)",sonOf,daughterOf,grandsonOf,194,194,1.0,194,194,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ sisterOf(Y,Z) -> nieceOf(X,Z)",daughterOf,sisterOf,nieceOf,184,184,1.0,184,184,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ fatherOf(Y,Z) -> girlCousinOf(X,Z)",nieceOf,fatherOf,girlCousinOf,180,180,1.0,180,180,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ brotherOf(Y,Z) -> boyCousinOf(X,Z)",boyCousinOf,brotherOf,boyCousinOf,178,178,1.0,178,178,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ fatherOf(Y,Z) -> uncleOf(X,Z)",brotherOf,fatherOf,uncleOf,178,178,1.0,178,178,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ auntOf(Y,Z) -> girlCousinOf(X,Z)",daughterOf,auntOf,girlCousinOf,178,178,1.0,178,178,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ boyCousinOf(Y,Z) -> boyCousinOf(X,Z)",brotherOf,boyCousinOf,boyCousinOf,172,172,1.0,172,172,1.0
+inductive_two_hop,"sonOf(X,Y) ^ granddaughterOf(Y,Z) -> greatGrandsonOf(X,Z)",sonOf,granddaughterOf,greatGrandsonOf,162,162,1.0,162,162,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ greatUncleOf(Y,Z) -> greatGrandfatherOf(X,Z)",fatherOf,greatUncleOf,greatGrandfatherOf,161,161,1.0,161,161,1.0
+inductive_two_hop,"motherOf(X,Y) ^ greatUncleOf(Y,Z) -> greatGrandmotherOf(X,Z)",motherOf,greatUncleOf,greatGrandmotherOf,161,161,1.0,161,161,1.0
+inductive_two_hop,"sonOf(X,Y) ^ sisterOf(Y,Z) -> nephewOf(X,Z)",sonOf,sisterOf,nephewOf,161,161,1.0,161,161,1.0
+inductive_two_hop,"auntOf(X,Y) ^ fatherOf(Y,Z) -> greatAuntOf(X,Z)",auntOf,fatherOf,greatAuntOf,157,157,1.0,157,157,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ brotherOf(Y,Z) -> nieceOf(X,Z)",daughterOf,brotherOf,nieceOf,156,156,1.0,156,156,1.0
+inductive_two_hop,"auntOf(X,Y) ^ auntOf(Y,Z) -> greatAuntOf(X,Z)",auntOf,auntOf,greatAuntOf,148,148,1.0,148,148,1.0
+inductive_two_hop,"greatAuntOf(X,Y) ^ brotherOf(Y,Z) -> greatAuntOf(X,Z)",greatAuntOf,brotherOf,greatAuntOf,136,136,1.0,136,136,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ fatherOf(Y,Z) -> boyCousinOf(X,Z)",nephewOf,fatherOf,boyCousinOf,136,136,1.0,136,136,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ grandfatherOf(Y,Z) -> greatUncleOf(X,Z)",brotherOf,grandfatherOf,greatUncleOf,133,133,1.0,133,133,1.0
+inductive_two_hop,"greatAuntOf(X,Y) ^ sisterOf(Y,Z) -> greatAuntOf(X,Z)",greatAuntOf,sisterOf,greatAuntOf,133,133,1.0,133,133,1.0
+inductive_two_hop,"sonOf(X,Y) ^ auntOf(Y,Z) -> boyCousinOf(X,Z)",sonOf,auntOf,boyCousinOf,131,131,1.0,131,131,1.0
+inductive_two_hop,"auntOf(X,Y) ^ motherOf(Y,Z) -> greatAuntOf(X,Z)",auntOf,motherOf,greatAuntOf,121,121,1.0,121,121,1.0
+inductive_two_hop,"sonOf(X,Y) ^ uncleOf(Y,Z) -> boyCousinOf(X,Z)",sonOf,uncleOf,boyCousinOf,116,116,1.0,116,116,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ auntOf(Y,Z) -> greatUncleOf(X,Z)",uncleOf,auntOf,greatUncleOf,115,115,1.0,115,115,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ auntOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",grandsonOf,auntOf,boyFirstCousinOnceRemovedOf,114,114,1.0,114,114,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ grandmotherOf(Y,Z) -> greatAuntOf(X,Z)",sisterOf,grandmotherOf,greatAuntOf,112,112,1.0,112,112,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ motherOf(Y,Z) -> greatUncleOf(X,Z)",uncleOf,motherOf,greatUncleOf,112,112,1.0,112,112,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ girlCousinOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",nephewOf,girlCousinOf,boyFirstCousinOnceRemovedOf,109,109,1.0,109,109,1.0
+inductive_two_hop,"greatUncleOf(X,Y) ^ brotherOf(Y,Z) -> greatUncleOf(X,Z)",greatUncleOf,brotherOf,greatUncleOf,108,108,1.0,108,108,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ uncleOf(Y,Z) -> greatUncleOf(X,Z)",uncleOf,uncleOf,greatUncleOf,106,106,1.0,106,106,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ secondUncleOf(Y,Z) -> secondAuntOf(X,Z)",sisterOf,secondUncleOf,secondAuntOf,105,105,1.0,105,105,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ grandmotherOf(Y,Z) -> greatUncleOf(X,Z)",brotherOf,grandmotherOf,greatUncleOf,104,104,1.0,104,104,1.0
+inductive_two_hop,"greatUncleOf(X,Y) ^ sisterOf(Y,Z) -> greatUncleOf(X,Z)",greatUncleOf,sisterOf,greatUncleOf,103,103,1.0,103,103,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ uncleOf(Y,Z) -> secondAuntOf(X,Z)",girlCousinOf,uncleOf,secondAuntOf,102,102,1.0,102,102,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ auntOf(Y,Z) -> secondAuntOf(X,Z)",girlCousinOf,auntOf,secondAuntOf,101,101,1.0,101,101,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ fatherOf(Y,Z) -> greatUncleOf(X,Z)",uncleOf,fatherOf,greatUncleOf,101,101,1.0,101,101,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ boyCousinOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",nephewOf,boyCousinOf,boyFirstCousinOnceRemovedOf,99,99,1.0,99,99,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ uncleOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",granddaughterOf,uncleOf,girlFirstCousinOnceRemovedOf,98,98,1.0,98,98,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ sisterOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boyFirstCousinOnceRemovedOf,sisterOf,boyFirstCousinOnceRemovedOf,93,93,1.0,93,93,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ secondAuntOf(Y,Z) -> secondUncleOf(X,Z)",brotherOf,secondAuntOf,secondUncleOf,90,90,1.0,90,90,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ uncleOf(Y,Z) -> girlCousinOf(X,Z)",daughterOf,uncleOf,girlCousinOf,90,90,1.0,90,90,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ boyCousinOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",nieceOf,boyCousinOf,girlFirstCousinOnceRemovedOf,90,90,1.0,90,90,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ grandmotherOf(Y,Z) -> secondAuntOf(X,Z)",nieceOf,grandmotherOf,secondAuntOf,89,89,1.0,89,89,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ uncleOf(Y,Z) -> secondUncleOf(X,Z)",boyCousinOf,uncleOf,secondUncleOf,87,87,1.0,87,87,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ fatherOf(Y,Z) -> secondAuntOf(X,Z)",girlCousinOf,fatherOf,secondAuntOf,87,87,1.0,87,87,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ grandfatherOf(Y,Z) -> secondAuntOf(X,Z)",nieceOf,grandfatherOf,secondAuntOf,86,86,1.0,86,86,1.0
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ brotherOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlFirstCousinOnceRemovedOf,brotherOf,girlFirstCousinOnceRemovedOf,84,84,1.0,84,84,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ brotherOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boyFirstCousinOnceRemovedOf,brotherOf,boyFirstCousinOnceRemovedOf,82,82,1.0,82,82,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ grandmotherOf(Y,Z) -> secondUncleOf(X,Z)",nephewOf,grandmotherOf,secondUncleOf,80,80,1.0,80,80,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ secondAuntOf(Y,Z) -> secondAuntOf(X,Z)",sisterOf,secondAuntOf,secondAuntOf,80,80,1.0,80,80,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ motherOf(Y,Z) -> secondAuntOf(X,Z)",girlCousinOf,motherOf,secondAuntOf,79,79,1.0,79,79,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ auntOf(Y,Z) -> secondUncleOf(X,Z)",boyCousinOf,auntOf,secondUncleOf,78,78,1.0,78,78,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ grandfatherOf(Y,Z) -> secondUncleOf(X,Z)",nephewOf,grandfatherOf,secondUncleOf,78,78,1.0,78,78,1.0
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ sisterOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlFirstCousinOnceRemovedOf,sisterOf,girlFirstCousinOnceRemovedOf,77,77,1.0,77,77,1.0
+inductive_two_hop,"greatUncleOf(X,Y) ^ boyCousinOf(Y,Z) -> greatUncleOf(X,Z)",greatUncleOf,boyCousinOf,greatUncleOf,73,73,1.0,73,73,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ fatherOf(Y,Z) -> secondUncleOf(X,Z)",boyCousinOf,fatherOf,secondUncleOf,71,71,1.0,71,71,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ motherOf(Y,Z) -> secondUncleOf(X,Z)",boyCousinOf,motherOf,secondUncleOf,71,71,1.0,71,71,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ girlCousinOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",nieceOf,girlCousinOf,girlFirstCousinOnceRemovedOf,70,70,1.0,70,70,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ greatAuntOf(Y,Z) -> secondAuntOf(X,Z)",daughterOf,greatAuntOf,secondAuntOf,66,66,1.0,66,66,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ uncleOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",grandsonOf,uncleOf,boyFirstCousinOnceRemovedOf,66,66,1.0,66,66,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ boyCousinOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",daughterOf,boyCousinOf,girlFirstCousinOnceRemovedOf,65,65,1.0,65,65,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",brotherOf,boyFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,64,64,1.0,64,64,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ secondUncleOf(Y,Z) -> secondUncleOf(X,Z)",brotherOf,secondUncleOf,secondUncleOf,61,61,1.0,61,61,1.0
+inductive_two_hop,"secondAuntOf(X,Y) ^ brotherOf(Y,Z) -> secondAuntOf(X,Z)",secondAuntOf,brotherOf,secondAuntOf,59,59,1.0,59,59,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ auntOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",granddaughterOf,auntOf,girlFirstCousinOnceRemovedOf,55,55,1.0,55,55,1.0
+inductive_two_hop,"sonOf(X,Y) ^ boyCousinOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",sonOf,boyCousinOf,boyFirstCousinOnceRemovedOf,55,55,1.0,55,55,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatUncleOf(Y,Z) -> girlSecondCousinOf(X,Z)",granddaughterOf,greatUncleOf,girlSecondCousinOf,53,53,1.0,53,53,1.0
+inductive_two_hop,"secondAuntOf(X,Y) ^ boyCousinOf(Y,Z) -> secondAuntOf(X,Z)",secondAuntOf,boyCousinOf,secondAuntOf,53,53,1.0,53,53,1.0
+inductive_two_hop,"sonOf(X,Y) ^ greatAuntOf(Y,Z) -> secondUncleOf(X,Z)",sonOf,greatAuntOf,secondUncleOf,53,53,1.0,53,53,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",sisterOf,girlFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,49,49,1.0,49,49,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ girlCousinOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",daughterOf,girlCousinOf,girlFirstCousinOnceRemovedOf,48,48,1.0,48,48,1.0
+inductive_two_hop,"secondUncleOf(X,Y) ^ sisterOf(Y,Z) -> secondUncleOf(X,Z)",secondUncleOf,sisterOf,secondUncleOf,48,48,1.0,48,48,1.0
+inductive_two_hop,"secondUncleOf(X,Y) ^ brotherOf(Y,Z) -> secondUncleOf(X,Z)",secondUncleOf,brotherOf,secondUncleOf,47,47,1.0,47,47,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ nephewOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlSecondCousinOf,nephewOf,girlFirstCousinOnceRemovedOf,46,46,1.0,46,46,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ greatAuntOf(Y,Z) -> boySecondCousinOf(X,Z)",grandsonOf,greatAuntOf,boySecondCousinOf,46,46,1.0,46,46,1.0
+inductive_two_hop,"secondAuntOf(X,Y) ^ girlCousinOf(Y,Z) -> secondAuntOf(X,Z)",secondAuntOf,girlCousinOf,secondAuntOf,45,45,1.0,45,45,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boyCousinOf,boyFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,44,44,1.0,44,44,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ secondAuntOf(Y,Z) -> boySecondCousinOf(X,Z)",nephewOf,secondAuntOf,boySecondCousinOf,43,43,1.0,43,43,1.0
+inductive_two_hop,"auntOf(X,Y) ^ boySecondCousinOf(Y,Z) -> secondAuntOf(X,Z)",auntOf,boySecondCousinOf,secondAuntOf,42,42,1.0,42,42,1.0
+inductive_two_hop,"secondAuntOf(X,Y) ^ sisterOf(Y,Z) -> secondAuntOf(X,Z)",secondAuntOf,sisterOf,secondAuntOf,42,42,1.0,42,42,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",sisterOf,boyFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,42,42,1.0,42,42,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",brotherOf,girlFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,41,41,1.0,41,41,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ boySecondCousinOf(Y,Z) -> secondUncleOf(X,Z)",uncleOf,boySecondCousinOf,secondUncleOf,41,41,1.0,41,41,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ auntOf(Y,Z) -> boySecondCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,auntOf,boySecondCousinOf,40,40,1.0,40,40,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ secondUncleOf(Y,Z) -> girlSecondCousinOf(X,Z)",nieceOf,secondUncleOf,girlSecondCousinOf,40,40,1.0,40,40,1.0
+inductive_two_hop,"sonOf(X,Y) ^ greatUncleOf(Y,Z) -> secondUncleOf(X,Z)",sonOf,greatUncleOf,secondUncleOf,40,40,1.0,40,40,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlCousinOf,boyFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,39,39,1.0,39,39,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlCousinOf,girlFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,39,39,1.0,39,39,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ nieceOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boySecondCousinOf,nieceOf,boyFirstCousinOnceRemovedOf,38,38,1.0,38,38,1.0
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ fatherOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,fatherOf,girlSecondCousinOf,38,38,1.0,38,38,1.0
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ uncleOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,uncleOf,girlSecondCousinOf,38,38,1.0,38,38,1.0
+inductive_two_hop,"uncleOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> secondUncleOf(X,Z)",uncleOf,girlSecondCousinOf,secondUncleOf,38,38,1.0,38,38,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ nephewOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boySecondCousinOf,nephewOf,boyFirstCousinOnceRemovedOf,37,37,1.0,37,37,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ greatUncleOf(Y,Z) -> secondAuntOf(X,Z)",daughterOf,greatUncleOf,secondAuntOf,37,37,1.0,37,37,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boyCousinOf,girlFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,36,36,1.0,36,36,1.0
+inductive_two_hop,"sonOf(X,Y) ^ girlCousinOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",sonOf,girlCousinOf,boyFirstCousinOnceRemovedOf,35,35,1.0,35,35,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ uncleOf(Y,Z) -> boySecondCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,uncleOf,boySecondCousinOf,34,34,1.0,34,34,1.0
+inductive_two_hop,"nephewOf(X,Y) ^ secondUncleOf(Y,Z) -> boySecondCousinOf(X,Z)",nephewOf,secondUncleOf,boySecondCousinOf,32,32,1.0,32,32,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ motherOf(Y,Z) -> boySecondCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,motherOf,boySecondCousinOf,31,31,1.0,31,31,1.0
+inductive_two_hop,"sonOf(X,Y) ^ secondUncleOf(Y,Z) -> boySecondCousinOf(X,Z)",sonOf,secondUncleOf,boySecondCousinOf,31,31,1.0,31,31,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ fatherOf(Y,Z) -> boySecondCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,fatherOf,boySecondCousinOf,30,30,1.0,30,30,1.0
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ auntOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,auntOf,girlSecondCousinOf,30,30,1.0,30,30,1.0
+inductive_two_hop,"secondUncleOf(X,Y) ^ boyCousinOf(Y,Z) -> secondUncleOf(X,Z)",secondUncleOf,boyCousinOf,secondUncleOf,30,30,1.0,30,30,1.0
+inductive_two_hop,"secondUncleOf(X,Y) ^ girlCousinOf(Y,Z) -> secondUncleOf(X,Z)",secondUncleOf,girlCousinOf,secondUncleOf,30,30,1.0,30,30,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",brotherOf,boySecondCousinOf,boySecondCousinOf,28,28,1.0,28,28,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ sisterOf(Y,Z) -> boySecondCousinOf(X,Z)",boySecondCousinOf,sisterOf,boySecondCousinOf,27,27,1.0,27,27,1.0
+inductive_two_hop,"nieceOf(X,Y) ^ secondAuntOf(Y,Z) -> girlSecondCousinOf(X,Z)",nieceOf,secondAuntOf,girlSecondCousinOf,27,27,1.0,27,27,1.0
+inductive_two_hop,"auntOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> secondAuntOf(X,Z)",auntOf,girlSecondCousinOf,secondAuntOf,25,25,1.0,25,25,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ secondUncleOf(Y,Z) -> girlSecondCousinOf(X,Z)",daughterOf,secondUncleOf,girlSecondCousinOf,25,25,1.0,25,25,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ brotherOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlSecondCousinOf,brotherOf,girlSecondCousinOf,25,25,1.0,25,25,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ nieceOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlSecondCousinOf,nieceOf,girlFirstCousinOnceRemovedOf,25,25,1.0,25,25,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ greatUncleOf(Y,Z) -> boySecondCousinOf(X,Z)",grandsonOf,greatUncleOf,boySecondCousinOf,22,22,1.0,22,22,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",sisterOf,girlSecondCousinOf,girlSecondCousinOf,22,22,1.0,22,22,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ brotherOf(Y,Z) -> boySecondCousinOf(X,Z)",boySecondCousinOf,brotherOf,boySecondCousinOf,20,20,1.0,20,20,1.0
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ motherOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,motherOf,girlSecondCousinOf,19,19,1.0,19,19,1.0
+inductive_two_hop,"brotherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",brotherOf,girlSecondCousinOf,boySecondCousinOf,18,18,1.0,18,18,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ secondAuntOf(Y,Z) -> girlSecondCousinOf(X,Z)",daughterOf,secondAuntOf,girlSecondCousinOf,18,18,1.0,18,18,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ boySecondCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",sisterOf,boySecondCousinOf,girlSecondCousinOf,17,17,1.0,17,17,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlCousinOf,girlSecondCousinOf,girlSecondCousinOf,14,14,1.0,14,14,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",boySecondCousinOf,girlCousinOf,boySecondCousinOf,13,13,1.0,13,13,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boyCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlSecondCousinOf,boyCousinOf,girlSecondCousinOf,13,13,1.0,13,13,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ sisterOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlSecondCousinOf,sisterOf,girlSecondCousinOf,13,13,1.0,13,13,1.0
+inductive_two_hop,"sonOf(X,Y) ^ secondAuntOf(Y,Z) -> boySecondCousinOf(X,Z)",sonOf,secondAuntOf,boySecondCousinOf,11,11,1.0,11,11,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlCousinOf,boySecondCousinOf,girlSecondCousinOf,10,10,1.0,10,10,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlSecondCousinOf,girlCousinOf,girlSecondCousinOf,10,10,1.0,10,10,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",boyCousinOf,girlSecondCousinOf,boySecondCousinOf,9,9,1.0,9,9,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatAuntOf(Y,Z) -> girlSecondCousinOf(X,Z)",granddaughterOf,greatAuntOf,girlSecondCousinOf,9,9,1.0,9,9,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",boyCousinOf,boySecondCousinOf,boySecondCousinOf,8,8,1.0,8,8,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boyCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",boySecondCousinOf,boyCousinOf,boySecondCousinOf,5,5,1.0,5,5,1.0
+inductive_two_hop,"auntOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> girlCousinOf(X,Z)",auntOf,boyFirstCousinOnceRemovedOf,girlCousinOf,138,139,0.9928057553956835,138,138,1.0
+inductive_two_hop,"greatAuntOf(X,Y) ^ boyCousinOf(Y,Z) -> greatAuntOf(X,Z)",greatAuntOf,boyCousinOf,greatAuntOf,122,123,0.991869918699187,122,123,0.991869918699187
+inductive_two_hop,"greatAuntOf(X,Y) ^ girlCousinOf(Y,Z) -> greatAuntOf(X,Z)",greatAuntOf,girlCousinOf,greatAuntOf,122,123,0.991869918699187,122,123,0.991869918699187
+inductive_two_hop,"secondUncleOf(X,Y) ^ nieceOf(Y,Z) -> boyCousinOf(X,Z)",secondUncleOf,nieceOf,boyCousinOf,79,80,0.9875,79,80,0.9875
+inductive_two_hop,"greatUncleOf(X,Y) ^ girlCousinOf(Y,Z) -> greatUncleOf(X,Z)",greatUncleOf,girlCousinOf,greatUncleOf,59,60,0.9833333333333333,59,60,0.9833333333333333
+inductive_two_hop,"girlCousinOf(X,Y) ^ greatGrandsonOf(Y,Z) -> greatGranddaughterOf(X,Z)",girlCousinOf,greatGrandsonOf,greatGranddaughterOf,276,282,0.9787234042553191,276,280,0.9857142857142858
+inductive_two_hop,"uncleOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> boyCousinOf(X,Z)",uncleOf,girlFirstCousinOnceRemovedOf,boyCousinOf,92,94,0.9787234042553191,92,92,1.0
+inductive_two_hop,"auntOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> girlCousinOf(X,Z)",auntOf,girlFirstCousinOnceRemovedOf,girlCousinOf,78,80,0.975,78,78,1.0
+inductive_two_hop,"secondAuntOf(X,Y) ^ nephewOf(Y,Z) -> girlCousinOf(X,Z)",secondAuntOf,nephewOf,girlCousinOf,153,157,0.9745222929936306,153,157,0.9745222929936306
+inductive_two_hop,"girlCousinOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",girlCousinOf,greatGranddaughterOf,greatGranddaughterOf,278,286,0.972027972027972,278,284,0.9788732394366197
+inductive_two_hop,"secondUncleOf(X,Y) ^ nephewOf(Y,Z) -> boyCousinOf(X,Z)",secondUncleOf,nephewOf,boyCousinOf,104,107,0.9719626168224299,104,107,0.9719626168224299
+inductive_two_hop,"secondAuntOf(X,Y) ^ nieceOf(Y,Z) -> girlCousinOf(X,Z)",secondAuntOf,nieceOf,girlCousinOf,91,94,0.9680851063829787,91,94,0.9680851063829787
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ girlCousinOf(Y,Z) -> greatGrandfatherOf(X,Z)",greatGrandfatherOf,girlCousinOf,greatGrandfatherOf,266,278,0.9568345323741008,266,278,0.9568345323741008
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ girlCousinOf(Y,Z) -> greatGrandmotherOf(X,Z)",greatGrandmotherOf,girlCousinOf,greatGrandmotherOf,266,278,0.9568345323741008,266,278,0.9568345323741008
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ boyCousinOf(Y,Z) -> greatGrandfatherOf(X,Z)",greatGrandfatherOf,boyCousinOf,greatGrandfatherOf,258,270,0.9555555555555556,258,270,0.9555555555555556
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ boyCousinOf(Y,Z) -> greatGrandmotherOf(X,Z)",greatGrandmotherOf,boyCousinOf,greatGrandmotherOf,258,270,0.9555555555555556,258,270,0.9555555555555556
+inductive_two_hop,"greatUncleOf(X,Y) ^ nephewOf(Y,Z) -> uncleOf(X,Z)",greatUncleOf,nephewOf,uncleOf,122,128,0.953125,122,128,0.953125
+inductive_two_hop,"uncleOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> boyCousinOf(X,Z)",uncleOf,boyFirstCousinOnceRemovedOf,boyCousinOf,119,125,0.952,119,119,1.0
+inductive_two_hop,"greatAuntOf(X,Y) ^ nephewOf(Y,Z) -> auntOf(X,Z)",greatAuntOf,nephewOf,auntOf,203,214,0.9485981308411215,203,214,0.9485981308411215
+inductive_two_hop,"auntOf(X,Y) ^ greatGrandsonOf(Y,Z) -> granddaughterOf(X,Z)",auntOf,greatGrandsonOf,granddaughterOf,354,376,0.9414893617021277,354,366,0.9672131147540983
+inductive_two_hop,"boyCousinOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> greatGrandsonOf(X,Z)",boyCousinOf,greatGranddaughterOf,greatGrandsonOf,254,270,0.9407407407407408,254,268,0.9477611940298507
+inductive_two_hop,"boyCousinOf(X,Y) ^ greatGrandsonOf(Y,Z) -> greatGrandsonOf(X,Z)",boyCousinOf,greatGrandsonOf,greatGrandsonOf,240,258,0.9302325581395349,240,256,0.9375
+inductive_two_hop,"greatAuntOf(X,Y) ^ nieceOf(Y,Z) -> auntOf(X,Z)",greatAuntOf,nieceOf,auntOf,155,167,0.9281437125748503,155,167,0.9281437125748503
+inductive_two_hop,"auntOf(X,Y) ^ nephewOf(Y,Z) -> sisterOf(X,Z)",auntOf,nephewOf,sisterOf,283,311,0.909967845659164,283,311,0.909967845659164
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ nephewOf(Y,Z) -> grandfatherOf(X,Z)",greatGrandfatherOf,nephewOf,grandfatherOf,332,367,0.9046321525885559,332,367,0.9046321525885559
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ nephewOf(Y,Z) -> grandmotherOf(X,Z)",greatGrandmotherOf,nephewOf,grandmotherOf,332,367,0.9046321525885559,332,367,0.9046321525885559
+inductive_two_hop,"fatherOf(X,Y) ^ brotherOf(Y,Z) -> fatherOf(X,Z)",fatherOf,brotherOf,fatherOf,332,370,0.8972972972972973,332,370,0.8972972972972973
+inductive_two_hop,"motherOf(X,Y) ^ brotherOf(Y,Z) -> motherOf(X,Z)",motherOf,brotherOf,motherOf,332,370,0.8972972972972973,332,370,0.8972972972972973
+inductive_two_hop,"auntOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> granddaughterOf(X,Z)",auntOf,greatGranddaughterOf,granddaughterOf,278,310,0.896774193548387,278,290,0.9586206896551724
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ nieceOf(Y,Z) -> grandfatherOf(X,Z)",greatGrandfatherOf,nieceOf,grandfatherOf,300,335,0.8955223880597015,300,335,0.8955223880597015
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ nieceOf(Y,Z) -> grandmotherOf(X,Z)",greatGrandmotherOf,nieceOf,grandmotherOf,300,335,0.8955223880597015,300,335,0.8955223880597015
+inductive_two_hop,"uncleOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> grandsonOf(X,Z)",uncleOf,greatGranddaughterOf,grandsonOf,322,360,0.8944444444444445,322,340,0.9470588235294117
+inductive_two_hop,"auntOf(X,Y) ^ nieceOf(Y,Z) -> sisterOf(X,Z)",auntOf,nieceOf,sisterOf,234,262,0.8931297709923665,234,262,0.8931297709923665
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ greatGrandsonOf(Y,Z) -> greatGrandsonOf(X,Z)",boySecondCousinOf,greatGrandsonOf,greatGrandsonOf,44,50,0.88,44,50,0.88
+inductive_two_hop,"uncleOf(X,Y) ^ nephewOf(Y,Z) -> brotherOf(X,Z)",uncleOf,nephewOf,brotherOf,217,247,0.8785425101214575,217,247,0.8785425101214575
+inductive_two_hop,"greatUncleOf(X,Y) ^ nieceOf(Y,Z) -> uncleOf(X,Z)",greatUncleOf,nieceOf,uncleOf,90,103,0.8737864077669902,90,103,0.8737864077669902
+inductive_two_hop,"uncleOf(X,Y) ^ greatGrandsonOf(Y,Z) -> grandsonOf(X,Z)",uncleOf,greatGrandsonOf,grandsonOf,310,358,0.8659217877094972,310,340,0.9117647058823529
+inductive_two_hop,"uncleOf(X,Y) ^ nieceOf(Y,Z) -> brotherOf(X,Z)",uncleOf,nieceOf,brotherOf,218,252,0.8650793650793651,218,252,0.8650793650793651
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",girlSecondCousinOf,greatGranddaughterOf,greatGranddaughterOf,34,40,0.85,34,40,0.85
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> greatGrandfatherOf(X,Z)",greatGrandfatherOf,boySecondCousinOf,greatGrandfatherOf,48,57,0.8421052631578947,48,57,0.8421052631578947
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> greatGrandmotherOf(X,Z)",greatGrandmotherOf,boySecondCousinOf,greatGrandmotherOf,48,57,0.8421052631578947,48,57,0.8421052631578947
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> greatGrandfatherOf(X,Z)",greatGrandfatherOf,girlSecondCousinOf,greatGrandfatherOf,45,54,0.8333333333333334,45,54,0.8333333333333334
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> greatGrandmotherOf(X,Z)",greatGrandmotherOf,girlSecondCousinOf,greatGrandmotherOf,45,54,0.8333333333333334,45,54,0.8333333333333334
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> greatGrandsonOf(X,Z)",boySecondCousinOf,greatGranddaughterOf,greatGrandsonOf,56,68,0.8235294117647058,56,68,0.8235294117647058
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ greatGrandsonOf(Y,Z) -> greatGranddaughterOf(X,Z)",girlSecondCousinOf,greatGrandsonOf,greatGranddaughterOf,52,64,0.8125,52,64,0.8125
+inductive_two_hop,"boyCousinOf(X,Y) ^ grandsonOf(Y,Z) -> grandsonOf(X,Z)",boyCousinOf,grandsonOf,grandsonOf,242,300,0.8066666666666666,242,300,0.8066666666666666
+inductive_two_hop,"grandfatherOf(X,Y) ^ boyCousinOf(Y,Z) -> grandfatherOf(X,Z)",grandfatherOf,boyCousinOf,grandfatherOf,246,305,0.8065573770491803,246,305,0.8065573770491803
+inductive_two_hop,"grandmotherOf(X,Y) ^ boyCousinOf(Y,Z) -> grandmotherOf(X,Z)",grandmotherOf,boyCousinOf,grandmotherOf,246,305,0.8065573770491803,246,305,0.8065573770491803
+inductive_two_hop,"girlCousinOf(X,Y) ^ grandsonOf(Y,Z) -> granddaughterOf(X,Z)",girlCousinOf,grandsonOf,granddaughterOf,250,310,0.8064516129032258,250,310,0.8064516129032258
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ grandsonOf(Y,Z) -> greatGranddaughterOf(X,Z)",girlFirstCousinOnceRemovedOf,grandsonOf,greatGranddaughterOf,96,120,0.8,96,120,0.8
+inductive_two_hop,"grandfatherOf(X,Y) ^ secondUncleOf(Y,Z) -> greatGrandfatherOf(X,Z)",grandfatherOf,secondUncleOf,greatGrandfatherOf,107,134,0.7985074626865671,107,120,0.8916666666666667
+inductive_two_hop,"grandmotherOf(X,Y) ^ secondUncleOf(Y,Z) -> greatGrandmotherOf(X,Z)",grandmotherOf,secondUncleOf,greatGrandmotherOf,107,134,0.7985074626865671,107,120,0.8916666666666667
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ grandsonOf(Y,Z) -> greatGrandsonOf(X,Z)",boyFirstCousinOnceRemovedOf,grandsonOf,greatGrandsonOf,118,148,0.7972972972972973,118,148,0.7972972972972973
+inductive_two_hop,"secondUncleOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> grandsonOf(X,Z)",secondUncleOf,greatGranddaughterOf,grandsonOf,108,136,0.7941176470588235,108,136,0.7941176470588235
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> grandfatherOf(X,Z)",greatGrandfatherOf,girlFirstCousinOnceRemovedOf,grandfatherOf,108,137,0.7883211678832117,108,137,0.7883211678832117
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> grandmotherOf(X,Z)",greatGrandmotherOf,girlFirstCousinOnceRemovedOf,grandmotherOf,108,137,0.7883211678832117,108,137,0.7883211678832117
+inductive_two_hop,"secondAuntOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> granddaughterOf(X,Z)",secondAuntOf,greatGranddaughterOf,granddaughterOf,108,138,0.782608695652174,108,138,0.782608695652174
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> brotherOf(X,Z)",boySecondCousinOf,boySecondCousinOf,brotherOf,25,32,0.78125,25,31,0.8064516129032258
+inductive_two_hop,"boyCousinOf(X,Y) ^ granddaughterOf(Y,Z) -> grandsonOf(X,Z)",boyCousinOf,granddaughterOf,grandsonOf,242,312,0.7756410256410257,242,312,0.7756410256410257
+inductive_two_hop,"fatherOf(X,Y) ^ sisterOf(Y,Z) -> fatherOf(X,Z)",fatherOf,sisterOf,fatherOf,301,389,0.7737789203084833,301,389,0.7737789203084833
+inductive_two_hop,"motherOf(X,Y) ^ sisterOf(Y,Z) -> motherOf(X,Z)",motherOf,sisterOf,motherOf,301,389,0.7737789203084833,301,389,0.7737789203084833
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ granddaughterOf(Y,Z) -> greatGranddaughterOf(X,Z)",girlFirstCousinOnceRemovedOf,granddaughterOf,greatGranddaughterOf,102,132,0.7727272727272727,102,132,0.7727272727272727
+inductive_two_hop,"grandfatherOf(X,Y) ^ secondAuntOf(Y,Z) -> greatGrandfatherOf(X,Z)",grandfatherOf,secondAuntOf,greatGrandfatherOf,119,155,0.7677419354838709,119,131,0.9083969465648855
+inductive_two_hop,"grandmotherOf(X,Y) ^ secondAuntOf(Y,Z) -> greatGrandmotherOf(X,Z)",grandmotherOf,secondAuntOf,greatGrandmotherOf,119,155,0.7677419354838709,119,131,0.9083969465648855
+inductive_two_hop,"secondAuntOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> sisterOf(X,Z)",secondAuntOf,boyFirstCousinOnceRemovedOf,sisterOf,109,142,0.7676056338028169,109,135,0.8074074074074075
+inductive_two_hop,"grandfatherOf(X,Y) ^ girlCousinOf(Y,Z) -> grandfatherOf(X,Z)",grandfatherOf,girlCousinOf,grandfatherOf,251,327,0.7675840978593272,251,327,0.7675840978593272
+inductive_two_hop,"grandmotherOf(X,Y) ^ girlCousinOf(Y,Z) -> grandmotherOf(X,Z)",grandmotherOf,girlCousinOf,grandmotherOf,251,327,0.7675840978593272,251,327,0.7675840978593272
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ granddaughterOf(Y,Z) -> greatGrandsonOf(X,Z)",boyFirstCousinOnceRemovedOf,granddaughterOf,greatGrandsonOf,136,178,0.7640449438202247,136,178,0.7640449438202247
+inductive_two_hop,"girlCousinOf(X,Y) ^ granddaughterOf(Y,Z) -> granddaughterOf(X,Z)",girlCousinOf,granddaughterOf,granddaughterOf,260,342,0.7602339181286549,260,342,0.7602339181286549
+inductive_two_hop,"secondUncleOf(X,Y) ^ greatGrandsonOf(Y,Z) -> grandsonOf(X,Z)",secondUncleOf,greatGrandsonOf,grandsonOf,114,154,0.7402597402597403,114,154,0.7402597402597403
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> grandfatherOf(X,Z)",greatGrandfatherOf,boyFirstCousinOnceRemovedOf,grandfatherOf,124,169,0.7337278106508875,124,169,0.7337278106508875
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> grandmotherOf(X,Z)",greatGrandmotherOf,boyFirstCousinOnceRemovedOf,grandmotherOf,124,169,0.7337278106508875,124,169,0.7337278106508875
+inductive_two_hop,"secondAuntOf(X,Y) ^ greatGrandsonOf(Y,Z) -> granddaughterOf(X,Z)",secondAuntOf,greatGrandsonOf,granddaughterOf,134,184,0.7282608695652174,134,184,0.7282608695652174
+inductive_two_hop,"grandfatherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> greatUncleOf(X,Z)",grandfatherOf,girlSecondCousinOf,greatUncleOf,37,54,0.6851851851851852,37,37,1.0
+inductive_two_hop,"sisterOf(X,Y) ^ auntOf(Y,Z) -> auntOf(X,Z)",sisterOf,auntOf,auntOf,342,518,0.6602316602316602,342,468,0.7307692307692307
+inductive_two_hop,"secondUncleOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> brotherOf(X,Z)",secondUncleOf,boyFirstCousinOnceRemovedOf,brotherOf,79,120,0.6583333333333333,79,92,0.8586956521739131
+inductive_two_hop,"secondUncleOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> brotherOf(X,Z)",secondUncleOf,girlFirstCousinOnceRemovedOf,brotherOf,83,129,0.6434108527131783,83,112,0.7410714285714286
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> brotherOf(X,Z)",boySecondCousinOf,girlSecondCousinOf,brotherOf,27,42,0.6428571428571429,27,33,0.8181818181818182
+inductive_two_hop,"grandfatherOf(X,Y) ^ nephewOf(Y,Z) -> fatherOf(X,Z)",grandfatherOf,nephewOf,fatherOf,277,434,0.6382488479262672,277,434,0.6382488479262672
+inductive_two_hop,"grandmotherOf(X,Y) ^ nephewOf(Y,Z) -> motherOf(X,Z)",grandmotherOf,nephewOf,motherOf,277,434,0.6382488479262672,277,434,0.6382488479262672
+inductive_two_hop,"boyCousinOf(X,Y) ^ boyCousinOf(Y,Z) -> brotherOf(X,Z)",boyCousinOf,boyCousinOf,brotherOf,171,268,0.6380597014925373,171,226,0.7566371681415929
+inductive_two_hop,"sisterOf(X,Y) ^ greatAuntOf(Y,Z) -> greatAuntOf(X,Z)",sisterOf,greatAuntOf,greatAuntOf,152,239,0.6359832635983264,152,169,0.8994082840236687
+inductive_two_hop,"girlCousinOf(X,Y) ^ girlCousinOf(Y,Z) -> sisterOf(X,Z)",girlCousinOf,girlCousinOf,sisterOf,227,357,0.6358543417366946,227,338,0.6715976331360947
+inductive_two_hop,"boyCousinOf(X,Y) ^ girlCousinOf(Y,Z) -> brotherOf(X,Z)",boyCousinOf,girlCousinOf,brotherOf,205,323,0.6346749226006192,205,276,0.7427536231884058
+inductive_two_hop,"fatherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> secondUncleOf(X,Z)",fatherOf,boySecondCousinOf,secondUncleOf,30,48,0.625,30,30,1.0
+inductive_two_hop,"auntOf(X,Y) ^ girlCousinOf(Y,Z) -> auntOf(X,Z)",auntOf,girlCousinOf,auntOf,218,352,0.6193181818181818,218,352,0.6193181818181818
+inductive_two_hop,"nieceOf(X,Y) ^ brotherOf(Y,Z) -> nieceOf(X,Z)",nieceOf,brotherOf,nieceOf,273,442,0.6176470588235294,273,442,0.6176470588235294
+inductive_two_hop,"nieceOf(X,Y) ^ sisterOf(Y,Z) -> nieceOf(X,Z)",nieceOf,sisterOf,nieceOf,281,455,0.6175824175824176,281,455,0.6175824175824176
+inductive_two_hop,"nephewOf(X,Y) ^ sisterOf(Y,Z) -> nephewOf(X,Z)",nephewOf,sisterOf,nephewOf,305,496,0.6149193548387096,305,496,0.6149193548387096
+inductive_two_hop,"sisterOf(X,Y) ^ uncleOf(Y,Z) -> auntOf(X,Z)",sisterOf,uncleOf,auntOf,285,465,0.6129032258064516,285,409,0.6968215158924206
+inductive_two_hop,"grandfatherOf(X,Y) ^ nieceOf(Y,Z) -> fatherOf(X,Z)",grandfatherOf,nieceOf,fatherOf,248,405,0.6123456790123457,248,405,0.6123456790123457
+inductive_two_hop,"grandmotherOf(X,Y) ^ nieceOf(Y,Z) -> motherOf(X,Z)",grandmotherOf,nieceOf,motherOf,248,405,0.6123456790123457,248,405,0.6123456790123457
+inductive_two_hop,"daughterOf(X,Y) ^ grandmotherOf(Y,Z) -> auntOf(X,Z)",daughterOf,grandmotherOf,auntOf,350,572,0.6118881118881119,350,449,0.779510022271715
+inductive_two_hop,"sisterOf(X,Y) ^ greatUncleOf(Y,Z) -> greatAuntOf(X,Z)",sisterOf,greatUncleOf,greatAuntOf,128,211,0.6066350710900474,128,158,0.810126582278481
+inductive_two_hop,"secondAuntOf(X,Y) ^ boySecondCousinOf(Y,Z) -> auntOf(X,Z)",secondAuntOf,boySecondCousinOf,auntOf,47,78,0.6025641025641025,47,56,0.8392857142857143
+inductive_two_hop,"brotherOf(X,Y) ^ uncleOf(Y,Z) -> uncleOf(X,Z)",brotherOf,uncleOf,uncleOf,227,377,0.6021220159151194,227,330,0.6878787878787879
+inductive_two_hop,"girlCousinOf(X,Y) ^ boyCousinOf(Y,Z) -> sisterOf(X,Z)",girlCousinOf,boyCousinOf,sisterOf,201,336,0.5982142857142857,201,310,0.6483870967741936
+inductive_two_hop,"nephewOf(X,Y) ^ brotherOf(Y,Z) -> nephewOf(X,Z)",nephewOf,brotherOf,nephewOf,239,400,0.5975,239,400,0.5975
+inductive_two_hop,"sonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> grandfatherOf(X,Z)",sonOf,greatGrandfatherOf,grandfatherOf,304,513,0.5925925925925926,304,343,0.8862973760932945
+inductive_two_hop,"secondAuntOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> sisterOf(X,Z)",secondAuntOf,girlFirstCousinOnceRemovedOf,sisterOf,87,147,0.5918367346938775,87,137,0.635036496350365
+inductive_two_hop,"girlCousinOf(X,Y) ^ nephewOf(Y,Z) -> nieceOf(X,Z)",girlCousinOf,nephewOf,nieceOf,201,340,0.5911764705882353,201,340,0.5911764705882353
+inductive_two_hop,"auntOf(X,Y) ^ secondAuntOf(Y,Z) -> greatAuntOf(X,Z)",auntOf,secondAuntOf,greatAuntOf,89,151,0.5894039735099338,89,117,0.7606837606837606
+inductive_two_hop,"motherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> secondAuntOf(X,Z)",motherOf,girlSecondCousinOf,secondAuntOf,30,51,0.5882352941176471,30,30,1.0
+inductive_two_hop,"daughterOf(X,Y) ^ grandfatherOf(Y,Z) -> auntOf(X,Z)",daughterOf,grandfatherOf,auntOf,511,874,0.5846681922196796,511,658,0.776595744680851
+inductive_two_hop,"sonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> grandfatherOf(X,Z)",sonOf,greatGrandmotherOf,grandfatherOf,183,314,0.5828025477707006,183,207,0.8840579710144928
+inductive_two_hop,"greatAuntOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> greatAuntOf(X,Z)",greatAuntOf,girlSecondCousinOf,greatAuntOf,32,55,0.5818181818181818,32,55,0.5818181818181818
+inductive_two_hop,"motherOf(X,Y) ^ secondAuntOf(Y,Z) -> greatAuntOf(X,Z)",motherOf,secondAuntOf,greatAuntOf,75,129,0.5813953488372093,75,75,1.0
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ girlCousinOf(Y,Z) -> nephewOf(X,Z)",boyFirstCousinOnceRemovedOf,girlCousinOf,nephewOf,130,224,0.5803571428571429,130,216,0.6018518518518519
+inductive_two_hop,"auntOf(X,Y) ^ boyCousinOf(Y,Z) -> auntOf(X,Z)",auntOf,boyCousinOf,auntOf,210,362,0.580110497237569,210,362,0.580110497237569
+inductive_two_hop,"boyCousinOf(X,Y) ^ nieceOf(Y,Z) -> nephewOf(X,Z)",boyCousinOf,nieceOf,nephewOf,182,314,0.5796178343949044,182,314,0.5796178343949044
+inductive_two_hop,"greatAuntOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> auntOf(X,Z)",greatAuntOf,boyFirstCousinOnceRemovedOf,auntOf,88,152,0.5789473684210527,88,152,0.5789473684210527
+inductive_two_hop,"motherOf(X,Y) ^ girlCousinOf(Y,Z) -> auntOf(X,Z)",motherOf,girlCousinOf,auntOf,166,289,0.5743944636678201,166,168,0.9880952380952381
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> nephewOf(X,Z)",boySecondCousinOf,boyFirstCousinOnceRemovedOf,nephewOf,39,68,0.5735294117647058,39,62,0.6290322580645161
+inductive_two_hop,"greatAuntOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> auntOf(X,Z)",greatAuntOf,girlFirstCousinOnceRemovedOf,auntOf,87,153,0.5686274509803921,87,153,0.5686274509803921
+inductive_two_hop,"girlCousinOf(X,Y) ^ nieceOf(Y,Z) -> nieceOf(X,Z)",girlCousinOf,nieceOf,nieceOf,188,333,0.5645645645645646,188,333,0.5645645645645646
+inductive_two_hop,"brotherOf(X,Y) ^ auntOf(Y,Z) -> uncleOf(X,Z)",brotherOf,auntOf,uncleOf,244,433,0.5635103926096998,244,365,0.6684931506849315
+inductive_two_hop,"auntOf(X,Y) ^ grandsonOf(Y,Z) -> daughterOf(X,Z)",auntOf,grandsonOf,daughterOf,259,460,0.5630434782608695,259,460,0.5630434782608695
+inductive_two_hop,"greatAuntOf(X,Y) ^ boySecondCousinOf(Y,Z) -> greatAuntOf(X,Z)",greatAuntOf,boySecondCousinOf,greatAuntOf,27,48,0.5625,27,48,0.5625
+inductive_two_hop,"greatUncleOf(X,Y) ^ boySecondCousinOf(Y,Z) -> grandfatherOf(X,Z)",greatUncleOf,boySecondCousinOf,grandfatherOf,27,48,0.5625,27,31,0.8709677419354839
+inductive_two_hop,"brotherOf(X,Y) ^ greatAuntOf(Y,Z) -> grandfatherOf(X,Z)",brotherOf,greatAuntOf,grandfatherOf,140,250,0.56,140,162,0.8641975308641975
+inductive_two_hop,"grandsonOf(X,Y) ^ fatherOf(Y,Z) -> nephewOf(X,Z)",grandsonOf,fatherOf,nephewOf,458,820,0.5585365853658537,458,745,0.614765100671141
+inductive_two_hop,"grandsonOf(X,Y) ^ motherOf(Y,Z) -> nephewOf(X,Z)",grandsonOf,motherOf,nephewOf,458,820,0.5585365853658537,458,745,0.614765100671141
+inductive_two_hop,"greatAuntOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> daughterOf(X,Z)",greatAuntOf,greatGranddaughterOf,daughterOf,134,240,0.5583333333333333,134,240,0.5583333333333333
+inductive_two_hop,"nephewOf(X,Y) ^ auntOf(Y,Z) -> brotherOf(X,Z)",nephewOf,auntOf,brotherOf,296,531,0.5574387947269304,296,472,0.6271186440677966
+inductive_two_hop,"uncleOf(X,Y) ^ boyCousinOf(Y,Z) -> uncleOf(X,Z)",uncleOf,boyCousinOf,uncleOf,150,270,0.5555555555555556,150,270,0.5555555555555556
+inductive_two_hop,"motherOf(X,Y) ^ boyCousinOf(Y,Z) -> auntOf(X,Z)",motherOf,boyCousinOf,auntOf,140,252,0.5555555555555556,140,142,0.9859154929577465
+inductive_two_hop,"granddaughterOf(X,Y) ^ fatherOf(Y,Z) -> nieceOf(X,Z)",granddaughterOf,fatherOf,nieceOf,438,792,0.553030303030303,438,710,0.6169014084507042
+inductive_two_hop,"granddaughterOf(X,Y) ^ motherOf(Y,Z) -> nieceOf(X,Z)",granddaughterOf,motherOf,nieceOf,438,792,0.553030303030303,438,710,0.6169014084507042
+inductive_two_hop,"auntOf(X,Y) ^ secondUncleOf(Y,Z) -> greatAuntOf(X,Z)",auntOf,secondUncleOf,greatAuntOf,71,129,0.5503875968992248,71,99,0.7171717171717171
+inductive_two_hop,"fatherOf(X,Y) ^ greatGrandsonOf(Y,Z) -> grandsonOf(X,Z)",fatherOf,greatGrandsonOf,grandsonOf,220,400,0.55,220,256,0.859375
+inductive_two_hop,"grandsonOf(X,Y) ^ grandfatherOf(Y,Z) -> brotherOf(X,Z)",grandsonOf,grandfatherOf,brotherOf,473,864,0.5474537037037037,473,767,0.6166883963494133
+inductive_two_hop,"grandsonOf(X,Y) ^ grandmotherOf(Y,Z) -> brotherOf(X,Z)",grandsonOf,grandmotherOf,brotherOf,473,864,0.5474537037037037,473,767,0.6166883963494133
+inductive_two_hop,"boyCousinOf(X,Y) ^ nephewOf(Y,Z) -> nephewOf(X,Z)",boyCousinOf,nephewOf,nephewOf,159,292,0.5445205479452054,159,292,0.5445205479452054
+inductive_two_hop,"auntOf(X,Y) ^ granddaughterOf(Y,Z) -> daughterOf(X,Z)",auntOf,granddaughterOf,daughterOf,214,394,0.5431472081218274,214,394,0.5431472081218274
+inductive_two_hop,"boyCousinOf(X,Y) ^ secondAuntOf(Y,Z) -> uncleOf(X,Z)",boyCousinOf,secondAuntOf,uncleOf,116,214,0.5420560747663551,116,157,0.7388535031847133
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> sisterOf(X,Z)",girlSecondCousinOf,girlSecondCousinOf,sisterOf,13,24,0.5416666666666666,13,18,0.7222222222222222
+inductive_two_hop,"motherOf(X,Y) ^ nieceOf(Y,Z) -> sisterOf(X,Z)",motherOf,nieceOf,sisterOf,186,344,0.5406976744186046,186,203,0.916256157635468
+inductive_two_hop,"girlCousinOf(X,Y) ^ secondAuntOf(Y,Z) -> auntOf(X,Z)",girlCousinOf,secondAuntOf,auntOf,104,193,0.538860103626943,104,140,0.7428571428571429
+inductive_two_hop,"greatUncleOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> grandfatherOf(X,Z)",greatUncleOf,girlSecondCousinOf,grandfatherOf,22,41,0.5365853658536586,22,23,0.9565217391304348
+inductive_two_hop,"granddaughterOf(X,Y) ^ grandfatherOf(Y,Z) -> sisterOf(X,Z)",granddaughterOf,grandfatherOf,sisterOf,511,956,0.5345188284518828,511,864,0.5914351851851852
+inductive_two_hop,"granddaughterOf(X,Y) ^ grandmotherOf(Y,Z) -> sisterOf(X,Z)",granddaughterOf,grandmotherOf,sisterOf,511,956,0.5345188284518828,511,864,0.5914351851851852
+inductive_two_hop,"daughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> greatAuntOf(X,Z)",daughterOf,greatGrandmotherOf,greatAuntOf,182,342,0.5321637426900585,182,198,0.9191919191919192
+inductive_two_hop,"nephewOf(X,Y) ^ uncleOf(Y,Z) -> brotherOf(X,Z)",nephewOf,uncleOf,brotherOf,196,369,0.5311653116531165,196,314,0.6242038216560509
+inductive_two_hop,"nieceOf(X,Y) ^ uncleOf(Y,Z) -> sisterOf(X,Z)",nieceOf,uncleOf,sisterOf,236,445,0.5303370786516854,236,399,0.5914786967418546
+inductive_two_hop,"nieceOf(X,Y) ^ auntOf(Y,Z) -> sisterOf(X,Z)",nieceOf,auntOf,sisterOf,302,571,0.5288966725043783,302,519,0.581888246628131
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ fatherOf(Y,Z) -> granddaughterOf(X,Z)",greatGranddaughterOf,fatherOf,granddaughterOf,261,494,0.52834008097166,261,494,0.52834008097166
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ motherOf(Y,Z) -> granddaughterOf(X,Z)",greatGranddaughterOf,motherOf,granddaughterOf,261,494,0.52834008097166,261,494,0.52834008097166
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ fatherOf(Y,Z) -> grandsonOf(X,Z)",greatGrandsonOf,fatherOf,grandsonOf,282,535,0.5271028037383177,282,535,0.5271028037383177
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ motherOf(Y,Z) -> grandsonOf(X,Z)",greatGrandsonOf,motherOf,grandsonOf,282,535,0.5271028037383177,282,535,0.5271028037383177
+inductive_two_hop,"nephewOf(X,Y) ^ greatAuntOf(Y,Z) -> uncleOf(X,Z)",nephewOf,greatAuntOf,uncleOf,221,420,0.5261904761904762,221,326,0.6779141104294478
+inductive_two_hop,"fatherOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> grandsonOf(X,Z)",fatherOf,greatGranddaughterOf,grandsonOf,216,412,0.5242718446601942,216,250,0.864
+inductive_two_hop,"fatherOf(X,Y) ^ secondUncleOf(Y,Z) -> greatUncleOf(X,Z)",fatherOf,secondUncleOf,greatUncleOf,56,107,0.5233644859813084,56,56,1.0
+inductive_two_hop,"fatherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> boyCousinOf(X,Z)",fatherOf,boyFirstCousinOnceRemovedOf,boyCousinOf,71,136,0.5220588235294118,71,71,1.0
+inductive_two_hop,"boyCousinOf(X,Y) ^ secondUncleOf(Y,Z) -> uncleOf(X,Z)",boyCousinOf,secondUncleOf,uncleOf,98,189,0.5185185185185185,98,127,0.7716535433070866
+inductive_two_hop,"daughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> greatAuntOf(X,Z)",daughterOf,greatGrandfatherOf,greatAuntOf,297,574,0.5174216027874564,297,326,0.911042944785276
+inductive_two_hop,"greatUncleOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> sonOf(X,Z)",greatUncleOf,greatGranddaughterOf,sonOf,99,192,0.515625,99,192,0.515625
+inductive_two_hop,"uncleOf(X,Y) ^ girlCousinOf(Y,Z) -> uncleOf(X,Z)",uncleOf,girlCousinOf,uncleOf,152,295,0.5152542372881356,152,295,0.5152542372881356
+inductive_two_hop,"grandfatherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> uncleOf(X,Z)",grandfatherOf,girlFirstCousinOnceRemovedOf,uncleOf,72,140,0.5142857142857142,72,72,1.0
+inductive_two_hop,"sonOf(X,Y) ^ grandfatherOf(Y,Z) -> uncleOf(X,Z)",sonOf,grandfatherOf,uncleOf,397,774,0.5129198966408268,397,537,0.7392923649906891
+inductive_two_hop,"motherOf(X,Y) ^ nephewOf(Y,Z) -> sisterOf(X,Z)",motherOf,nephewOf,sisterOf,166,325,0.5107692307692308,166,179,0.9273743016759777
+inductive_two_hop,"greatUncleOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> uncleOf(X,Z)",greatUncleOf,girlFirstCousinOnceRemovedOf,uncleOf,53,104,0.5096153846153846,53,104,0.5096153846153846
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ boyCousinOf(Y,Z) -> nephewOf(X,Z)",boyFirstCousinOnceRemovedOf,boyCousinOf,nephewOf,100,197,0.5076142131979695,100,185,0.5405405405405406
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ secondAuntOf(Y,Z) -> brotherOf(X,Z)",boyFirstCousinOnceRemovedOf,secondAuntOf,brotherOf,54,107,0.5046728971962616,54,79,0.6835443037974683
+inductive_two_hop,"sonOf(X,Y) ^ grandmotherOf(Y,Z) -> uncleOf(X,Z)",sonOf,grandmotherOf,uncleOf,253,506,0.5,253,346,0.7312138728323699
+inductive_two_hop,"brotherOf(X,Y) ^ greatUncleOf(Y,Z) -> grandfatherOf(X,Z)",brotherOf,greatUncleOf,grandfatherOf,102,204,0.5,102,114,0.8947368421052632
+inductive_two_hop,"brotherOf(X,Y) ^ greatUncleOf(Y,Z) -> greatUncleOf(X,Z)",brotherOf,greatUncleOf,greatUncleOf,102,204,0.5,102,127,0.8031496062992126
+inductive_two_hop,"greatUncleOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> uncleOf(X,Z)",greatUncleOf,boyFirstCousinOnceRemovedOf,uncleOf,66,132,0.5,66,132,0.5
+inductive_two_hop,"uncleOf(X,Y) ^ secondAuntOf(Y,Z) -> grandfatherOf(X,Z)",uncleOf,secondAuntOf,grandfatherOf,65,130,0.5,65,75,0.8666666666666667
+inductive_two_hop,"fatherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> boyCousinOf(X,Z)",fatherOf,girlFirstCousinOnceRemovedOf,boyCousinOf,64,128,0.5,64,64,1.0
+inductive_two_hop,"motherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> girlCousinOf(X,Z)",motherOf,girlFirstCousinOnceRemovedOf,girlCousinOf,64,128,0.5,64,64,1.0
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> nephewOf(X,Z)",boySecondCousinOf,girlFirstCousinOnceRemovedOf,nephewOf,49,98,0.5,49,93,0.5268817204301075
+inductive_two_hop,"secondAuntOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> auntOf(X,Z)",secondAuntOf,girlSecondCousinOf,auntOf,32,64,0.5,32,42,0.7619047619047619
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> sisterOf(X,Z)",girlSecondCousinOf,boySecondCousinOf,sisterOf,17,34,0.5,17,26,0.6538461538461539
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ boyCousinOf(Y,Z) -> nieceOf(X,Z)",girlFirstCousinOnceRemovedOf,boyCousinOf,nieceOf,81,163,0.49693251533742333,81,133,0.6090225563909775
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> auntOf(X,Z)",granddaughterOf,greatGrandfatherOf,auntOf,371,749,0.4953271028037383,371,534,0.6947565543071161
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> auntOf(X,Z)",granddaughterOf,greatGrandmotherOf,auntOf,371,749,0.4953271028037383,371,534,0.6947565543071161
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ secondAuntOf(Y,Z) -> girlCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,secondAuntOf,girlCousinOf,52,105,0.49523809523809526,52,73,0.7123287671232876
+inductive_two_hop,"uncleOf(X,Y) ^ grandsonOf(Y,Z) -> sonOf(X,Z)",uncleOf,grandsonOf,sonOf,202,408,0.4950980392156863,202,408,0.4950980392156863
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ secondUncleOf(Y,Z) -> brotherOf(X,Z)",boyFirstCousinOnceRemovedOf,secondUncleOf,brotherOf,44,89,0.4943820224719101,44,67,0.6567164179104478
+inductive_two_hop,"secondUncleOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> uncleOf(X,Z)",secondUncleOf,girlSecondCousinOf,uncleOf,43,87,0.4942528735632184,43,55,0.7818181818181819
+inductive_two_hop,"greatAuntOf(X,Y) ^ greatGrandsonOf(Y,Z) -> daughterOf(X,Z)",greatAuntOf,greatGrandsonOf,daughterOf,141,286,0.493006993006993,141,286,0.493006993006993
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ girlCousinOf(Y,Z) -> nieceOf(X,Z)",girlFirstCousinOnceRemovedOf,girlCousinOf,nieceOf,90,183,0.4918032786885246,90,155,0.5806451612903226
+inductive_two_hop,"auntOf(X,Y) ^ sonOf(Y,Z) -> sisterOf(X,Z)",auntOf,sonOf,sisterOf,160,326,0.49079754601226994,160,326,0.49079754601226994
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> nieceOf(X,Z)",girlSecondCousinOf,girlFirstCousinOnceRemovedOf,nieceOf,26,53,0.49056603773584906,26,46,0.5652173913043478
+inductive_two_hop,"fatherOf(X,Y) ^ nephewOf(Y,Z) -> brotherOf(X,Z)",fatherOf,nephewOf,brotherOf,159,325,0.48923076923076925,159,175,0.9085714285714286
+inductive_two_hop,"nieceOf(X,Y) ^ greatAuntOf(Y,Z) -> auntOf(X,Z)",nieceOf,greatAuntOf,auntOf,190,390,0.48717948717948717,190,275,0.6909090909090909
+inductive_two_hop,"auntOf(X,Y) ^ daughterOf(Y,Z) -> sisterOf(X,Z)",auntOf,daughterOf,sisterOf,132,271,0.4870848708487085,132,271,0.4870848708487085
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ grandfatherOf(Y,Z) -> nieceOf(X,Z)",greatGranddaughterOf,grandfatherOf,nieceOf,357,735,0.4857142857142857,357,656,0.5442073170731707
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ grandmotherOf(Y,Z) -> nieceOf(X,Z)",greatGranddaughterOf,grandmotherOf,nieceOf,357,735,0.4857142857142857,357,656,0.5442073170731707
+inductive_two_hop,"uncleOf(X,Y) ^ granddaughterOf(Y,Z) -> sonOf(X,Z)",uncleOf,granddaughterOf,sonOf,202,416,0.4855769230769231,202,416,0.4855769230769231
+inductive_two_hop,"girlCousinOf(X,Y) ^ secondUncleOf(Y,Z) -> auntOf(X,Z)",girlCousinOf,secondUncleOf,auntOf,83,171,0.4853801169590643,83,111,0.7477477477477478
+inductive_two_hop,"daughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> grandmotherOf(X,Z)",daughterOf,greatGrandfatherOf,grandmotherOf,277,574,0.48257839721254353,277,305,0.9081967213114754
+inductive_two_hop,"secondUncleOf(X,Y) ^ daughterOf(Y,Z) -> boyCousinOf(X,Z)",secondUncleOf,daughterOf,boyCousinOf,45,94,0.4787234042553192,45,94,0.4787234042553192
+inductive_two_hop,"motherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> girlCousinOf(X,Z)",motherOf,boyFirstCousinOnceRemovedOf,girlCousinOf,65,136,0.47794117647058826,65,65,1.0
+inductive_two_hop,"grandmotherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> auntOf(X,Z)",grandmotherOf,boyFirstCousinOnceRemovedOf,auntOf,75,157,0.47770700636942676,75,75,1.0
+inductive_two_hop,"motherOf(X,Y) ^ secondUncleOf(Y,Z) -> greatAuntOf(X,Z)",motherOf,secondUncleOf,greatAuntOf,51,107,0.4766355140186916,51,51,1.0
+inductive_two_hop,"motherOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> granddaughterOf(X,Z)",motherOf,greatGranddaughterOf,granddaughterOf,196,412,0.47572815533980584,196,218,0.8990825688073395
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> brotherOf(X,Z)",greatGrandsonOf,greatGrandfatherOf,brotherOf,299,631,0.47385103011093505,299,540,0.5537037037037037
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> brotherOf(X,Z)",greatGrandsonOf,greatGrandmotherOf,brotherOf,299,631,0.47385103011093505,299,540,0.5537037037037037
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ grandfatherOf(Y,Z) -> nephewOf(X,Z)",greatGrandsonOf,grandfatherOf,nephewOf,368,777,0.47361647361647363,368,731,0.5034199726402189
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ grandmotherOf(Y,Z) -> nephewOf(X,Z)",greatGrandsonOf,grandmotherOf,nephewOf,368,777,0.47361647361647363,368,731,0.5034199726402189
+inductive_two_hop,"uncleOf(X,Y) ^ secondUncleOf(Y,Z) -> greatUncleOf(X,Z)",uncleOf,secondUncleOf,greatUncleOf,59,125,0.472,59,99,0.5959595959595959
+inductive_two_hop,"nieceOf(X,Y) ^ auntOf(Y,Z) -> girlCousinOf(X,Z)",nieceOf,auntOf,girlCousinOf,269,571,0.4711033274956217,269,465,0.578494623655914
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> nieceOf(X,Z)",girlSecondCousinOf,boyFirstCousinOnceRemovedOf,nieceOf,40,85,0.47058823529411764,40,68,0.5882352941176471
+inductive_two_hop,"nieceOf(X,Y) ^ uncleOf(Y,Z) -> girlCousinOf(X,Z)",nieceOf,uncleOf,girlCousinOf,209,445,0.4696629213483146,209,386,0.5414507772020726
+inductive_two_hop,"nephewOf(X,Y) ^ uncleOf(Y,Z) -> boyCousinOf(X,Z)",nephewOf,uncleOf,boyCousinOf,173,369,0.46883468834688347,173,316,0.5474683544303798
+inductive_two_hop,"daughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> grandmotherOf(X,Z)",daughterOf,greatGrandmotherOf,grandmotherOf,160,342,0.4678362573099415,160,179,0.8938547486033519
+inductive_two_hop,"grandmotherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> greatAuntOf(X,Z)",grandmotherOf,boySecondCousinOf,greatAuntOf,27,58,0.46551724137931033,27,27,1.0
+inductive_two_hop,"granddaughterOf(X,Y) ^ grandfatherOf(Y,Z) -> girlCousinOf(X,Z)",granddaughterOf,grandfatherOf,girlCousinOf,445,956,0.46548117154811713,445,695,0.6402877697841727
+inductive_two_hop,"granddaughterOf(X,Y) ^ grandmotherOf(Y,Z) -> girlCousinOf(X,Z)",granddaughterOf,grandmotherOf,girlCousinOf,445,956,0.46548117154811713,445,695,0.6402877697841727
+inductive_two_hop,"secondAuntOf(X,Y) ^ daughterOf(Y,Z) -> girlCousinOf(X,Z)",secondAuntOf,daughterOf,girlCousinOf,47,101,0.46534653465346537,47,101,0.46534653465346537
+inductive_two_hop,"grandsonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> uncleOf(X,Z)",grandsonOf,greatGrandfatherOf,uncleOf,354,763,0.4639580602883355,354,542,0.6531365313653137
+inductive_two_hop,"grandsonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> uncleOf(X,Z)",grandsonOf,greatGrandmotherOf,uncleOf,354,763,0.4639580602883355,354,542,0.6531365313653137
+inductive_two_hop,"fatherOf(X,Y) ^ nieceOf(Y,Z) -> brotherOf(X,Z)",fatherOf,nieceOf,brotherOf,158,344,0.45930232558139533,158,176,0.8977272727272727
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> sisterOf(X,Z)",greatGranddaughterOf,greatGrandfatherOf,sisterOf,317,691,0.45875542691751087,317,600,0.5283333333333333
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> sisterOf(X,Z)",greatGranddaughterOf,greatGrandmotherOf,sisterOf,317,691,0.45875542691751087,317,600,0.5283333333333333
+inductive_two_hop,"greatUncleOf(X,Y) ^ greatGrandsonOf(Y,Z) -> sonOf(X,Z)",greatUncleOf,greatGrandsonOf,sonOf,105,230,0.45652173913043476,105,230,0.45652173913043476
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ daughterOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boySecondCousinOf,daughterOf,boyFirstCousinOnceRemovedOf,21,46,0.45652173913043476,21,46,0.45652173913043476
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ sonOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlSecondCousinOf,sonOf,girlFirstCousinOnceRemovedOf,21,46,0.45652173913043476,21,46,0.45652173913043476
+inductive_two_hop,"uncleOf(X,Y) ^ secondUncleOf(Y,Z) -> grandfatherOf(X,Z)",uncleOf,secondUncleOf,grandfatherOf,57,125,0.456,57,67,0.8507462686567164
+inductive_two_hop,"grandsonOf(X,Y) ^ grandfatherOf(Y,Z) -> boyCousinOf(X,Z)",grandsonOf,grandfatherOf,boyCousinOf,391,864,0.4525462962962963,391,633,0.617693522906793
+inductive_two_hop,"grandsonOf(X,Y) ^ grandmotherOf(Y,Z) -> boyCousinOf(X,Z)",grandsonOf,grandmotherOf,boyCousinOf,391,864,0.4525462962962963,391,633,0.617693522906793
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> girlCousinOf(X,Z)",greatGranddaughterOf,greatGrandfatherOf,girlCousinOf,312,691,0.4515195369030391,312,504,0.6190476190476191
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> girlCousinOf(X,Z)",greatGranddaughterOf,greatGrandmotherOf,girlCousinOf,312,691,0.4515195369030391,312,504,0.6190476190476191
+inductive_two_hop,"motherOf(X,Y) ^ greatGrandsonOf(Y,Z) -> granddaughterOf(X,Z)",motherOf,greatGrandsonOf,granddaughterOf,180,400,0.45,180,208,0.8653846153846154
+inductive_two_hop,"nieceOf(X,Y) ^ greatUncleOf(Y,Z) -> auntOf(X,Z)",nieceOf,greatUncleOf,auntOf,123,276,0.44565217391304346,123,174,0.7068965517241379
+inductive_two_hop,"fatherOf(X,Y) ^ boyCousinOf(Y,Z) -> uncleOf(X,Z)",fatherOf,boyCousinOf,uncleOf,112,252,0.4444444444444444,112,113,0.9911504424778761
+inductive_two_hop,"nephewOf(X,Y) ^ auntOf(Y,Z) -> boyCousinOf(X,Z)",nephewOf,auntOf,boyCousinOf,235,531,0.4425612052730697,235,433,0.5427251732101617
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ sonOf(Y,Z) -> grandfatherOf(X,Z)",greatGrandfatherOf,sonOf,grandfatherOf,152,345,0.4405797101449275,152,345,0.4405797101449275
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ sonOf(Y,Z) -> grandmotherOf(X,Z)",greatGrandmotherOf,sonOf,grandmotherOf,152,345,0.4405797101449275,152,345,0.4405797101449275
+inductive_two_hop,"brotherOf(X,Y) ^ greatAuntOf(Y,Z) -> greatUncleOf(X,Z)",brotherOf,greatAuntOf,greatUncleOf,110,250,0.44,110,141,0.7801418439716312
+inductive_two_hop,"uncleOf(X,Y) ^ sonOf(Y,Z) -> brotherOf(X,Z)",uncleOf,sonOf,brotherOf,109,248,0.43951612903225806,109,248,0.43951612903225806
+inductive_two_hop,"greatAuntOf(X,Y) ^ daughterOf(Y,Z) -> auntOf(X,Z)",greatAuntOf,daughterOf,auntOf,76,173,0.4393063583815029,76,173,0.4393063583815029
+inductive_two_hop,"greatAuntOf(X,Y) ^ boySecondCousinOf(Y,Z) -> grandmotherOf(X,Z)",greatAuntOf,boySecondCousinOf,grandmotherOf,21,48,0.4375,21,23,0.9130434782608695
+inductive_two_hop,"greatUncleOf(X,Y) ^ boySecondCousinOf(Y,Z) -> greatUncleOf(X,Z)",greatUncleOf,boySecondCousinOf,greatUncleOf,21,48,0.4375,21,48,0.4375
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ nephewOf(Y,Z) -> granddaughterOf(X,Z)",girlFirstCousinOnceRemovedOf,nephewOf,granddaughterOf,48,110,0.43636363636363634,48,110,0.43636363636363634
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ daughterOf(Y,Z) -> grandfatherOf(X,Z)",greatGrandfatherOf,daughterOf,grandfatherOf,135,311,0.4340836012861736,135,311,0.4340836012861736
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ daughterOf(Y,Z) -> grandmotherOf(X,Z)",greatGrandmotherOf,daughterOf,grandmotherOf,135,311,0.4340836012861736,135,311,0.4340836012861736
+inductive_two_hop,"greatUncleOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> fatherOf(X,Z)",greatUncleOf,boyFirstCousinOnceRemovedOf,fatherOf,57,132,0.4318181818181818,57,87,0.6551724137931034
+inductive_two_hop,"girlCousinOf(X,Y) ^ sonOf(Y,Z) -> nieceOf(X,Z)",girlCousinOf,sonOf,nieceOf,94,218,0.43119266055045874,94,218,0.43119266055045874
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ secondAuntOf(Y,Z) -> boyCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,secondAuntOf,boyCousinOf,46,107,0.42990654205607476,46,67,0.6865671641791045
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ daughterOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlSecondCousinOf,daughterOf,girlFirstCousinOnceRemovedOf,12,28,0.42857142857142855,12,28,0.42857142857142855
+inductive_two_hop,"secondUncleOf(X,Y) ^ boySecondCousinOf(Y,Z) -> uncleOf(X,Z)",secondUncleOf,boySecondCousinOf,uncleOf,32,75,0.4266666666666667,32,38,0.8421052631578947
+inductive_two_hop,"fatherOf(X,Y) ^ girlCousinOf(Y,Z) -> uncleOf(X,Z)",fatherOf,girlCousinOf,uncleOf,123,289,0.42560553633217996,123,124,0.9919354838709677
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ nieceOf(Y,Z) -> grandsonOf(X,Z)",boyFirstCousinOnceRemovedOf,nieceOf,grandsonOf,68,160,0.425,68,160,0.425
+inductive_two_hop,"uncleOf(X,Y) ^ daughterOf(Y,Z) -> brotherOf(X,Z)",uncleOf,daughterOf,brotherOf,103,243,0.42386831275720166,103,243,0.42386831275720166
+inductive_two_hop,"sonOf(X,Y) ^ grandfatherOf(Y,Z) -> fatherOf(X,Z)",sonOf,grandfatherOf,fatherOf,328,774,0.42377260981912146,328,539,0.608534322820037
+inductive_two_hop,"uncleOf(X,Y) ^ secondAuntOf(Y,Z) -> greatUncleOf(X,Z)",uncleOf,secondAuntOf,greatUncleOf,55,130,0.4230769230769231,55,85,0.6470588235294118
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ nieceOf(Y,Z) -> granddaughterOf(X,Z)",girlFirstCousinOnceRemovedOf,nieceOf,granddaughterOf,51,121,0.4214876033057851,51,121,0.4214876033057851
+inductive_two_hop,"boyCousinOf(X,Y) ^ sonOf(Y,Z) -> nephewOf(X,Z)",boyCousinOf,sonOf,nephewOf,95,226,0.42035398230088494,95,226,0.42035398230088494
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ secondUncleOf(Y,Z) -> sisterOf(X,Z)",girlFirstCousinOnceRemovedOf,secondUncleOf,sisterOf,34,81,0.41975308641975306,34,60,0.5666666666666667
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ secondUncleOf(Y,Z) -> girlCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,secondUncleOf,girlCousinOf,34,81,0.41975308641975306,34,46,0.7391304347826086
+inductive_two_hop,"fatherOf(X,Y) ^ secondAuntOf(Y,Z) -> greatUncleOf(X,Z)",fatherOf,secondAuntOf,greatUncleOf,54,129,0.4186046511627907,54,54,1.0
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> boyCousinOf(X,Z)",greatGrandsonOf,greatGrandfatherOf,boyCousinOf,264,631,0.4183835182250396,264,443,0.5959367945823928
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> boyCousinOf(X,Z)",greatGrandsonOf,greatGrandmotherOf,boyCousinOf,264,631,0.4183835182250396,264,443,0.5959367945823928
+inductive_two_hop,"greatAuntOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> grandmotherOf(X,Z)",greatAuntOf,girlSecondCousinOf,grandmotherOf,23,55,0.41818181818181815,23,28,0.8214285714285714
+inductive_two_hop,"sonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> greatUncleOf(X,Z)",sonOf,greatGrandmotherOf,greatUncleOf,131,314,0.4171974522292994,131,153,0.8562091503267973
+inductive_two_hop,"boyCousinOf(X,Y) ^ daughterOf(Y,Z) -> nephewOf(X,Z)",boyCousinOf,daughterOf,nephewOf,87,209,0.41626794258373206,87,209,0.41626794258373206
+inductive_two_hop,"fatherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> secondUncleOf(X,Z)",fatherOf,girlSecondCousinOf,secondUncleOf,21,51,0.4117647058823529,21,21,1.0
+inductive_two_hop,"secondUncleOf(X,Y) ^ grandsonOf(Y,Z) -> nephewOf(X,Z)",secondUncleOf,grandsonOf,nephewOf,60,146,0.410958904109589,60,146,0.410958904109589
+inductive_two_hop,"nephewOf(X,Y) ^ greatUncleOf(Y,Z) -> uncleOf(X,Z)",nephewOf,greatUncleOf,uncleOf,107,261,0.4099616858237548,107,151,0.7086092715231788
+inductive_two_hop,"girlCousinOf(X,Y) ^ daughterOf(Y,Z) -> nieceOf(X,Z)",girlCousinOf,daughterOf,nieceOf,91,222,0.4099099099099099,91,222,0.4099099099099099
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ nephewOf(Y,Z) -> grandsonOf(X,Z)",boyFirstCousinOnceRemovedOf,nephewOf,grandsonOf,59,144,0.4097222222222222,59,144,0.4097222222222222
+inductive_two_hop,"secondAuntOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> girlCousinOf(X,Z)",secondAuntOf,girlFirstCousinOnceRemovedOf,girlCousinOf,60,147,0.40816326530612246,60,147,0.40816326530612246
+inductive_two_hop,"sonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> greatUncleOf(X,Z)",sonOf,greatGrandfatherOf,greatUncleOf,209,513,0.4074074074074074,209,242,0.8636363636363636
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ sonOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boySecondCousinOf,sonOf,boyFirstCousinOnceRemovedOf,11,27,0.4074074074074074,11,27,0.4074074074074074
+inductive_two_hop,"secondAuntOf(X,Y) ^ granddaughterOf(Y,Z) -> nieceOf(X,Z)",secondAuntOf,granddaughterOf,nieceOf,56,138,0.4057971014492754,56,138,0.4057971014492754
+inductive_two_hop,"sonOf(X,Y) ^ grandmotherOf(Y,Z) -> fatherOf(X,Z)",sonOf,grandmotherOf,fatherOf,204,506,0.4031620553359684,204,363,0.5619834710743802
+inductive_two_hop,"girlCousinOf(X,Y) ^ boyCousinOf(Y,Z) -> girlCousinOf(X,Z)",girlCousinOf,boyCousinOf,girlCousinOf,134,336,0.39880952380952384,134,336,0.39880952380952384
+inductive_two_hop,"secondAuntOf(X,Y) ^ grandsonOf(Y,Z) -> nieceOf(X,Z)",secondAuntOf,grandsonOf,nieceOf,67,168,0.39880952380952384,67,168,0.39880952380952384
+inductive_two_hop,"secondUncleOf(X,Y) ^ granddaughterOf(Y,Z) -> nephewOf(X,Z)",secondUncleOf,granddaughterOf,nephewOf,56,142,0.39436619718309857,56,142,0.39436619718309857
+inductive_two_hop,"sisterOf(X,Y) ^ greatUncleOf(Y,Z) -> grandmotherOf(X,Z)",sisterOf,greatUncleOf,grandmotherOf,83,211,0.3933649289099526,83,98,0.8469387755102041
+inductive_two_hop,"uncleOf(X,Y) ^ girlCousinOf(Y,Z) -> fatherOf(X,Z)",uncleOf,girlCousinOf,fatherOf,116,295,0.39322033898305087,116,177,0.655367231638418
+inductive_two_hop,"greatUncleOf(X,Y) ^ daughterOf(Y,Z) -> uncleOf(X,Z)",greatUncleOf,daughterOf,uncleOf,45,115,0.391304347826087,45,115,0.391304347826087
+inductive_two_hop,"greatUncleOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> greatUncleOf(X,Z)",greatUncleOf,girlSecondCousinOf,greatUncleOf,16,41,0.3902439024390244,16,41,0.3902439024390244
+inductive_two_hop,"secondAuntOf(X,Y) ^ sonOf(Y,Z) -> girlCousinOf(X,Z)",secondAuntOf,sonOf,girlCousinOf,44,113,0.3893805309734513,44,113,0.3893805309734513
+inductive_two_hop,"fatherOf(X,Y) ^ granddaughterOf(Y,Z) -> sonOf(X,Z)",fatherOf,granddaughterOf,sonOf,206,530,0.3886792452830189,206,402,0.5124378109452736
+inductive_two_hop,"greatAuntOf(X,Y) ^ sonOf(Y,Z) -> auntOf(X,Z)",greatAuntOf,sonOf,auntOf,73,188,0.3882978723404255,73,188,0.3882978723404255
+inductive_two_hop,"brotherOf(X,Y) ^ auntOf(Y,Z) -> fatherOf(X,Z)",brotherOf,auntOf,fatherOf,168,433,0.38799076212471134,168,291,0.5773195876288659
+inductive_two_hop,"auntOf(X,Y) ^ secondUncleOf(Y,Z) -> grandmotherOf(X,Z)",auntOf,secondUncleOf,grandmotherOf,50,129,0.3875968992248062,50,59,0.847457627118644
+inductive_two_hop,"grandfatherOf(X,Y) ^ daughterOf(Y,Z) -> fatherOf(X,Z)",grandfatherOf,daughterOf,fatherOf,154,400,0.385,154,400,0.385
+inductive_two_hop,"grandmotherOf(X,Y) ^ daughterOf(Y,Z) -> motherOf(X,Z)",grandmotherOf,daughterOf,motherOf,154,400,0.385,154,400,0.385
+inductive_two_hop,"grandfatherOf(X,Y) ^ sonOf(Y,Z) -> fatherOf(X,Z)",grandfatherOf,sonOf,fatherOf,163,426,0.3826291079812207,163,426,0.3826291079812207
+inductive_two_hop,"grandmotherOf(X,Y) ^ sonOf(Y,Z) -> motherOf(X,Z)",grandmotherOf,sonOf,motherOf,163,426,0.3826291079812207,163,426,0.3826291079812207
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ secondAuntOf(Y,Z) -> sisterOf(X,Z)",girlFirstCousinOnceRemovedOf,secondAuntOf,sisterOf,40,105,0.38095238095238093,40,72,0.5555555555555556
+inductive_two_hop,"grandfatherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> greatUncleOf(X,Z)",grandfatherOf,boySecondCousinOf,greatUncleOf,22,58,0.3793103448275862,22,22,1.0
+inductive_two_hop,"greatUncleOf(X,Y) ^ grandsonOf(Y,Z) -> brotherOf(X,Z)",greatUncleOf,grandsonOf,brotherOf,79,210,0.3761904761904762,79,210,0.3761904761904762
+inductive_two_hop,"greatUncleOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> fatherOf(X,Z)",greatUncleOf,girlFirstCousinOnceRemovedOf,fatherOf,39,104,0.375,39,62,0.6290322580645161
+inductive_two_hop,"motherOf(X,Y) ^ boySecondCousinOf(Y,Z) -> secondAuntOf(X,Z)",motherOf,boySecondCousinOf,secondAuntOf,18,48,0.375,18,18,1.0
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> girlCousinOf(X,Z)",girlSecondCousinOf,girlSecondCousinOf,girlCousinOf,9,24,0.375,9,13,0.6923076923076923
+inductive_two_hop,"greatAuntOf(X,Y) ^ grandsonOf(Y,Z) -> sisterOf(X,Z)",greatAuntOf,grandsonOf,sisterOf,100,268,0.373134328358209,100,268,0.373134328358209
+inductive_two_hop,"greatAuntOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> motherOf(X,Z)",greatAuntOf,boyFirstCousinOnceRemovedOf,motherOf,56,152,0.3684210526315789,56,87,0.6436781609195402
+inductive_two_hop,"fatherOf(X,Y) ^ grandsonOf(Y,Z) -> sonOf(X,Z)",fatherOf,grandsonOf,sonOf,187,508,0.36811023622047245,187,372,0.5026881720430108
+inductive_two_hop,"motherOf(X,Y) ^ granddaughterOf(Y,Z) -> daughterOf(X,Z)",motherOf,granddaughterOf,daughterOf,194,530,0.3660377358490566,194,392,0.49489795918367346
+inductive_two_hop,"daughterOf(X,Y) ^ grandfatherOf(Y,Z) -> motherOf(X,Z)",daughterOf,grandfatherOf,motherOf,319,874,0.36498855835240274,319,578,0.5519031141868512
+inductive_two_hop,"greatUncleOf(X,Y) ^ sonOf(Y,Z) -> uncleOf(X,Z)",greatUncleOf,sonOf,uncleOf,50,137,0.36496350364963503,50,137,0.36496350364963503
+inductive_two_hop,"sisterOf(X,Y) ^ greatAuntOf(Y,Z) -> grandmotherOf(X,Z)",sisterOf,greatAuntOf,grandmotherOf,87,239,0.36401673640167365,87,105,0.8285714285714286
+inductive_two_hop,"uncleOf(X,Y) ^ boyCousinOf(Y,Z) -> fatherOf(X,Z)",uncleOf,boyCousinOf,fatherOf,98,270,0.362962962962963,98,156,0.6282051282051282
+inductive_two_hop,"greatAuntOf(X,Y) ^ granddaughterOf(Y,Z) -> sisterOf(X,Z)",greatAuntOf,granddaughterOf,sisterOf,89,246,0.3617886178861789,89,246,0.3617886178861789
+inductive_two_hop,"girlCousinOf(X,Y) ^ girlCousinOf(Y,Z) -> girlCousinOf(X,Z)",girlCousinOf,girlCousinOf,girlCousinOf,129,357,0.36134453781512604,129,357,0.36134453781512604
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ secondUncleOf(Y,Z) -> boyCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,secondUncleOf,boyCousinOf,32,89,0.3595505617977528,32,46,0.6956521739130435
+inductive_two_hop,"greatAuntOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> motherOf(X,Z)",greatAuntOf,girlFirstCousinOnceRemovedOf,motherOf,55,153,0.35947712418300654,55,103,0.5339805825242718
+inductive_two_hop,"auntOf(X,Y) ^ secondAuntOf(Y,Z) -> grandmotherOf(X,Z)",auntOf,secondAuntOf,grandmotherOf,54,151,0.3576158940397351,54,60,0.9
+inductive_two_hop,"secondUncleOf(X,Y) ^ sonOf(Y,Z) -> boyCousinOf(X,Z)",secondUncleOf,sonOf,boyCousinOf,35,98,0.35714285714285715,35,98,0.35714285714285715
+inductive_two_hop,"secondUncleOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> boyCousinOf(X,Z)",secondUncleOf,girlFirstCousinOnceRemovedOf,boyCousinOf,46,129,0.35658914728682173,46,129,0.35658914728682173
+inductive_two_hop,"boyCousinOf(X,Y) ^ girlCousinOf(Y,Z) -> boyCousinOf(X,Z)",boyCousinOf,girlCousinOf,boyCousinOf,115,323,0.3560371517027864,115,323,0.3560371517027864
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> girlCousinOf(X,Z)",girlSecondCousinOf,boySecondCousinOf,girlCousinOf,12,34,0.35294117647058826,12,17,0.7058823529411765
+inductive_two_hop,"boyCousinOf(X,Y) ^ boyCousinOf(Y,Z) -> boyCousinOf(X,Z)",boyCousinOf,boyCousinOf,boyCousinOf,94,268,0.35074626865671643,94,268,0.35074626865671643
+inductive_two_hop,"greatUncleOf(X,Y) ^ granddaughterOf(Y,Z) -> brotherOf(X,Z)",greatUncleOf,granddaughterOf,brotherOf,68,194,0.35051546391752575,68,194,0.35051546391752575
+inductive_two_hop,"sisterOf(X,Y) ^ uncleOf(Y,Z) -> motherOf(X,Z)",sisterOf,uncleOf,motherOf,162,465,0.34838709677419355,162,299,0.5418060200668896
+inductive_two_hop,"brotherOf(X,Y) ^ uncleOf(Y,Z) -> fatherOf(X,Z)",brotherOf,uncleOf,fatherOf,131,377,0.34748010610079577,131,243,0.5390946502057613
+inductive_two_hop,"auntOf(X,Y) ^ boyCousinOf(Y,Z) -> motherOf(X,Z)",auntOf,boyCousinOf,motherOf,124,362,0.3425414364640884,124,222,0.5585585585585585
+inductive_two_hop,"secondUncleOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> boyCousinOf(X,Z)",secondUncleOf,boyFirstCousinOnceRemovedOf,boyCousinOf,41,120,0.3416666666666667,41,120,0.3416666666666667
+inductive_two_hop,"motherOf(X,Y) ^ grandsonOf(Y,Z) -> daughterOf(X,Z)",motherOf,grandsonOf,daughterOf,173,508,0.3405511811023622,173,352,0.4914772727272727
+inductive_two_hop,"grandfatherOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> uncleOf(X,Z)",grandfatherOf,boyFirstCousinOnceRemovedOf,uncleOf,52,157,0.33121019108280253,52,52,1.0
+inductive_two_hop,"secondUncleOf(X,Y) ^ boySecondCousinOf(Y,Z) -> fatherOf(X,Z)",secondUncleOf,boySecondCousinOf,fatherOf,24,75,0.32,24,35,0.6857142857142857
+inductive_two_hop,"nephewOf(X,Y) ^ greatUncleOf(Y,Z) -> fatherOf(X,Z)",nephewOf,greatUncleOf,fatherOf,82,261,0.31417624521072796,82,143,0.5734265734265734
+inductive_two_hop,"daughterOf(X,Y) ^ grandmotherOf(Y,Z) -> motherOf(X,Z)",daughterOf,grandmotherOf,motherOf,178,572,0.3111888111888112,178,371,0.4797843665768194
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ grandsonOf(Y,Z) -> fatherOf(X,Z)",greatGrandfatherOf,grandsonOf,fatherOf,161,520,0.3096153846153846,161,520,0.3096153846153846
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ grandsonOf(Y,Z) -> motherOf(X,Z)",greatGrandmotherOf,grandsonOf,motherOf,161,520,0.3096153846153846,161,520,0.3096153846153846
+inductive_two_hop,"auntOf(X,Y) ^ girlCousinOf(Y,Z) -> motherOf(X,Z)",auntOf,girlCousinOf,motherOf,108,352,0.3068181818181818,108,209,0.5167464114832536
+inductive_two_hop,"granddaughterOf(X,Y) ^ fatherOf(Y,Z) -> daughterOf(X,Z)",granddaughterOf,fatherOf,daughterOf,240,792,0.30303030303030304,240,792,0.30303030303030304
+inductive_two_hop,"granddaughterOf(X,Y) ^ motherOf(Y,Z) -> daughterOf(X,Z)",granddaughterOf,motherOf,daughterOf,240,792,0.30303030303030304,240,792,0.30303030303030304
+inductive_two_hop,"secondUncleOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> fatherOf(X,Z)",secondUncleOf,girlSecondCousinOf,fatherOf,26,87,0.2988505747126437,26,44,0.5909090909090909
+inductive_two_hop,"grandsonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> fatherOf(X,Z)",grandsonOf,greatGrandfatherOf,fatherOf,224,763,0.29357798165137616,224,449,0.49888641425389757
+inductive_two_hop,"grandsonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> fatherOf(X,Z)",grandsonOf,greatGrandmotherOf,fatherOf,224,763,0.29357798165137616,224,449,0.49888641425389757
+inductive_two_hop,"sisterOf(X,Y) ^ auntOf(Y,Z) -> motherOf(X,Z)",sisterOf,auntOf,motherOf,152,518,0.29343629343629346,152,333,0.45645645645645644
+inductive_two_hop,"greatGrandfatherOf(X,Y) ^ granddaughterOf(Y,Z) -> fatherOf(X,Z)",greatGrandfatherOf,granddaughterOf,fatherOf,137,468,0.29273504273504275,137,468,0.29273504273504275
+inductive_two_hop,"greatGrandmotherOf(X,Y) ^ granddaughterOf(Y,Z) -> motherOf(X,Z)",greatGrandmotherOf,granddaughterOf,motherOf,137,468,0.29273504273504275,137,468,0.29273504273504275
+inductive_two_hop,"grandfatherOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> sonOf(X,Z)",grandfatherOf,greatGranddaughterOf,sonOf,136,468,0.2905982905982906,136,296,0.4594594594594595
+inductive_two_hop,"nieceOf(X,Y) ^ sisterOf(Y,Z) -> daughterOf(X,Z)",nieceOf,sisterOf,daughterOf,130,455,0.2857142857142857,130,455,0.2857142857142857
+inductive_two_hop,"grandmotherOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> auntOf(X,Z)",grandmotherOf,girlFirstCousinOnceRemovedOf,auntOf,40,140,0.2857142857142857,40,40,1.0
+inductive_two_hop,"grandsonOf(X,Y) ^ fatherOf(Y,Z) -> sonOf(X,Z)",grandsonOf,fatherOf,sonOf,227,820,0.27682926829268295,227,820,0.27682926829268295
+inductive_two_hop,"grandsonOf(X,Y) ^ motherOf(Y,Z) -> sonOf(X,Z)",grandsonOf,motherOf,sonOf,227,820,0.27682926829268295,227,820,0.27682926829268295
+inductive_two_hop,"boyCousinOf(X,Y) ^ secondAuntOf(Y,Z) -> fatherOf(X,Z)",boyCousinOf,secondAuntOf,fatherOf,59,214,0.2757009345794392,59,111,0.5315315315315315
+inductive_two_hop,"nephewOf(X,Y) ^ sisterOf(Y,Z) -> sonOf(X,Z)",nephewOf,sisterOf,sonOf,136,496,0.27419354838709675,136,496,0.27419354838709675
+inductive_two_hop,"nieceOf(X,Y) ^ greatUncleOf(Y,Z) -> motherOf(X,Z)",nieceOf,greatUncleOf,motherOf,75,276,0.2717391304347826,75,132,0.5681818181818182
+inductive_two_hop,"boyCousinOf(X,Y) ^ secondUncleOf(Y,Z) -> fatherOf(X,Z)",boyCousinOf,secondUncleOf,fatherOf,51,189,0.2698412698412698,51,96,0.53125
+inductive_two_hop,"girlCousinOf(X,Y) ^ secondAuntOf(Y,Z) -> motherOf(X,Z)",girlCousinOf,secondAuntOf,motherOf,52,193,0.2694300518134715,52,95,0.5473684210526316
+inductive_two_hop,"girlCousinOf(X,Y) ^ secondUncleOf(Y,Z) -> motherOf(X,Z)",girlCousinOf,secondUncleOf,motherOf,46,171,0.26900584795321636,46,77,0.5974025974025974
+inductive_two_hop,"grandfatherOf(X,Y) ^ greatGrandsonOf(Y,Z) -> sonOf(X,Z)",grandfatherOf,greatGrandsonOf,sonOf,136,520,0.26153846153846155,136,324,0.41975308641975306
+inductive_two_hop,"nephewOf(X,Y) ^ greatAuntOf(Y,Z) -> fatherOf(X,Z)",nephewOf,greatAuntOf,fatherOf,108,420,0.2571428571428571,108,236,0.4576271186440678
+inductive_two_hop,"boyCousinOf(X,Y) ^ nephewOf(Y,Z) -> sonOf(X,Z)",boyCousinOf,nephewOf,sonOf,75,292,0.2568493150684932,75,292,0.2568493150684932
+inductive_two_hop,"nephewOf(X,Y) ^ brotherOf(Y,Z) -> sonOf(X,Z)",nephewOf,brotherOf,sonOf,101,400,0.2525,101,400,0.2525
+inductive_two_hop,"boyCousinOf(X,Y) ^ nieceOf(Y,Z) -> sonOf(X,Z)",boyCousinOf,nieceOf,sonOf,79,314,0.2515923566878981,79,314,0.2515923566878981
+inductive_two_hop,"grandmotherOf(X,Y) ^ greatGrandsonOf(Y,Z) -> daughterOf(X,Z)",grandmotherOf,greatGrandsonOf,daughterOf,130,520,0.25,130,310,0.41935483870967744
+inductive_two_hop,"nieceOf(X,Y) ^ greatUncleOf(Y,Z) -> secondAuntOf(X,Z)",nieceOf,greatUncleOf,secondAuntOf,69,276,0.25,69,134,0.5149253731343284
+inductive_two_hop,"secondAuntOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> secondAuntOf(X,Z)",secondAuntOf,girlSecondCousinOf,secondAuntOf,16,64,0.25,16,64,0.25
+inductive_two_hop,"nephewOf(X,Y) ^ greatUncleOf(Y,Z) -> secondUncleOf(X,Z)",nephewOf,greatUncleOf,secondUncleOf,64,261,0.24521072796934865,64,145,0.4413793103448276
+inductive_two_hop,"secondAuntOf(X,Y) ^ boySecondCousinOf(Y,Z) -> motherOf(X,Z)",secondAuntOf,boySecondCousinOf,motherOf,19,78,0.24358974358974358,19,29,0.6551724137931034
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> motherOf(X,Z)",granddaughterOf,greatGrandfatherOf,motherOf,181,749,0.2416555407209613,181,388,0.46649484536082475
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> motherOf(X,Z)",granddaughterOf,greatGrandmotherOf,motherOf,181,749,0.2416555407209613,181,388,0.46649484536082475
+inductive_two_hop,"nieceOf(X,Y) ^ greatAuntOf(Y,Z) -> secondAuntOf(X,Z)",nieceOf,greatAuntOf,secondAuntOf,94,390,0.24102564102564103,94,161,0.5838509316770186
+inductive_two_hop,"nieceOf(X,Y) ^ brotherOf(Y,Z) -> daughterOf(X,Z)",nieceOf,brotherOf,daughterOf,106,442,0.2398190045248869,106,442,0.2398190045248869
+inductive_two_hop,"nieceOf(X,Y) ^ greatAuntOf(Y,Z) -> motherOf(X,Z)",nieceOf,greatAuntOf,motherOf,93,390,0.23846153846153847,93,196,0.4744897959183674
+inductive_two_hop,"girlCousinOf(X,Y) ^ nieceOf(Y,Z) -> daughterOf(X,Z)",girlCousinOf,nieceOf,daughterOf,79,333,0.23723723723723725,79,333,0.23723723723723725
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> daughterOf(X,Z)",girlSecondCousinOf,boyFirstCousinOnceRemovedOf,daughterOf,20,85,0.23529411764705882,20,85,0.23529411764705882
+inductive_two_hop,"secondAuntOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> motherOf(X,Z)",secondAuntOf,girlSecondCousinOf,motherOf,15,64,0.234375,15,21,0.7142857142857143
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> secondAuntOf(X,Z)",granddaughterOf,greatGrandfatherOf,secondAuntOf,175,749,0.2336448598130841,175,266,0.6578947368421053
+inductive_two_hop,"granddaughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> secondAuntOf(X,Z)",granddaughterOf,greatGrandmotherOf,secondAuntOf,175,749,0.2336448598130841,175,266,0.6578947368421053
+inductive_two_hop,"secondAuntOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> girlCousinOf(X,Z)",secondAuntOf,boyFirstCousinOnceRemovedOf,girlCousinOf,33,142,0.2323943661971831,33,142,0.2323943661971831
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ grandfatherOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",greatGrandsonOf,grandfatherOf,boyFirstCousinOnceRemovedOf,180,777,0.23166023166023167,180,414,0.43478260869565216
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ grandmotherOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",greatGrandsonOf,grandmotherOf,boyFirstCousinOnceRemovedOf,180,777,0.23166023166023167,180,414,0.43478260869565216
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ girlCousinOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlFirstCousinOnceRemovedOf,girlCousinOf,girlFirstCousinOnceRemovedOf,42,183,0.22950819672131148,42,183,0.22950819672131148
+inductive_two_hop,"girlCousinOf(X,Y) ^ secondUncleOf(Y,Z) -> secondAuntOf(X,Z)",girlCousinOf,secondUncleOf,secondAuntOf,39,171,0.22807017543859648,39,124,0.31451612903225806
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlSecondCousinOf,boyFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,19,85,0.2235294117647059,19,85,0.2235294117647059
+inductive_two_hop,"grandmotherOf(X,Y) ^ greatGranddaughterOf(Y,Z) -> daughterOf(X,Z)",grandmotherOf,greatGranddaughterOf,daughterOf,104,468,0.2222222222222222,104,244,0.4262295081967213
+inductive_two_hop,"girlCousinOf(X,Y) ^ nephewOf(Y,Z) -> daughterOf(X,Z)",girlCousinOf,nephewOf,daughterOf,74,340,0.21764705882352942,74,340,0.21764705882352942
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ boyCousinOf(Y,Z) -> daughterOf(X,Z)",girlFirstCousinOnceRemovedOf,boyCousinOf,daughterOf,35,163,0.2147239263803681,35,163,0.2147239263803681
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boySecondCousinOf,girlFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,21,98,0.21428571428571427,21,98,0.21428571428571427
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> boyCousinOf(X,Z)",boySecondCousinOf,girlSecondCousinOf,boyCousinOf,9,42,0.21428571428571427,9,13,0.6923076923076923
+inductive_two_hop,"secondUncleOf(X,Y) ^ boySecondCousinOf(Y,Z) -> secondUncleOf(X,Z)",secondUncleOf,boySecondCousinOf,secondUncleOf,16,75,0.21333333333333335,16,75,0.21333333333333335
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ boyCousinOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlFirstCousinOnceRemovedOf,boyCousinOf,girlFirstCousinOnceRemovedOf,34,163,0.2085889570552147,34,163,0.2085889570552147
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ grandfatherOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",greatGranddaughterOf,grandfatherOf,girlFirstCousinOnceRemovedOf,153,735,0.20816326530612245,153,331,0.4622356495468278
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ grandmotherOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",greatGranddaughterOf,grandmotherOf,girlFirstCousinOnceRemovedOf,153,735,0.20816326530612245,153,331,0.4622356495468278
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> daughterOf(X,Z)",girlSecondCousinOf,girlFirstCousinOnceRemovedOf,daughterOf,11,53,0.20754716981132076,11,53,0.20754716981132076
+inductive_two_hop,"grandsonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> secondUncleOf(X,Z)",grandsonOf,greatGrandfatherOf,secondUncleOf,158,763,0.20707732634338138,158,260,0.6076923076923076
+inductive_two_hop,"grandsonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> secondUncleOf(X,Z)",grandsonOf,greatGrandmotherOf,secondUncleOf,158,763,0.20707732634338138,158,260,0.6076923076923076
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ grandfatherOf(Y,Z) -> daughterOf(X,Z)",greatGranddaughterOf,grandfatherOf,daughterOf,152,735,0.20680272108843537,152,735,0.20680272108843537
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ grandmotherOf(Y,Z) -> daughterOf(X,Z)",greatGranddaughterOf,grandmotherOf,daughterOf,152,735,0.20680272108843537,152,735,0.20680272108843537
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> sonOf(X,Z)",boySecondCousinOf,girlFirstCousinOnceRemovedOf,sonOf,19,98,0.19387755102040816,19,98,0.19387755102040816
+inductive_two_hop,"nephewOf(X,Y) ^ greatAuntOf(Y,Z) -> secondUncleOf(X,Z)",nephewOf,greatAuntOf,secondUncleOf,80,420,0.19047619047619047,80,152,0.5263157894736842
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlFirstCousinOnceRemovedOf(Y,Z) -> girlFirstCousinOnceRemovedOf(X,Z)",girlSecondCousinOf,girlFirstCousinOnceRemovedOf,girlFirstCousinOnceRemovedOf,10,53,0.18867924528301888,10,53,0.18867924528301888
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ grandfatherOf(Y,Z) -> sonOf(X,Z)",greatGrandsonOf,grandfatherOf,sonOf,145,777,0.1866151866151866,145,777,0.1866151866151866
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ grandmotherOf(Y,Z) -> sonOf(X,Z)",greatGrandsonOf,grandmotherOf,sonOf,145,777,0.1866151866151866,145,777,0.1866151866151866
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ girlCousinOf(Y,Z) -> daughterOf(X,Z)",girlFirstCousinOnceRemovedOf,girlCousinOf,daughterOf,34,183,0.18579234972677597,34,183,0.18579234972677597
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ boyCousinOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boyFirstCousinOnceRemovedOf,boyCousinOf,boyFirstCousinOnceRemovedOf,36,197,0.18274111675126903,36,197,0.18274111675126903
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> sonOf(X,Z)",boySecondCousinOf,boyFirstCousinOnceRemovedOf,sonOf,12,68,0.17647058823529413,12,68,0.17647058823529413
+inductive_two_hop,"secondUncleOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> secondUncleOf(X,Z)",secondUncleOf,girlSecondCousinOf,secondUncleOf,15,87,0.1724137931034483,15,87,0.1724137931034483
+inductive_two_hop,"grandmotherOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> greatAuntOf(X,Z)",grandmotherOf,girlSecondCousinOf,greatAuntOf,9,54,0.16666666666666666,9,9,1.0
+inductive_two_hop,"girlCousinOf(X,Y) ^ secondAuntOf(Y,Z) -> secondAuntOf(X,Z)",girlCousinOf,secondAuntOf,secondAuntOf,32,193,0.16580310880829016,32,113,0.2831858407079646
+inductive_two_hop,"boyCousinOf(X,Y) ^ secondUncleOf(Y,Z) -> secondUncleOf(X,Z)",boyCousinOf,secondUncleOf,secondUncleOf,31,189,0.164021164021164,31,126,0.24603174603174602
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ girlCousinOf(Y,Z) -> sonOf(X,Z)",boyFirstCousinOnceRemovedOf,girlCousinOf,sonOf,36,224,0.16071428571428573,36,224,0.16071428571428573
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ secondUncleOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,secondUncleOf,girlSecondCousinOf,13,81,0.16049382716049382,13,54,0.24074074074074073
+inductive_two_hop,"boyCousinOf(X,Y) ^ secondAuntOf(Y,Z) -> secondUncleOf(X,Z)",boyCousinOf,secondAuntOf,secondUncleOf,34,214,0.1588785046728972,34,117,0.2905982905982906
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlSecondCousinOf,boySecondCousinOf,girlSecondCousinOf,5,34,0.14705882352941177,5,34,0.14705882352941177
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ secondUncleOf(Y,Z) -> boySecondCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,secondUncleOf,boySecondCousinOf,13,89,0.14606741573033707,13,48,0.2708333333333333
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",boySecondCousinOf,girlSecondCousinOf,boySecondCousinOf,6,42,0.14285714285714285,6,42,0.14285714285714285
+inductive_two_hop,"secondAuntOf(X,Y) ^ boySecondCousinOf(Y,Z) -> secondAuntOf(X,Z)",secondAuntOf,boySecondCousinOf,secondAuntOf,10,78,0.1282051282051282,10,78,0.1282051282051282
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ boyCousinOf(Y,Z) -> sonOf(X,Z)",boyFirstCousinOnceRemovedOf,boyCousinOf,sonOf,25,197,0.12690355329949238,25,197,0.12690355329949238
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> boyCousinOf(X,Z)",boySecondCousinOf,boySecondCousinOf,boyCousinOf,4,32,0.125,4,7,0.5714285714285714
+inductive_two_hop,"girlFirstCousinOnceRemovedOf(X,Y) ^ secondAuntOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlFirstCousinOnceRemovedOf,secondAuntOf,girlSecondCousinOf,13,105,0.12380952380952381,13,45,0.28888888888888886
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> boySecondCousinOf(X,Z)",greatGrandsonOf,greatGrandfatherOf,boySecondCousinOf,68,631,0.10776545166402536,68,115,0.591304347826087
+inductive_two_hop,"greatGrandsonOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> boySecondCousinOf(X,Z)",greatGrandsonOf,greatGrandmotherOf,boySecondCousinOf,68,631,0.10776545166402536,68,115,0.591304347826087
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ girlCousinOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boyFirstCousinOnceRemovedOf,girlCousinOf,boyFirstCousinOnceRemovedOf,24,224,0.10714285714285714,24,224,0.10714285714285714
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boyFirstCousinOnceRemovedOf(Y,Z) -> boyFirstCousinOnceRemovedOf(X,Z)",boySecondCousinOf,boyFirstCousinOnceRemovedOf,boyFirstCousinOnceRemovedOf,7,68,0.10294117647058823,7,68,0.10294117647058823
+inductive_two_hop,"boySecondCousinOf(X,Y) ^ boySecondCousinOf(Y,Z) -> boySecondCousinOf(X,Z)",boySecondCousinOf,boySecondCousinOf,boySecondCousinOf,3,32,0.09375,3,32,0.09375
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ greatGrandfatherOf(Y,Z) -> girlSecondCousinOf(X,Z)",greatGranddaughterOf,greatGrandfatherOf,girlSecondCousinOf,62,691,0.08972503617945007,62,103,0.6019417475728155
+inductive_two_hop,"greatGranddaughterOf(X,Y) ^ greatGrandmotherOf(Y,Z) -> girlSecondCousinOf(X,Z)",greatGranddaughterOf,greatGrandmotherOf,girlSecondCousinOf,62,691,0.08972503617945007,62,103,0.6019417475728155
+inductive_two_hop,"girlSecondCousinOf(X,Y) ^ girlSecondCousinOf(Y,Z) -> girlSecondCousinOf(X,Z)",girlSecondCousinOf,girlSecondCousinOf,girlSecondCousinOf,2,24,0.08333333333333333,2,24,0.08333333333333333
+inductive_two_hop,"boyFirstCousinOnceRemovedOf(X,Y) ^ secondAuntOf(Y,Z) -> boySecondCousinOf(X,Z)",boyFirstCousinOnceRemovedOf,secondAuntOf,boySecondCousinOf,7,107,0.06542056074766354,7,51,0.13725490196078433
