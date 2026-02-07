@@ -1,4 +1,6 @@
 #are the 50 families structurally identical or do they vary?
+# i got some trivially bs result but that was expected
+# all families ARE different as per what nx.is_isomorphic() says.
 
 import networkx as nx  # pyright: ignore[reportMissingModuleSource]
 from collections import Counter, defaultdict
@@ -28,6 +30,10 @@ def family_deets(G_fam, fam_nodes, features):
         'diameter': nx.diameter(G_fam),
         'avg_clustering': round(nx.average_clustering(G_fam), 4),
     }
+
+
+
+# CLAUDE GENERATED CODE BEGINS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 def compare_families(data_path='data/train.txt'):
@@ -91,22 +97,28 @@ def compare_families(data_path='data/train.txt'):
             Gi = G.subgraph(families[i])
             Gj = G.subgraph(families[j])
    
-            iso = nx.is_isomorphic(Gi, Gj)
+            iso = nx.is_isomorphic(Gi, Gj)          
+            # main check that i wanted to do, but it says all families are different, 
+            # which is surprising but degree seq and gen dist checks show some repetition but not a lot.
    
             print(f"  family {i} vs {j}: {'isomorphic' if iso else 'NOT isomorphic'}")
 
     if unique_deg == 1:
-        print("  All families have IDENTICAL degree sequences → structurally indistinguishable")
+        print("  All families have identical degree sequences. structurally indistinguishable")
 
     elif unique_deg < len(families) // 2:
 
-        print(f"  Only {unique_deg} distinct structures among {len(families)} families → high homogeneity")
+        print(f"  Only {unique_deg} distinct structures among {len(families)} families. high homogeneity")
 
     else:
 
-        print(f"  {unique_deg} distinct structures → meaningful structural variation exists")
+        print(f"  {unique_deg} distinct structures. structural variation exists")
 
     return fingerprints
+
+
+# CLAUDE GENERATED CODE ENDS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 
 if __name__ == '__main__':
