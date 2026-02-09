@@ -33,9 +33,6 @@ def family_deets(G_fam, fam_nodes, features):
 
 
 
-# CLAUDE GENERATED CODE BEGINS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
 def compare_families(data_path='data/train.txt'):
 
     loader = MetaFAMLoader(data_path)
@@ -60,33 +57,32 @@ def compare_families(data_path='data/train.txt'):
         fp['index'] = i
         fingerprints.append(fp)
 
-    # check degree sequence uniqueness
+
     deg_seqs = [fp['degree_sequence'] for fp in fingerprints]
     unique_deg = len(set(deg_seqs))
     print(f"Unique degree sequences: {unique_deg} / {len(families)}")
 
-    # check generation distribution uniqueness
     gen_dists = [fp['generation_distribution'] for fp in fingerprints]
     unique_gen = len(set(gen_dists))
     print(f"Unique generation distributions: {unique_gen} / {len(families)}")
 
-    # size variation
+
     sizes = [fp['size'] for fp in fingerprints]
     print(f"Size range: {min(sizes)}-{max(sizes)}, unique sizes: {Counter(sizes)}")
 
-    # edge count variation
+
     edges = [fp['edges'] for fp in fingerprints]
     print(f"Edge count range: {min(edges)}-{max(edges)}, unique: {len(set(edges))}")
 
-    # diameter
+
     diameters = [fp['diameter'] for fp in fingerprints]
     print(f"Diameter range: {min(diameters)}-{max(diameters)}, distribution: {Counter(diameters)}")
 
-    # clustering
+
     clusterings = [fp['avg_clustering'] for fp in fingerprints]
     print(f"Clustering range: {min(clusterings)}-{max(clusterings)}")
 
-    # graph isomorphism check on a sample
+
     print(f"\nPairwise isomorphism check (first 5 families):")
 
  
@@ -115,9 +111,6 @@ def compare_families(data_path='data/train.txt'):
         print(f"  {unique_deg} distinct structures. structural variation exists")
 
     return fingerprints
-
-
-# CLAUDE GENERATED CODE ENDS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 

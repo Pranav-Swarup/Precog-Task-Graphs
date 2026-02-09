@@ -1,7 +1,7 @@
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
+import streamlit as st # type: ignore
+import pandas as pd # type: ignore
+import plotly.express as px # type: ignore
+import plotly.graph_objects as go # type: ignore
 from collections import Counter, defaultdict
 import os
 import sys
@@ -62,7 +62,7 @@ viz = st.session_state.viz
 @st.cache_data
 def compute_descendant_reach(_data_triplets, _people):
     
-    from src.constants import PARENT_RELATIONS
+    from src.task1.constants import PARENT_RELATIONS
     import networkx as nx
     
     parent_child_dag = nx.DiGraph()
@@ -82,7 +82,7 @@ def compute_descendant_reach(_data_triplets, _people):
 @st.cache_data
 def compute_generational_balance(_data_triplets, _people):
     
-    from src.constants import PARENT_RELATIONS
+    from src.task1.constants import PARENT_RELATIONS
     import networkx as nx
     
     parent_child_dag = nx.DiGraph()
@@ -107,7 +107,7 @@ def compute_generational_balance(_data_triplets, _people):
 @st.cache_data
 def compute_generation_span(_data_triplets, _people, _node_data_gens):
     
-    from src.constants import PARENT_RELATIONS
+    from src.task1.constants import PARENT_RELATIONS
     import networkx as nx
     
     parent_child_dag = nx.DiGraph()
