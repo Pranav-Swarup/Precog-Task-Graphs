@@ -67,17 +67,17 @@ python -m src.task2.autorunner
 Runs all community detection techniques (Louvain, spectral clustering, Node2Vec + KMeans) on both the full graph and nuclear-family subgraphs, and prints comparative results. Shows how standard algorithms fail on dense kinship graphs but succeed on nuclear family projections.
 
 ```bash
-cross_family_isomorphism.py
+python -m src.task2.cross_family_isomorphism
 ```
 Tests structural similarity across the 50 families using graph isomorphism — confirms all families are structurally distinct.
 
 ```bash
-ancestor_overlap.py
+python -m src.task2.ancestor_overlap
 ```
 Computes pairwise ancestor Jaccard similarity — siblings and same-parent pairs score ~1.0, cousins score lower.
 
 ```bash
-relation_weighed_distance.py
+python -m src.task2.relation_weighed_distance
 ```
 Weighted shortest-path distances using relation-type-aware edge weights (parent edges weigh differently than sibling edges).
 
@@ -132,7 +132,7 @@ The four notebooks form a progression from simple heuristics to graph neural net
 |---|---|
 | `0_baselines.ipynb` | Heuristic baselines. Random, popularity-based, and rule-based link prediction |
 | `1_distmult.ipynb` | DistMult knowledge graph embedding model as a lightweight learned baseline |
-| `2_rgcn_3.ipynb` | R-GCN for relation-aware link prediction |
+| `2_rgcn_v5.ipynb` | R-GCN for relation-aware link prediction |
 | `3_analysis.ipynb` | Comparative analysis, per-relation breakdowns, and embedding visualizations |
 
 `task4_utils.py` contains shared data loading, negative sampling, and evaluation utilities used by all notebooks.
