@@ -130,9 +130,9 @@ The four notebooks form a progression from simple heuristics to graph neural net
 
 | Notebook | Description |
 |---|---|
-| `0_baselines.ipynb` | Heuristic baselines — random, popularity-based, and rule-based link prediction |
+| `0_baselines.ipynb` | Heuristic baselines. Random, popularity-based, and rule-based link prediction |
 | `1_distmult.ipynb` | DistMult knowledge graph embedding model as a lightweight learned baseline |
-| `2_rgcn_3.ipynb` | R-GCN (Relational Graph Convolutional Network) for relation-aware link prediction |
+| `2_rgcn_3.ipynb` | R-GCN for relation-aware link prediction |
 | `3_analysis.ipynb` | Comparative analysis, per-relation breakdowns, and embedding visualizations |
 
 `task4_utils.py` contains shared data loading, negative sampling, and evaluation utilities used by all notebooks.
